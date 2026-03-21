@@ -11,3 +11,4 @@ This section documents all financial processes and policies for ASLF Formulas, i
 | [expense-tracking.md](./expense-tracking.md) | How to log, submit, and approve expenses |
 | [financial-reporting.md](./financial-reporting.md) | Monthly and quarterly reporting procedures |
 | [payment-terms.md](./payment-terms.md) | Standard payment terms and policies |
+| [sales-tax.md](./sales-tax.md) | Texas sales tax rates, filing schedule, and monthly journal entries |
