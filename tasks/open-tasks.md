@@ -20,7 +20,7 @@
 
 | # | Task | Details | Deadline |
 |---|---|---|---|
-| 3 | **Website Policies — Privacy Policy & Terms of Service** | Add Privacy Policy, Terms of Service, Refund Policy, and Shipping Policy to [aslf-formulas.com](https://aslf-formulas.com/). Use Shopify's built-in generator as starting point. See full action plan in [website-policies.md](../marketing/website-policies.md) | This quarter |
+| 3 | **Website — Terms of Service** | All other policies published (Privacy, Return, Shipping, Accessibility, Privacy Choices, Contact). Still need Terms of Service drafted and published. | This quarter |
 | 4 | **Document Registered Agent Info** | Owner to provide registered agent name and contact info so it can be added to the repo. Agent is currently active and paid. | Next session |
 | 5 | **LLC Operating Agreement** | Not legally required in Texas but strongly recommended. Draft or have attorney create one. Defines ownership, management structure, and dissolution process. | This quarter |
 
@@ -51,6 +51,7 @@
 | Business Insurance Application | March 2026 | Awaiting confirmation |
 | Third-Party Testing SOP | March 2026 | See [SOP-008](../operations/standard-operating-procedures.md) |
 | YouTube Thumbnail Process | March 2026 | See [youtube-thumbnails.md](../marketing/youtube-thumbnails.md) |
+| Website Policies Published | March 2026 | Privacy Policy, Return Policy, Shipping Policy, Accessibility Statement, Privacy Choices, Contact page — all live on aslf-formulas.com |
 
 ---
 

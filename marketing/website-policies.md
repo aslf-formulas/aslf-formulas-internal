@@ -4,9 +4,9 @@
 
 ---
 
-## Status: ❌ OPEN TASK
+## Status: 🔄 In Progress — Drafted, Pending Publish to Shopify
 
-The ASLF Formulas website ([aslf-formulas.com](https://aslf-formulas.com/)) currently needs the following legal policies added. This is a priority task for this quarter.
+Policies have been drafted and are saved in `marketing/policies/`. Next step: copy each policy into Shopify Admin → Settings → Policies and publish to the website.
 
 ---
 

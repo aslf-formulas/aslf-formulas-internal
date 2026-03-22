@@ -14,13 +14,16 @@
 
 | Item | Detail |
 |---|---|
-| **Legal Name** | ASLF Formulas |
+| **Legal Name** | ASLF, LLC |
+| **Brand Name** | ASLF Formulas |
+| **Mailing Address** | 1920 E Riverside Dr, Ste A120 PMB 263, Austin, TX 78741 |
 | **Founded** | *[Year]* |
 | **Team Size** | *[Number of people]* |
 | **Primary Market** | *[Geographic or demographic market]* |
-| **Business Model** | *[e.g., B2B, B2C, SaaS, product-based]* |
-| **Main Products/Services** | *[List key offerings]* |
-| **Annual Revenue (approx.)** | *[Optional — for internal reference only]* |
+| **Business Model** | B2C — Direct-to-consumer supplement e-commerce |
+| **Main Products/Services** | Health and wellness supplements (electrolytes, etc.) |
+| **Annual Revenue (approx.)** | ~$20K (2025) |
+| **E-commerce Platform** | Shopify — [aslf-formulas.com](https://aslf-formulas.com/) |
 
 ---
 
