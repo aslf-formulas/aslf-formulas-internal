@@ -10,7 +10,7 @@ Thank you for shopping with ASLF Formulas. Here is everything you need to know a
 
 ## Order Processing Time
 
-All orders are processed within **1–3 business days** (Monday–Friday, excluding federal holidays). You will receive a shipping confirmation email with a tracking number once your order has shipped.
+All orders are processed within **1 business day** (Monday–Friday, excluding federal holidays). You will receive a shipping confirmation email with a tracking number once your order has shipped.
 
 > Orders placed on weekends or holidays will begin processing the next business day.
 
