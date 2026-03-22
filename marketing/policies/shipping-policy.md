@@ -10,9 +10,9 @@ Thank you for shopping with ASLF Formulas. Here is everything you need to know a
 
 ## Order Processing Time
 
-All orders are processed within **1 business day** (Monday–Friday, excluding federal holidays). You will receive a shipping confirmation email with a tracking number once your order has shipped.
+All orders are processed within **1 business day** (Monday–Saturday, excluding federal holidays). You will receive a shipping confirmation email with a tracking number once your order has shipped.
 
-> Orders placed on weekends or holidays will begin processing the next business day.
+> Orders placed on Sundays or holidays will begin processing the next business day.
 
 ---
 
@@ -22,14 +22,14 @@ All orders are processed within **1 business day** (Monday–Friday, excluding f
 
 | Service | Estimated Delivery | Cost |
 |---|---|---|
-| Standard Shipping | 2–6 business days | $4.90–$9.90 |
-| Express Shipping | Calculated at checkout | Varies by location |
+| Standard Shipping | 2–6 business days | Calculated at checkout — Varies by location |
+| Express Shipping | Calculated at checkout | Calculated at checkout — Varies by location |
 
 ### International
 
 | Service | Estimated Delivery | Cost |
 |---|---|---|
-| International Standard | 7–16 business days | $19.90 |
+| International Standard | 7–16 business days | Calculated at checkout — Varies by location |
 
 > **Note:** Delivery estimates begin from the date of shipment, not the date of order. Processing time is additional.
 
