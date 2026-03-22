@@ -21,6 +21,7 @@ A Standard Operating Procedure (SOP) is a step-by-step guide for completing a re
 | SOP-005 | Customer Complaint Handling | Customer Support | *[Name]* |
 | SOP-006 | New Vendor Onboarding | Operations | *[Name]* |
 | SOP-007 | Monthly Reporting | Finance | *[Name]* |
+| SOP-008 | Supplement Shipment — Third-Party Testing | Operations | Owner |
 
 ---
 
@@ -73,6 +74,44 @@ A Standard Operating Procedure (SOP) is a step-by-step guide for completing a re
 5. Add vendor to accounting system and approved vendor list
 6. Place first order and monitor quality and reliability
 7. Conduct review after 3 months
+
+---
+
+## SOP-008: Supplement Shipment — Third-Party Testing
+
+**Purpose:** Ensure every new supplement shipment is tested by an independent third-party lab to verify purity and ingredient accuracy before selling to customers.
+
+**Applies to:** Every new inbound supplement shipment received from the manufacturer.
+
+**Owner:** Owner (ASLF LLC)
+
+**Last Updated:** March 2026
+
+**Steps:**
+
+1. **Receive shipment** — confirm quantity, product type, and lot number match the purchase order
+2. **Pull a sample** — set aside a representative sample from the batch (follow lab's required sample size — typically 50–100g or as instructed)
+3. **Label the sample** — include:
+   - Product name
+   - Lot number
+   - Date received
+   - Shipment/PO number
+4. **Submit to third-party lab** — ship or drop off sample to your approved testing lab with the test request form
+5. **Request the following tests** (at minimum):
+   - Ingredient identity and purity
+   - Heavy metals (lead, arsenic, mercury, cadmium)
+   - Microbial contamination
+   - Any product-specific markers (e.g., electrolyte concentrations)
+6. **Receive Certificate of Analysis (CoA)** — lab will email the CoA upon completion (typically 5–10 business days)
+7. **Review CoA** — confirm all results are within acceptable ranges
+8. **File CoA** — save PDF to your records, linked to the shipment/lot number
+9. **Clear for sale** — only list inventory as available after CoA is received and passed
+10. **Flag any failures** — if results are out of spec, contact manufacturer immediately and hold inventory
+
+**Notes:**
+- Never sell a batch that has not received a passing CoA
+- Keep all CoAs on file for a minimum of 3 years
+- If you change manufacturers or product formulation, require a new round of testing even for previously tested products
 
 ---
 
