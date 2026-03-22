@@ -16,6 +16,7 @@ Welcome to the official internal knowledge base for **ASLF Formulas**. This repo
 | [⚙️ Operations](./operations/) | SOPs, internal workflows, and onboarding |
 | [🎧 Customer Support](./customer-support/) | Support guidelines, scripts, and escalation procedures |
 | [🚀 Product Development](./product-development/) | Product roadmap, development process, and QA |
+| [✅ Tasks](./tasks/) | Open tasks and recurring to-dos — review at the start of each session |
 
 ---
 
