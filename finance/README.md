@@ -12,4 +12,3 @@ This section documents all financial processes and policies for ASLF Formulas, i
 | [financial-reporting.md](./financial-reporting.md) | Monthly and quarterly reporting procedures |
 | [payment-terms.md](./payment-terms.md) | Standard payment terms and policies |
 | [sales-tax.md](./sales-tax.md) | Texas sales tax rates, filing schedule, and monthly journal entries |
-| [business-setup-checklist.md](./business-setup-checklist.md) | Full business setup tracker — open tasks, priorities, and automated reminders |

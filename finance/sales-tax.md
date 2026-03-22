@@ -26,15 +26,15 @@ Apply **8.25%** to all taxable sales made at or shipped from the Austin location
 
 ## Filing Frequency
 
-At ~$20K/year in sales (current level), estimated annual tax collected is ~$1,650, which falls in the quarterly filing range. **Filing frequency: Quarterly.**
+At ~$100K/year in sales, estimated monthly tax collected is ~$688, which exceeds the $500/month threshold. **Filing frequency: Monthly.**
 
-| Frequency | Annual Tax Collected | Est. Annual Sales |
-|---|---|---|
-| Annual | < ~$1,000/year | < ~$12K |
-| **Quarterly** | **~$1,000–$6,000/year ← current level** | **~$12K–$72K** |
-| Monthly | $500+/month | > ~$72K |
+| Frequency | Tax Collected Threshold |
+|---|---|
+| Annual | < ~$1,000/year |
+| Quarterly | ~$1,000–$6,000/year |
+| **Monthly** | **$500+/month ← current level** |
 
-The Texas Comptroller assigns and notifies you of your filing frequency by letter after permit registration. **When your permit letter arrives, confirm the assigned frequency.** Review and update this document if annual revenue changes significantly (especially when approaching $72K+ in sales).
+The Texas Comptroller assigns and notifies you of your filing frequency by letter after permit registration. Review if annual revenue changes significantly.
 
 ---
 
@@ -129,33 +129,9 @@ If the 1.25% prepayment discount is claimed, record the savings as other income 
 ## Registration & Filing
 
 - **Permit:** Texas Sales Tax Permit (register at comptroller.texas.gov)
-- **Permit Status:** Registered March 2026 — permit expected by mail within 2–3 weeks
 - **Filing method:** Texas Webfile — electronic filing required
 - **Authority:** Texas Comptroller of Public Accounts
 - **Reference:** [comptroller.texas.gov/taxes/sales](https://comptroller.texas.gov/taxes/sales/)
-
----
-
-## Quarterly Review Checklist
-
-In addition to monthly filings, review the following every quarter (March, June, September, December):
-
-- [ ] Confirm all 3 monthly returns for the quarter were filed and paid
-- [ ] Reconcile **Sales Tax Payable** account balance (should be $0 if all months are current)
-- [ ] Review total taxable sales vs. exempt sales — make sure exemptions are documented
-- [ ] Check if revenue growth requires a filing frequency change (Comptroller will notify, but self-check)
-- [ ] Verify Shopify is still applying 8.25% to all Texas orders
-- [ ] Confirm no new tax nexus has been created in other states (e.g., warehouses, new reps)
-- [ ] Review for any amended returns needed (corrections to prior months)
-
-**Quarterly filing periods for reference:**
-
-| Quarter | Months Covered | Last Monthly Return Due |
-|---|---|---|
-| Q1 | Jan – Mar | April 20 |
-| Q2 | Apr – Jun | July 20 |
-| Q3 | Jul – Sep | October 20 |
-| Q4 | Oct – Dec | January 20 (next year) |
 
 ---
 
