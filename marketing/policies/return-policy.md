@@ -52,7 +52,7 @@ The following items cannot be returned:
 - We recommend using a trackable shipping method. We are not responsible for returns lost in transit without tracking
 
 **Return to:**
-ASLF, LLC
+ASLF LLC
 1920 E Riverside Dr
 Ste A120 PMB 263
 Austin, TX 78741
@@ -92,7 +92,7 @@ We do not currently offer direct exchanges. If you'd like a different item, plea
 
 ## Contact Us
 
-**ASLF, LLC**
+**ASLF LLC**
 1920 E Riverside Dr
 Ste A120 PMB 263
 Austin, TX 78741

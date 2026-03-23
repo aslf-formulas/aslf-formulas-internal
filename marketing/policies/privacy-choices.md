@@ -38,7 +38,7 @@ To exercise any of these rights, contact us at **contact@aslf-formulas.com** wit
 
 ## Contact Us
 
-**ASLF, LLC**
+**ASLF LLC**
 1920 E Riverside Dr
 Ste A120 PMB 263
 Austin, TX 78741

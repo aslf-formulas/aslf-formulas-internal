@@ -39,7 +39,7 @@ We own our results — the wins and the lessons. Every team member takes respons
 
 | Item | Detail |
 |---|---|
-| **Company Name** | ASLF, LLC (brand: ASLF Formulas) |
+| **Company Name** | ASLF LLC (brand: ASLF Formulas) |
 | **Founded** | *[Year]* |
 | **Headquarters** | 1920 E Riverside Dr, Ste A120 PMB 263, Austin, TX 78741 |
 | **Industry** | Health & Wellness — Direct-to-consumer supplements |

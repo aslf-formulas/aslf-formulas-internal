@@ -8,7 +8,7 @@ We're here to help! Reach out to us for any questions, order support, or general
 
 📧 contact@aslf-formulas.com
 
-**ASLF, LLC**
+**ASLF LLC**
 1920 E Riverside Dr
 Ste A120 PMB 263
 Austin, TX 78741

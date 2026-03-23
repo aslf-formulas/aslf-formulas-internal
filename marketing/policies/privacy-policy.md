@@ -4,7 +4,7 @@
 
 ---
 
-ASLF, LLC ("ASLF Formulas," "Company," "we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website [aslf-formulas.com](https://aslf-formulas.com/) and make purchases from us.
+ASLF LLC ("ASLF Formulas," "Company," "we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website [aslf-formulas.com](https://aslf-formulas.com/) and make purchases from us.
 
 Please read this policy carefully. If you disagree with its terms, please discontinue use of the site.
 
@@ -15,7 +15,7 @@ Please read this policy carefully. If you disagree with its terms, please discon
 | Term | Meaning |
 |---|---|
 | **Account** | A unique account created for you to access our Website |
-| **Company** | ASLF, LLC, located at 1920 E Riverside Dr, Ste A120 PMB 263, Austin, TX 78741 |
+| **Company** | ASLF LLC, located at 1920 E Riverside Dr, Ste A120 PMB 263, Austin, TX 78741 |
 | **Device** | Any device that can access the Website (computer, phone, tablet) |
 | **Personal Data** | Any information that identifies or could identify you as an individual |
 | **Service / Website** | aslf-formulas.com and all related pages |
@@ -172,7 +172,7 @@ We may update this Privacy Policy from time to time. When we do, we will update 
 
 For questions, requests, or concerns about this Privacy Policy:
 
-**ASLF, LLC**
+**ASLF LLC**
 1920 E Riverside Dr
 Ste A120 PMB 263
 Austin, TX 78741
