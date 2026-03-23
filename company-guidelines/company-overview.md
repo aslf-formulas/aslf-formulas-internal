@@ -14,7 +14,7 @@
 
 | Item | Detail |
 |---|---|
-| **Legal Name** | ASLF, LLC |
+| **Legal Name** | ASLF LLC |
 | **Brand Name** | ASLF Formulas |
 | **Mailing Address** | 1920 E Riverside Dr, Ste A120 PMB 263, Austin, TX 78741 |
 | **Founded** | *[Year]* |

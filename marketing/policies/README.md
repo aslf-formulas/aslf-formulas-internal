@@ -18,7 +18,7 @@ This folder contains all legal and compliance policies published on [aslf-formul
 
 ## Company Address (all policies)
 
-**ASLF, LLC**
+**ASLF LLC**
 1920 E Riverside Dr
 Ste A120 PMB 263
 Austin, TX 78741
