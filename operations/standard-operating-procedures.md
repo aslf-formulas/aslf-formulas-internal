@@ -4,136 +4,134 @@
 
 ---
 
-## 📋 What Is an SOP?
+## Overview
 
-A Standard Operating Procedure (SOP) is a step-by-step guide for completing a recurring task consistently and correctly. All ASLF Formulas team members are expected to follow the relevant SOPs for their role.
-
----
-
-## 📁 SOP Index
-
-| # | SOP Name | Department | Owner |
-|---|---|---|---|
-| SOP-001 | Order Fulfillment Process | Operations | *[Name]* |
-| SOP-002 | Client Onboarding | Sales/Ops | *[Name]* |
-| SOP-003 | Invoice Creation & Sending | Finance | *[Name]* |
-| SOP-004 | Social Media Publishing | Marketing | *[Name]* |
-| SOP-005 | Customer Complaint Handling | Customer Support | *[Name]* |
-| SOP-006 | New Vendor Onboarding | Operations | *[Name]* |
-| SOP-007 | Monthly Reporting | Finance | *[Name]* |
-| SOP-008 | Supplement Shipment — Third-Party Testing | Operations | Owner |
+SOPs at ASLF Formulas are designed to be **executed by AI agents and automated systems**. Each SOP defines the steps, the system responsible, and when the owner is notified. SOPs are reviewed quarterly.
 
 ---
 
-## SOP-001: Order Fulfillment Process
+## SOP Index
 
-**Purpose:** Ensure every customer order is fulfilled accurately and on time.
+| # | SOP Name | Department | Executed By | Owner Notified When |
+|---|---|---|---|---|
+| SOP-001 | Order Fulfillment | Operations | Shopify + 3PL automation | Delay >3 business days |
+| SOP-002 | Customer Email Onboarding Flow | Sales | Klaviyo automation | Delivery failure |
+| SOP-003 | Invoice Creation & Sending | Finance | Accounting tool | Invoice unpaid >30 days |
+| SOP-004 | Social Media Publishing | Marketing | Scheduling AI agent | Post failure |
+| SOP-005 | Customer Complaint Handling | Customer Support | AI support agent | Escalation criteria met |
+| SOP-006 | Vendor Onboarding | Operations | Owner (AI-assisted) | N/A — owner-led |
+| SOP-007 | Monthly Reporting | Finance | Reporting automation | Report delivery failure |
+| SOP-008 | Supplement Third-Party Testing | Operations | Owner (with lab partner) | Any CoA out of spec |
+| SOP-009 | AI Agent Deployment | Operations | Owner | N/A — owner-led |
+| SOP-010 | Inventory Reorder Alert | Operations | Inventory agent | Stock <15 days on hand |
+
+---
+
+## SOP-001: Order Fulfillment
+
+**Purpose:** Fulfill every customer order accurately and on time, without human intervention.
+**Executed by:** Shopify + 3PL / fulfillment automation
+**Owner notified:** Fulfillment delay >3 business days or carrier issue
 
 **Steps:**
-
-1. Receive order confirmation from *[platform/system]*
-2. Verify inventory is available
-3. Prepare and package the order per packaging standards
-4. Generate shipping label via *[carrier/platform]*
-5. Hand off to courier or drop off at carrier
-6. Mark order as **Shipped** in *[system]*
-7. Send tracking information to customer automatically (or manually if not automated)
-8. Confirm delivery within *[X days]*
-
-**If something goes wrong:** See [Customer Support guidelines](../customer-support/support-guidelines.md).
+1. Customer places order → Shopify confirms payment
+2. Order automatically sent to fulfillment system (Shopify → 3PL integration)
+3. 3PL / fulfillment robot picks, packs, and ships order
+4. Tracking number generated and sent to customer automatically
+5. Order marked **Shipped** in Shopify
+6. If delivery not confirmed within expected window → automated alert to owner
 
 ---
 
-## SOP-002: Client Onboarding
+## SOP-002: Customer Email Onboarding Flow
 
-**Purpose:** Ensure new clients are set up for success from day one.
+**Purpose:** Deliver a consistent, automated welcome experience to every new customer.
+**Executed by:** Klaviyo
+**Owner notified:** Not required for routine execution; alert on delivery failures
 
 **Steps:**
-
-1. Send welcome email with key contacts and next steps
-2. Schedule kickoff call within *[X business days]*
-3. Share relevant documentation (contracts, product guides, access credentials)
-4. Add client to CRM with all relevant details
-5. Set up communication channel (e.g., Slack channel, email thread)
-6. Confirm all expectations, timelines, and deliverables
-7. Conduct kickoff call and document outcomes
-8. Begin work and check in at *[agreed intervals]*
+1. Customer places first order → tagged "First-Time Buyer" in Klaviyo
+2. Email 1: Order confirmation (automated via Shopify)
+3. Email 2 (Day 3): Product tips and usage guide
+4. Email 3 (Day 7): Review request
+5. Email 4 (Day 14): Cross-sell / related product recommendation
+6. Customer enters repeat buyer segment upon second purchase
 
 ---
 
-## SOP-006: New Vendor Onboarding
+## SOP-005: Customer Complaint Handling
 
-**Purpose:** Ensure new vendors are vetted, contracted, and set up properly.
+**Purpose:** Resolve customer complaints quickly and fairly via AI agent.
+**Executed by:** AI support agent
+**Owner notified:** If escalation criteria are met (see [escalation-procedures.md](../customer-support/escalation-procedures.md))
 
 **Steps:**
-
-1. Receive vendor proposal or initiate outreach
-2. Conduct due diligence (reviews, references, certifications)
-3. Negotiate terms and agree on pricing, lead times, and payment terms
-4. Sign contract or purchase agreement
-5. Add vendor to accounting system and approved vendor list
-6. Place first order and monitor quality and reliability
-7. Conduct review after 3 months
+1. Customer submits complaint via email, chat, or support form
+2. AI agent classifies issue (shipping, product quality, billing, other)
+3. AI agent responds using approved response scripts
+4. If resolvable automatically (refund, replacement, tracking info) → AI agent resolves
+5. If escalation criteria met → owner notified with full context
+6. Owner responds within 24 hours for escalated tickets
+7. Issue resolved and ticket closed
 
 ---
 
-## SOP-008: Supplement Shipment — Third-Party Testing
+## SOP-008: Supplement Third-Party Testing
 
-**Purpose:** Ensure every new supplement shipment is tested by an independent third-party lab to verify purity and ingredient accuracy before selling to customers.
-
-**Applies to:** Every new inbound supplement shipment received from the manufacturer.
-
-**Owner:** Owner (ASLF LLC)
-
-**Last Updated:** March 2026
+**Purpose:** Ensure every new supplement batch is tested by an independent lab before sale.
+**Executed by:** Owner (with lab partner)
+**Applies to:** Every new inbound shipment from the manufacturer
 
 **Steps:**
-
-1. **Receive shipment** — confirm quantity, product type, and lot number match the purchase order
-2. **Pull a sample** — set aside a representative sample from the batch (follow lab's required sample size — typically 50–100g or as instructed)
-3. **Label the sample** — include:
-   - Product name
-   - Lot number
-   - Date received
-   - Shipment/PO number
-4. **Submit to third-party lab** — ship or drop off sample to your approved testing lab with the test request form
-5. **Request the following tests** (at minimum):
-   - Ingredient identity and purity
-   - Heavy metals (lead, arsenic, mercury, cadmium)
-   - Microbial contamination
-   - Any product-specific markers (e.g., electrolyte concentrations)
-6. **Receive Certificate of Analysis (CoA)** — lab will email the CoA upon completion (typically 5–10 business days)
-7. **Review CoA** — confirm all results are within acceptable ranges
-8. **File CoA** — save PDF to your records, linked to the shipment/lot number
-9. **Clear for sale** — only list inventory as available after CoA is received and passed
-10. **Flag any failures** — if results are out of spec, contact manufacturer immediately and hold inventory
+1. Receive shipment — confirm quantity, product, and lot number match PO
+2. Pull representative sample (per lab's required size)
+3. Label sample: product name, lot number, date received, PO number
+4. Submit to approved third-party lab with test request
+5. Request at minimum: ingredient identity & purity, heavy metals, microbial contamination
+6. Receive Certificate of Analysis (CoA) — typically 5–10 business days
+7. Review CoA — confirm all results within spec
+8. File CoA (PDF) linked to lot number
+9. Mark inventory **cleared for sale** only after passing CoA
+10. If any result fails → hold inventory, contact manufacturer immediately
 
 **Notes:**
-- Never sell a batch that has not received a passing CoA
-- Keep all CoAs on file for a minimum of 3 years
-- If you change manufacturers or product formulation, require a new round of testing even for previously tested products
+- Never sell a batch without a passing CoA
+- Keep all CoAs on file for minimum 3 years
+- New manufacturer or formula change = new round of testing required
 
 ---
 
-## ✏️ How to Write a New SOP
+## SOP-010: Inventory Reorder Alert
 
-Use this template when creating a new SOP:
+**Purpose:** Ensure inventory is restocked before stockout, without manual monitoring.
+**Executed by:** Inventory monitoring agent
+**Owner notified:** When stock falls below 15 days of supply
+
+**Steps:**
+1. Inventory agent monitors stock levels continuously
+2. Stock falls below reorder point (15 days on hand) → automated alert to owner
+3. Owner reviews and approves reorder quantity
+4. Owner places PO with manufacturer
+5. Upon receipt, SOP-008 (Third-Party Testing) initiated before clearing for sale
+
+---
+
+## SOP Template
 
 ```
 ## SOP-[NUMBER]: [SOP Name]
 
 **Purpose:** [Why does this SOP exist?]
-**Applies to:** [Who should follow it?]
-**Owner:** [Name]
-**Last Updated:** [Date]
+**Executed by:** [AI agent / tool / owner]
+**Applies to:** [What situations]
+**Owner notified when:** [Condition]
 
 **Steps:**
-1. [Step 1]
-2. [Step 2]
-...
+1. [Step]
+2. [Step]
 
 **Notes / Exceptions:**
-- [Any edge cases or important notes]
+- [Edge cases]
 ```
 
 ---
