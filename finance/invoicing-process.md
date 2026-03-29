@@ -4,76 +4,63 @@
 
 ---
 
-## 📋 Overview
+## Overview
 
-This document outlines the standard process for creating, sending, tracking, and following up on invoices at ASLF Formulas.
+Invoicing at ASLF Formulas is largely automated. The invoicing platform tracks payment status, sends reminders automatically, and alerts the owner only when manual escalation is needed (30+ days overdue). The owner creates invoices when needed and reviews exceptions flagged by the system.
 
 ---
 
-## 🛠️ Invoicing Tool
+## Invoicing Tool
 
 - **Platform:** *[e.g., QuickBooks / Wave / FreshBooks / Xero]*
 - **Login:** *[Tool URL — credentials stored in password manager]*
 
 ---
 
-## 📝 How to Create an Invoice
+## How to Create an Invoice
 
 1. Log into the invoicing platform
 2. Click **"New Invoice"**
-3. Fill in the following fields:
-   - **Client name and contact info**
-   - **Invoice number** (auto-generated or sequential: INV-YYYY-XXXX)
-   - **Invoice date** (today's date)
-   - **Due date** (based on agreed payment terms — typically Net 15 or Net 30)
-   - **Line items:** Description, quantity, unit price, and total
-   - **Tax** (if applicable — *[tax rate: X%]*)
-   - **Notes** (optional — include bank details or payment instructions)
-4. Review all details carefully
-5. Save as draft, then **Send** to the client
+3. Fill in:
+   - Client name and contact info
+   - Invoice number (auto-generated: INV-YYYY-XXXX)
+   - Invoice date and due date (Net 15 or Net 30)
+   - Line items: description, quantity, unit price, total
+   - Tax if applicable (8.25% for Texas orders)
+   - Payment instructions
+4. Review and **Send** directly from the platform
 
 ---
 
-## 📬 Sending Invoices
-
-- Send via email directly from the invoicing platform
-- CC: *[relevant internal email if needed]*
-- Subject line: `Invoice #[NUMBER] from ASLF Formulas — Due [DATE]`
-- Attach the PDF version to the email as backup
-
----
-
-## 💳 Payment Methods Accepted
+## Payment Methods Accepted
 
 - Bank transfer (ACH / Wire)
-- *[Other methods — e.g., PayPal, Stripe, check]*
+- *[Other methods — e.g., Stripe, PayPal]*
 
-Bank details:
-- **Bank Name:** *[Bank]*
-- **Account Name:** ASLF Formulas
-- **Account Number:** *[Stored securely — not to be listed here publicly]*
-- **Routing Number:** *[Stored securely]*
+Bank details stored securely in the password manager — not listed in this document.
 
 ---
 
-## 🔔 Follow-Up Process
+## Automated Follow-Up Process
 
-| Days Past Due | Action |
+The invoicing platform handles all reminders automatically:
+
+| Days Past Due | Automated Action |
 |---|---|
-| Day 1 (due date) | Confirm invoice received if not paid |
-| 3 days overdue | Send polite reminder email |
-| 7 days overdue | Follow-up call or direct message |
-| 14 days overdue | Send formal overdue notice |
-| 30+ days overdue | Escalate — consider late payment fee |
+| Due date | Automated payment reminder sent to client |
+| 3 days overdue | Automated follow-up email |
+| 7 days overdue | Second follow-up email |
+| 14 days overdue | Formal overdue notice |
+| 30+ days overdue | **Owner alerted** — manual escalation or late fee decision |
 
 ---
 
-## 📊 Tracking Invoices
+## Invoice Tracking
 
-- All invoices are tracked in *[platform name]*
-- Review outstanding invoices **every Monday morning**
-- Mark invoices as **Paid** immediately upon receiving payment
-- Record the payment reference or transaction ID
+- All invoices tracked automatically in the platform
+- Owner receives a weekly accounts receivable summary (included in weekly report)
+- Invoices marked **Paid** automatically when payment is received via connected bank feed, or manually confirmed by owner
+- Payment reference / transaction ID logged for each payment
 
 ---
 
