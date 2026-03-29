@@ -4,16 +4,16 @@
 
 ---
 
-## 🎯 Social Media Goals
+## Social Media Goals
 
 - Build brand awareness and recognition
-- Drive traffic to our website
-- Engage and grow our community
+- Drive traffic to the website
+- Engage and grow the community
 - Generate leads and sales
 
 ---
 
-## 📱 Platform Guidelines
+## Platform Guidelines
 
 ### Instagram
 
@@ -23,13 +23,13 @@
 | **Post Frequency** | *[e.g., 4–5x per week]* |
 | **Stories** | *[e.g., Daily]* |
 | **Reels** | *[e.g., 2–3x per week]* |
-| **Primary Content** | *[e.g., product showcases, behind-the-scenes, customer testimonials]* |
+| **Primary Content** | *[e.g., product showcases, education, customer testimonials]* |
 | **Tone** | Professional yet relatable |
 
 **Best Practices:**
-- Use our brand color palette in all visuals
-- Always include a CTA (call to action) in captions
-- Respond to all comments within 24 hours
+- Use the brand color palette in all visuals
+- Always include a CTA in captions
+- AI agent responds to all comments automatically
 - Use 5–10 targeted hashtags per post
 
 ---
@@ -45,7 +45,6 @@
 
 **Best Practices:**
 - Share blog posts and articles to drive website traffic
-- Use Facebook Groups for community building if applicable
 - Run boosted posts for high-performing organic content
 
 ---
@@ -56,7 +55,7 @@
 |---|---|
 | **Page** | *[Company page URL]* |
 | **Post Frequency** | *[e.g., 2–3x per week]* |
-| **Primary Content** | *[e.g., industry insights, company news, team highlights]* |
+| **Primary Content** | *[e.g., industry insights, company news, automation journey]* |
 | **Tone** | Professional, thought-leadership focused |
 
 ---
@@ -71,7 +70,7 @@
 
 ---
 
-## 🗓️ Content Calendar Template
+## Content Calendar Template
 
 | Day | Platform | Content Type | Topic/Theme | Status |
 |---|---|---|---|---|
@@ -81,21 +80,23 @@
 | Thursday | LinkedIn | Thought Leadership | *[Topic]* | ☐ Planned |
 | Friday | Instagram | Story / Behind-the-scenes | *[Topic]* | ☐ Planned |
 
+Content is drafted by AI agent and scheduled automatically. Owner reviews the monthly content plan before it goes live.
+
 ---
 
-## 🚫 What NOT to Post
+## What NOT to Post
 
 - Unverified claims about product results
-- Competitor comparisons that are disparaging
+- Disparaging competitor comparisons
 - Political or controversial topics
 - Low-quality or unbranded visuals
-- Content that hasn't been approved by the team
+- Content not reviewed by owner
 
 ---
 
-## 📊 Monthly Reporting
+## Monthly Reporting (Automated)
 
-Track and report these metrics monthly:
+AI agent tracks and includes in the monthly report:
 
 - Follower growth per platform
 - Total reach and impressions

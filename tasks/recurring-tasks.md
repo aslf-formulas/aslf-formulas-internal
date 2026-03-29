@@ -2,63 +2,60 @@
 
 *Last updated: March 2026*
 
-> This file is the single source of truth for all scheduled and recurring tasks for ASLF LLC.
-> Every time you ask Claude for "open tasks" or "what do I need to do?", this file will be reviewed.
+> This is the master list of all scheduled and recurring tasks for ASLF LLC.
+> Most monitoring tasks are **automated** — the owner only reviews outputs or triggers a simple action.
+> Every time you ask Claude for “open tasks” or “what do I need to do?”, this file is reviewed.
 
 ---
 
-## 🔁 Monthly
+## Monthly
 
-| Task | Due | Details | Owner |
+| Task | Due | Executed By | Details |
 |---|---|---|---|
-| **USPTO Trademark Status Check** | 1st of each month | Check serial #99569595 at [tmsearch.uspto.gov](https://tmsearch.uspto.gov/search/search-results/99569595). Report status. If changed from Live/Pending, alert immediately and contact attorneys. | Claude (auto) |
-| **Sales Tax — Review Shopify collections** | End of each month | Verify 8.25% was applied to all Texas orders. Post monthly accrual journal entry. See [sales-tax.md](../finance/sales-tax.md) | Owner |
+| **USPTO Trademark Status Check** | 1st of each month | AI agent (auto) | Checks serial #99569595 at [tmsearch.uspto.gov](https://tmsearch.uspto.gov/search/search-results/99569595). Reports status. If changed from Live/Pending, alerts owner immediately. |
+| **Sales Tax — Review & Accrue** | End of each month | AI agent prepares → Owner reviews | AI agent verifies 8.25% applied to all Texas orders and posts accrual journal entry. Owner reviews in monthly report. See [sales-tax.md](../finance/sales-tax.md) |
 
 ---
 
-## 🔁 Quarterly
+## Quarterly
 
-| Task | Due | Details | Owner |
+| Task | Due | Executed By | Details |
 |---|---|---|---|
-| **Texas Sales Tax Filing** | 20th of month after quarter end (Apr 20, Jul 20, Oct 20, Jan 20) | File return on [Texas Webfile](https://comptroller.texas.gov/taxes/file-pay/). Collect ~8.25% of taxable sales. See full checklist in [sales-tax.md](../finance/sales-tax.md) | Owner |
-| **Quarterly Financial Review** | End of each quarter | Review P&L, reconcile Sales Tax Payable to $0, check revenue vs. filing frequency thresholds, review open tasks. See [financial-reporting.md](../finance/financial-reporting.md) | Owner |
+| **Texas Sales Tax Filing** | 20th of month after quarter end (Apr 20, Jul 20, Oct 20, Jan 20) | AI agent prepares → Owner files | AI agent prepares the filing summary and amounts. Owner logs into [Texas Webfile](https://comptroller.texas.gov/taxes/file-pay/) and submits. See [sales-tax.md](../finance/sales-tax.md) |
+| **Quarterly Financial Review** | End of each quarter | AI agent generates → Owner reviews | AI agent generates quarterly report (P&L, KPIs, OKR progress). Owner reviews and sets direction for next quarter. See [financial-reporting.md](../finance/financial-reporting.md) |
 
 ---
 
-## 🔁 Annual
+## Annual
 
-| Task | Due | Details | Owner |
+| Task | Due | Executed By | Details |
 |---|---|---|---|
-| **Texas Franchise Tax** | May 15 each year | File No Tax Due report (under $2.47M threshold) on [Texas Webfile](https://comptroller.texas.gov/taxes/file-pay/). Reminder auto-fires April 15. See [business-setup-checklist.md](../finance/business-setup-checklist.md) | Owner |
-| **Business Insurance Renewal** | Annually (check policy date) | Review coverage, confirm product liability is included, renew or shop for better rates | Owner |
-| **Registered Agent Renewal** | Annually (check invoice) | Confirm registered agent service is paid and active | Owner |
-| **Review Open Tasks** | January each year | Review [open-tasks.md](./open-tasks.md) and archive completed items | Owner |
+| **Texas Franchise Tax** | May 15 each year | Owner triggers | File No Tax Due report (under $2.47M threshold) on [Texas Webfile](https://comptroller.texas.gov/taxes/file-pay/). Automated reminder fires April 15. |
+| **Business Insurance Renewal** | Annually (check policy date) | AI agent flags → Owner renews | AI agent flags renewal date. Owner reviews coverage and renews or shops for better rates. |
+| **Registered Agent Renewal** | Annually (check invoice) | AI agent flags → Owner confirms | AI agent flags invoice. Owner confirms payment is made. |
+| **Review Open Tasks** | January each year | Owner | Owner reviews [open-tasks.md](./open-tasks.md) and archives completed items. |
 
 ---
 
-## 📦 Event-Triggered (On Demand)
+## Event-Triggered (On Demand)
 
-These tasks fire every time a specific event happens — not on a schedule.
-
-| Trigger Event | Task | Details |
+| Trigger Event | Task | Executed By |
 |---|---|---|
-| **New supplement shipment received** | Send sample to third-party tester | Pull sample, label with lot#, submit to lab. Only clear inventory for sale after receiving passing Certificate of Analysis (CoA). See [SOP-008](../operations/standard-operating-procedures.md) |
-| **New YouTube video finished** | Create thumbnail concepts in Canva | Pull latest from Notion Finished Videos list, generate 3 thumbnail concepts. See [youtube-thumbnails.md](../marketing/youtube-thumbnails.md) |
-| **New supplier contact** | Verify supplier before paying | Always use credit card (not wire/ACH) for new suppliers to enable chargeback protection. See [business-setup-checklist.md](../finance/business-setup-checklist.md) |
-| **Trademark status changes** | Contact attorneys immediately | If USPTO status changes from Live/Pending, review next steps with trademark attorneys |
+| **New supplement shipment received** | Pull sample, submit to third-party lab. Only clear inventory after passing CoA. See [SOP-008](../operations/standard-operating-procedures.md) | Owner (sample submission) → Lab → Owner reviews CoA |
+| **New YouTube video finished** | Pull latest from Notion Finished Videos, generate 3 thumbnail concepts via Canva MCP. See [youtube-thumbnails.md](../marketing/youtube-thumbnails.md) | AI agent (auto) → Owner selects |
+| **New supplier — first payment** | Always use credit card (not wire/ACH) for first payment to enable chargeback protection. See [business-setup-checklist.md](../finance/business-setup-checklist.md) | Owner action |
+| **Trademark status changes** | If USPTO status changes from Live/Pending, owner reviews next steps with trademark attorneys immediately. | Owner action |
 
 ---
 
-## 🔔 Automated Reminders (Claude Scheduled Tasks)
-
-These are set up in Claude's task scheduler and will fire automatically:
+## Automated Reminders (Scheduled)
 
 | Task | Schedule | Status |
 |---|---|---|
 | USPTO Trademark Check | 1st of every month at 9am | ✅ Active |
 | Texas Franchise Tax Reminder | April 15, 2026 at 9am (one-time) | ✅ Active |
 
-> To add a new scheduled reminder, ask Claude: *"Set a recurring reminder to [task] every [frequency]"*
+> To add a new reminder: *"Set a recurring reminder to [task] every [frequency]"*
 
 ---
 
