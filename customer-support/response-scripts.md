@@ -1,128 +1,129 @@
-# Response Scripts & Templates
+# AI Agent Response Scripts
 
 *Last updated: March 2026*
 
-> Use these as a starting point — always personalize before sending. Never copy-paste without reading and adjusting.
+---
+
+> These are the approved templates used by the AI support agent. Variables in `[BRACKETS]` are populated automatically from order data. All responses are sent on behalf of ASLF Formulas.
 
 ---
 
-## 📬 General Templates
+## General Templates
 
-### Initial Acknowledgement (when you need more time to respond)
+### Acknowledgement (when resolution requires more time)
 
-> Hi [Name],
+> Hi [CUSTOMER_NAME],
 >
-> Thank you for reaching out to ASLF Formulas! I've received your message and am looking into this for you. I'll have a full response for you within [timeframe].
+> Thank you for reaching out to ASLF Formulas! I've received your message and am looking into this for you. You'll have a full response within [TIMEFRAME].
 >
-> In the meantime, if anything is urgent, feel free to reply to this email.
+> If anything is urgent in the meantime, feel free to reply.
 >
-> Best,
-> [Your Name]
-> ASLF Formulas
+> ASLF Formulas Support
 
 ---
 
 ### General Enquiry Response
 
-> Hi [Name],
+> Hi [CUSTOMER_NAME],
 >
-> Thank you for your message! I'd be happy to help.
+> Thank you for your message — happy to help!
 >
-> [Answer to their question]
+> [ANSWER]
 >
-> If you have any other questions, don't hesitate to reach out — we're always here to help.
+> If you have any other questions, don't hesitate to reach out.
 >
-> Warm regards,
-> [Your Name]
-> ASLF Formulas
+> ASLF Formulas Support
 
 ---
 
-## 📦 Order & Shipping
+## Order & Shipping
 
 ### Order Confirmation
 
-> Hi [Name],
+> Hi [CUSTOMER_NAME],
 >
-> Great news — your order #[ORDER NUMBER] has been confirmed! Here's a summary:
+> Your order #[ORDER_NUMBER] is confirmed! Here's a summary:
 >
-> - Product(s): [Item(s)]
-> - Estimated delivery: [Date range]
-> - Shipping to: [Address confirmation]
+> - Product(s): [ITEMS]
+> - Estimated delivery: [DATE_RANGE]
+> - Shipping to: [ADDRESS]
 >
-> You'll receive a tracking link once your order ships. If you have any questions in the meantime, we're here for you!
+> You'll receive a tracking link as soon as your order ships. Thanks for choosing ASLF Formulas!
 >
-> Thank you for choosing ASLF Formulas.
-> [Your Name]
+> ASLF Formulas Support
 
 ---
 
 ### Shipping Delay
 
-> Hi [Name],
+> Hi [CUSTOMER_NAME],
 >
-> I'm reaching out to let you know that your order #[ORDER NUMBER] is experiencing a slight delay due to [reason, e.g., high demand / carrier delays]. We sincerely apologize for the inconvenience.
+> Your order #[ORDER_NUMBER] is experiencing a slight delay due to [REASON]. We sincerely apologize for the inconvenience.
 >
-> Your updated estimated delivery date is: **[New Date]**
+> Your updated estimated delivery date is: **[NEW_DATE]**
 >
-> If this doesn't work for you or if you have any concerns, please reply and I'll do everything I can to make it right.
+> If you have any concerns or this doesn't work for you, please reply and we'll make it right.
 >
-> Thank you for your patience,
-> [Your Name]
-> ASLF Formulas
+> ASLF Formulas Support
 
 ---
 
-## 😟 Complaints & Issues
+## Complaints & Issues
 
 ### Damaged or Incorrect Item
 
-> Hi [Name],
+> Hi [CUSTOMER_NAME],
 >
-> I'm so sorry to hear that your order arrived [damaged / incorrect] — that's absolutely not the experience we want for you.
+> I'm sorry your order arrived [damaged / incorrect] — that's not the experience we want for you.
 >
-> To get this sorted for you right away, could you please:
-> 1. Send us a photo of [the damaged item / what you received]
-> 2. Confirm your order number: #[ORDER NUMBER]
+> To resolve this right away, could you please send:
+> 1. A photo of [the damaged item / what you received]
+> 2. Your order number: #[ORDER_NUMBER]
 >
-> Once I have that, I'll arrange a [replacement / refund] for you as quickly as possible.
+> Once confirmed, we'll arrange a [replacement / refund] immediately.
 >
-> Thank you for letting us know, and again, I sincerely apologize for the trouble.
->
-> [Your Name]
-> ASLF Formulas
+> ASLF Formulas Support
 
 ---
 
-### Refund Request
+### Refund Request — Approved (within policy)
 
-> Hi [Name],
+> Hi [CUSTOMER_NAME],
 >
-> Thank you for reaching out. I'm sorry to hear you're not satisfied with your purchase.
+> Thank you for reaching out. I've reviewed your order #[ORDER_NUMBER] and I'm happy to process a refund.
 >
-> I've reviewed your order #[ORDER NUMBER] and [I'm happy to process a refund / I'd love to explore a solution that works for you first, such as an exchange or store credit].
+> Your refund of **$[AMOUNT]** will be returned to your original payment method within [X] business days.
 >
-> [If approving:] Your refund of $[AMOUNT] will be processed within [X business days] and returned to your original payment method.
+> Please don't hesitate to reach out if you have any other questions.
 >
-> Please don't hesitate to reach out if you have any further questions.
->
-> [Your Name]
-> ASLF Formulas
+> ASLF Formulas Support
 
 ---
 
-## ⭐ Positive Feedback / Thank You
+### Refund Request — Escalated (Tier 2: AI drafts, owner reviews)
+
+> Hi [CUSTOMER_NAME],
+>
+> Thank you for reaching out about order #[ORDER_NUMBER]. I've reviewed your request and I'm looking into the best resolution for you.
+>
+> I'll have an update for you within [TIMEFRAME].
+>
+> ASLF Formulas Support
+
+*[This template is used for Tier 2 escalations. Owner reviews the case and approves the final resolution before this is sent.]*
+
+---
+
+## Positive Feedback
 
 ### Responding to a Positive Review
 
-> Hi [Name],
+> Hi [CUSTOMER_NAME],
 >
-> Thank you so much for your kind words — this truly made our day! We work hard to [deliver quality / provide great service] and it means the world to hear that it's making a difference.
+> Thank you so much — this genuinely made our day! We work hard to deliver quality and it means everything to hear it's making a difference.
 >
 > We look forward to serving you again soon!
 >
-> Warmly,
-> [Your Name]
 > ASLF Formulas
 
 ---

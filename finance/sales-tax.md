@@ -6,7 +6,7 @@
 
 ## Overview
 
-ASLF Formulas is located in Austin, Texas and is required to collect, report, and remit Texas sales and use tax on all taxable sales. This document covers the applicable rates, filing schedule, journal entry templates, and remittance procedures.
+ASLF Formulas is located in Austin, Texas and is required to collect, report, and remit Texas sales and use tax on all taxable sales. AI agents monitor and calculate tax monthly; the owner reviews and files.
 
 ---
 
@@ -34,7 +34,7 @@ At ~$100K/year in sales, estimated monthly tax collected is ~$688, which exceeds
 | Quarterly | ~$1,000–$6,000/year |
 | **Monthly** | **$500+/month ← current level** |
 
-The Texas Comptroller assigns and notifies you of your filing frequency by letter after permit registration. Review if annual revenue changes significantly.
+The Texas Comptroller assigns filing frequency by letter after permit registration. Review if annual revenue changes significantly.
 
 ---
 
@@ -59,7 +59,7 @@ Returns and payment are due by the **20th of the month following the reporting p
 
 *Adjusted for weekends/holidays.
 
-**Prepayment discount:** Pay by the **15th** with at least 90% of current liability (or 100% of same period prior year) to earn a **1.25% discount** on the state portion.
+**Prepayment discount:** Pay by the **15th** with at least 90% of current liability to earn a **1.25% discount** on the state portion.
 
 ---
 
@@ -67,15 +67,13 @@ Returns and payment are due by the **20th of the month following the reporting p
 
 ### Entry 1 — Monthly Accrual (end of each month)
 
-Record sales tax collected from customers as a liability.
-
 | Account | Debit | Credit |
 |---|---|---|
 | Cash / Accounts Receivable | Total sale + tax | |
 | Sales Revenue | | Pretax sale amount |
 | Sales Tax Payable | | Tax collected (8.25% of taxable sales) |
 
-**Example** — $10,000 in taxable sales for the month:
+**Example** — $10,000 in taxable sales:
 
 | Account | Debit | Credit |
 |---|---|---|
@@ -85,27 +83,16 @@ Record sales tax collected from customers as a liability.
 
 ---
 
-### Entry 2 — Remittance (when filing and paying the Comptroller)
-
-Clear the liability when payment is submitted, on or before the 20th.
+### Entry 2 — Remittance (when filing)
 
 | Account | Debit | Credit |
 |---|---|---|
 | Sales Tax Payable | Amount remitted | |
 | Cash | | Amount remitted |
 
-**Example** — remitting $825:
-
-| Account | Debit | Credit |
-|---|---|---|
-| Sales Tax Payable | $825 | |
-| Cash | | $825 |
-
 ---
 
 ### Entry 3 — Prepayment Discount (if applicable)
-
-If the 1.25% prepayment discount is claimed, record the savings as other income or a reduction to tax expense.
 
 | Account | Debit | Credit |
 |---|---|---|
@@ -117,18 +104,18 @@ If the 1.25% prepayment discount is claimed, record the savings as other income 
 
 ## Monthly Checklist
 
-- [ ] Calculate total taxable sales for the month
-- [ ] Verify 8.25% was applied to all taxable transactions
-- [ ] Post **Accrual Entry** at month-end
-- [ ] File return via [Texas Webfile](https://comptroller.texas.gov/taxes/file-pay/) by the 20th (or 15th for prepayment discount)
-- [ ] Post **Remittance Entry** upon payment
-- [ ] File electronically — required at this tax liability level
+- [ ] AI agent calculates total taxable Shopify sales for the month
+- [ ] AI agent verifies 8.25% was applied to all taxable Texas transactions
+- [ ] AI agent posts **Accrual Entry** at month-end
+- [ ] Owner reviews accrual in monthly report
+- [ ] Owner files return via [Texas Webfile](https://comptroller.texas.gov/taxes/file-pay/) by the 20th (or 15th for prepayment discount)
+- [ ] Owner posts **Remittance Entry** upon payment confirmation
 
 ---
 
 ## Registration & Filing
 
-- **Permit:** Texas Sales Tax Permit (register at comptroller.texas.gov)
+- **Permit:** Texas Sales Tax Permit
 - **Filing method:** Texas Webfile — electronic filing required
 - **Authority:** Texas Comptroller of Public Accounts
 - **Reference:** [comptroller.texas.gov/taxes/sales](https://comptroller.texas.gov/taxes/sales/)

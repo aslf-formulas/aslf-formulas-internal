@@ -1,62 +1,79 @@
-# Code of Conduct
+# Operating Standards
+
+*Last updated: March 2026*
+
+---
 
 ## Purpose
 
-This Code of Conduct sets the standard for professional behavior at ASLF Formulas. It applies to all team members, contractors, and partners acting on behalf of the company.
+This document defines the operating standards for ASLF Formulas. It applies to the owner (the single human operator) and to all AI agents and automated systems acting on behalf of the company. It governs how the business conducts itself toward customers, vendors, partners, and the public.
 
 ---
 
-## 🤝 Our Commitments
+## Owner Commitments
 
-### Respect & Inclusion
-- Treat every person — teammate, customer, or partner — with dignity and respect.
-- We do not tolerate discrimination based on race, gender, age, religion, nationality, sexual orientation, disability, or any other characteristic.
+### Integrity
+- Operate the business with full transparency — to customers, vendors, and partners
+- Never misrepresent products, results, or company performance
+- Honor all commitments made to customers and suppliers
+- Protect confidential information and customer data at all times
 
-### Professionalism
-- Represent ASLF Formulas with integrity in all communications and interactions.
-- Be punctual, reliable, and follow through on commitments.
-- Maintain a positive and constructive attitude even in difficult situations.
+### Quality
+- Only sell products that have passed third-party testing with a valid Certificate of Analysis
+- Never prioritize cost savings over product safety or accuracy
+- Respond promptly to any quality concerns or customer safety reports
 
-### Confidentiality
-- Protect company information, customer data, and trade secrets.
-- Do not share internal documents, strategies, or pricing with unauthorized parties.
-- This obligation continues even after leaving the company.
-
-### Honesty & Transparency
-- Report issues, mistakes, or concerns promptly and honestly.
-- Do not misrepresent products, results, or company performance to customers or stakeholders.
+### Responsibility
+- Take accountability for all business decisions and their outcomes
+- Comply with all applicable laws, regulations, and tax obligations
+- Maintain all required licenses, permits, and registrations
 
 ---
 
-## 🚫 Prohibited Behaviors
+## AI Agent Standards
 
-- Harassment, bullying, or intimidation of any kind
-- Misuse of company resources (time, money, tools, data)
-- Conflicts of interest that are not disclosed to management
-- Unauthorized use or sharing of proprietary information
-- Falsification of records, expenses, or reports
+All AI agents operating on behalf of ASLF Formulas must adhere to the following:
+
+### Accuracy
+- Only make claims about products that are approved and factually supported
+- Never fabricate order details, pricing, or company information
+- Flag uncertainty rather than guess
+
+### Customer Treatment
+- Respond to all customers with respect and professionalism
+- Never dismiss or ignore a customer message
+- Escalate when the situation exceeds the AI agent's authorized resolution scope (see [escalation-procedures.md](../customer-support/escalation-procedures.md))
+
+### Data Handling
+- Access only the data necessary for the task at hand
+- Never share customer personal data outside of approved systems
+- Log all actions for audit and review purposes
+
+### Decision Boundaries
+- Never take Tier 2 or Tier 3 actions without owner approval (see [decision-making.md](../operations/decision-making.md))
+- Never commit to financial obligations beyond defined limits
+- Never make public statements outside approved templates without owner review
 
 ---
 
-## 📣 Reporting Concerns
+## Prohibited Actions (Owner & AI Agents)
 
-If you witness or experience a violation of this Code of Conduct:
-
-1. **Document** the incident with as much detail as possible.
-2. **Report** to your direct manager or, if that is not appropriate, to **contact@aslf-formulas.com**.
-3. All reports will be treated with discretion and investigated promptly.
-
-There will be no retaliation against anyone who reports a concern in good faith.
+- Misrepresenting product ingredients, efficacy, or safety
+- Sharing confidential customer data with unauthorized parties
+- Making disparaging claims about competitor products
+- Bypassing quality control or third-party testing requirements
+- Incurring unauthorized financial obligations
 
 ---
 
-## ⚖️ Consequences
+## Reporting Issues
 
-Violations of this Code may result in:
-- A formal warning
-- Performance improvement plan
-- Suspension or termination of engagement
-- Legal action where applicable
+If the owner identifies a violation, AI agent error, or compliance concern:
+1. Document the incident
+2. Address the root cause (reconfigure agent, update scripts, fix process)
+3. If legally required to notify customers, do so promptly (see [data-privacy.md](../legal/data-privacy.md))
+
+External contact: contact@aslf-formulas.com
 
 ---
 

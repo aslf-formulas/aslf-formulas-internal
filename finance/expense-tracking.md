@@ -4,79 +4,65 @@
 
 ---
 
-## 📋 Overview
+## Overview
 
-All business expenses must be properly logged, categorized, and approved. This ensures accurate financial reporting and keeps us compliant with tax obligations.
+All business expenses are logged and categorized automatically where possible. The accounting tool imports transactions from connected bank accounts and cards. The owner reviews categorized expenses monthly and confirms any anomalies.
+
+There are no employees or reimbursements — all expenses are direct business costs of ASLF LLC.
 
 ---
 
-## 🛠️ Expense Tool
+## Expense Tool
 
-- **Platform:** *[e.g., Expensify / QuickBooks / Google Sheets / Wave]*
+- **Platform:** *[e.g., QuickBooks / Wave / Xero]*
 - **Login:** *[URL — credentials in password manager]*
 
 ---
 
-## ✅ Approved Expense Categories
+## Approved Expense Categories
 
 | Category | Examples |
 |---|---|
 | Marketing & Advertising | Ad spend, design tools, sponsored content |
-| Software & Subscriptions | SaaS tools, platforms, licenses |
-| Office & Supplies | Equipment, stationery, packaging |
-| Travel & Transport | Flights, hotels, taxis for business trips |
-| Meals & Entertainment | Client dinners, team meals (with receipt) |
-| Contractor / Freelancer | Payments to external workers |
-| Shipping & Logistics | Product shipping, courier services |
-| Professional Services | Legal, accounting, consulting fees |
-| Education & Training | Courses, books, workshops |
-| Miscellaneous | Anything else — requires approval |
+| AI Tools & Software | SaaS subscriptions, AI APIs, platform licenses |
+| Operations & Logistics | Product shipping, 3PL fees, courier services |
+| Product Development | Lab testing, samples, packaging design |
+| External Services | Legal, accounting, consulting fees |
+| Office & Admin | Equipment, supplies |
+| Education | Courses, books for owner learning |
+| Miscellaneous | Anything else — flagged for owner review |
 
 ---
 
-## 📤 How to Submit an Expense
+## How Expenses Are Logged
 
-1. **Keep the receipt** — photo or digital copy is fine
-2. Log into the expense tracking tool
-3. Click **"Add Expense"**
-4. Fill in:
-   - Date of purchase
-   - Amount
-   - Category
-   - Description (brief explanation of what it was for)
-   - Upload receipt
-5. Submit for approval
+**Automatic (preferred):**
+- Bank account and business credit card connected to the accounting tool
+- Transactions auto-imported and categorized
+- Owner reviews and confirms categories in the monthly expense summary
 
-**Deadline:** Submit expenses within **7 days** of the purchase.
+**Manual (for uncategorized or cash items):**
+1. Log into the expense tracking tool
+2. Add expense: date, amount, category, description, receipt upload
+3. Appears in the next monthly summary for owner review
 
----
-
-## 🔍 Approval Process
-
-| Amount | Approver |
-|---|---|
-| Under $100 | *[Manager name / self-approved]* |
-| $100 – $500 | *[Manager name]* |
-| Over $500 | *[Owner / Finance lead]* |
-
-Approved expenses are reimbursed on *[e.g., the 1st and 15th of each month / next payroll cycle]*.
+**Deadline for manual entries:** Within 7 days of purchase.
 
 ---
 
-## 🚫 Non-Reimbursable Expenses
+## Monthly Expense Review
 
-- Personal purchases unrelated to business
-- Alcohol (unless part of an approved client entertainment budget)
+- AI agent generates a categorized expense summary by the 5th of each month
+- Owner reviews the summary, confirms categories, and flags anomalies
+- Variances vs. budget are highlighted automatically (see [budgeting.md](./budgeting.md))
+
+---
+
+## Non-Business Expenses
+
+- Personal purchases unrelated to the business
 - Fines or penalties
-- Expenses without a receipt over $25
-
----
-
-## 📊 Monthly Expense Review
-
-- Finance lead reviews all categorized expenses by the **5th of each month**
-- A monthly expense summary is shared with the leadership team
-- Flag any unusual or out-of-budget items for discussion
+- Expenses without documentation over $25
 
 ---
 
