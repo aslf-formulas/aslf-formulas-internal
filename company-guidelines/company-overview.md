@@ -4,13 +4,13 @@
 
 ---
 
-## 🏢 About ASLF Formulas
+## About ASLF Formulas
 
 *[Write a 2–3 sentence description of ASLF Formulas — what you do, who you serve, and what makes you different.]*
 
 ---
 
-## 📊 Key Company Facts
+## Key Company Facts
 
 | Item | Detail |
 |---|---|
@@ -18,7 +18,7 @@
 | **Brand Name** | ASLF Formulas |
 | **Mailing Address** | 1920 E Riverside Dr, Ste A120 PMB 263, Austin, TX 78741 |
 | **Founded** | *[Year]* |
-| **Team Size** | *[Number of people]* |
+| **Operating Model** | 1 owner + AI agents + physical automation (no employees) |
 | **Primary Market** | *[Geographic or demographic market]* |
 | **Business Model** | B2C — Direct-to-consumer supplement e-commerce |
 | **Main Products/Services** | Health and wellness supplements (electrolytes, etc.) |
@@ -27,51 +27,53 @@
 
 ---
 
-## 🗺️ Where We Operate
+## Where We Operate
 
 *[Describe the regions, countries, or cities where ASLF Formulas currently operates or serves customers.]*
 
 ---
 
-## 🧑‍🤝‍🧑 Leadership Team
+## Owner
 
 | Name | Role |
 |---|---|
-| *[Name]* | *[Title / Role]* |
-| *[Name]* | *[Title / Role]* |
-| *[Name]* | *[Title / Role]* |
+| *[Name]* | Owner & Founder, ASLF LLC |
+
+All operational functions are executed by AI agents and automated systems. The owner sets strategy, reviews performance, and approves key decisions.
 
 ---
 
-## 🏆 Key Milestones
+## Key Milestones
 
 | Date | Milestone |
 |---|---|
 | *[Month Year]* | Company founded |
 | *[Month Year]* | First product launched |
-| *[Month Year]* | *[Next milestone]* |
+| *[Month Year]* | First AI agents deployed |
 | *[Month Year]* | *[Next milestone]* |
 
 ---
 
-## 🔮 Current Priorities (Q1–Q2 2026)
+## Current Priorities (Q1–Q2 2026)
 
-- *[Priority 1 — e.g., "Launch new product line"]*
-- *[Priority 2 — e.g., "Expand into new market"]*
-- *[Priority 3 — e.g., "Grow customer support team"]*
+- Complete automation of all operational workflows
+- Deploy robotics / automated 3PL for physical fulfillment
+- Grow monthly revenue to $10K/month
+- Launch second product
 
 ---
 
-## 🔗 Key Links & Tools
+## Key Links & Tools
 
 | Resource | Link |
 |---|---|
-| Website | *[URL]* |
+| Website | [aslf-formulas.com](https://aslf-formulas.com/) |
 | Email | contact@aslf-formulas.com |
-| Project Management | *[Tool + URL, e.g., Asana, Notion, Trello]* |
-| CRM | *[Tool + URL]* |
+| E-commerce | Shopify |
+| CRM / Email | Klaviyo |
+| Automation | Make.com |
 | Accounting | *[Tool + URL]* |
-| Communication | *[Tool + URL, e.g., Slack, Teams]* |
+| AI Agent | Claude (Anthropic API) |
 
 ---
 
