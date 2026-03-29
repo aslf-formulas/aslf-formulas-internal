@@ -4,25 +4,22 @@
 
 ---
 
-## 📋 Overview
+## Overview
 
-This document outlines the end-to-end process for developing and launching new products at ASLF Formulas — from idea to market.
+This document outlines the end-to-end process for developing and launching new products. The owner drives all key decisions. AI agents assist with research, content creation, listing setup, and post-launch monitoring.
 
 ---
 
-## 🔄 Development Stages
+## Development Stages
 
 ### Stage 1: Ideation & Research
 
 **Goal:** Validate the idea before investing resources.
 
-- [ ] Identify market opportunity or customer need
-- [ ] Research competitors and existing solutions
-- [ ] Define target customer for this product
-- [ ] Estimate market size and demand
-- [ ] Conduct customer interviews or surveys (if possible)
-- [ ] Create a brief concept document (1–2 pages)
-- [ ] Present to leadership for go/no-go decision
+- [ ] AI agent researches market opportunity, competitors, and demand signals
+- [ ] Owner reviews AI-generated research summary
+- [ ] Owner defines target customer and drafts a brief concept document (1–2 pages)
+- [ ] Owner makes go/no-go decision
 
 **Output:** Approved concept document
 
@@ -32,34 +29,32 @@ This document outlines the end-to-end process for developing and launching new p
 
 **Goal:** Develop the core product.
 
-- [ ] Define product specifications (ingredients, form, dosage, etc.)
-- [ ] Work with *[supplier / lab / developer]* on prototype or formulation
-- [ ] Internal testing / prototype review
-- [ ] Iterate based on feedback
-- [ ] Finalize formula or product design
+- [ ] Owner defines product specifications (ingredients, form, dosage, etc.)
+- [ ] Owner works with supplier / lab on prototype or formulation
+- [ ] Owner reviews prototype / spec sheet
+- [ ] Iterate until formula is finalized and approved by owner
 
 **Output:** Approved prototype or finalized spec sheet
 
 ---
 
-### Stage 3: Compliance & Certifications (if applicable)
+### Stage 3: Compliance & Certifications
 
-- [ ] Identify required certifications or regulatory requirements
-- [ ] Submit for third-party testing if needed
-- [ ] Ensure labelling complies with *[relevant standards / markets]*
-- [ ] Legal review of claims and packaging
+- [ ] Owner identifies required certifications and regulatory requirements
+- [ ] Submit for third-party testing (see [SOP-008](../operations/standard-operating-procedures.md))
+- [ ] Owner ensures labelling complies with applicable standards
+- [ ] Owner reviews all claims for compliance before finalizing packaging
 
-**Output:** Compliance sign-off
+**Output:** Compliance sign-off by owner
 
 ---
 
 ### Stage 4: Packaging & Branding
 
-- [ ] Brief design team on packaging requirements
-- [ ] Create packaging mockups aligned with brand identity
-- [ ] Review and approve final packaging design
-- [ ] Order samples / physical proofs
-- [ ] Final approval
+- [ ] AI agent drafts packaging copy aligned with brand identity
+- [ ] Owner reviews and approves packaging design
+- [ ] Order physical proofs / samples
+- [ ] Owner gives final approval
 
 **Output:** Print-ready packaging files
 
@@ -67,10 +62,10 @@ This document outlines the end-to-end process for developing and launching new p
 
 ### Stage 5: Production & Inventory
 
-- [ ] Confirm supplier and production timeline
-- [ ] Place initial production order
-- [ ] Quality check on first batch
-- [ ] Receive and store inventory
+- [ ] Owner confirms supplier and production timeline
+- [ ] Owner places initial production order
+- [ ] Third-party QA on first batch (SOP-008)
+- [ ] Inventory received and cleared for sale by owner after passing CoA
 
 **Output:** Inventory ready to ship
 
@@ -78,30 +73,27 @@ This document outlines the end-to-end process for developing and launching new p
 
 ### Stage 6: Launch Preparation
 
-- [ ] Create product listings (website, marketplace)
-- [ ] Write product descriptions and FAQs
-- [ ] Photograph product
-- [ ] Prepare launch marketing campaign (see [campaigns.md](../marketing/campaigns.md))
-- [ ] Brief customer support team on the new product
-- [ ] Set pricing and discount strategy
+- [ ] AI agent creates Shopify product listing, descriptions, and FAQs
+- [ ] AI agent prepares launch email campaign and social content
+- [ ] Owner reviews and approves all launch content
+- [ ] Owner sets pricing and any launch discounts
 
-**Output:** Launch-ready product
+**Output:** Launch-ready product, approved by owner
 
 ---
 
 ### Stage 7: Launch & Monitor
 
-- [ ] Go live on all sales channels
-- [ ] Execute launch marketing campaign
-- [ ] Monitor sales, reviews, and customer feedback closely
-- [ ] Address any issues within 48 hours
-- [ ] Conduct 30-day post-launch review
+- [ ] Owner publishes product on Shopify
+- [ ] AI agent executes launch marketing campaign
+- [ ] AI agent monitors sales, reviews, and customer feedback automatically
+- [ ] Owner reviews AI-generated 30-day post-launch report and decides next steps
 
-**Output:** Post-launch report
+**Output:** 30-day post-launch report
 
 ---
 
-## ⏱️ Typical Timeline
+## Typical Timeline
 
 | Stage | Estimated Duration |
 |---|---|
@@ -110,10 +102,10 @@ This document outlines the end-to-end process for developing and launching new p
 | Compliance & Certifications | 2–6 weeks |
 | Packaging & Branding | 2–4 weeks |
 | Production & Inventory | 4–12 weeks |
-| Launch Preparation | 2–3 weeks |
+| Launch Preparation | 1–2 weeks |
 | **Total (estimated)** | **3–9 months** |
 
-*Timelines vary significantly based on product complexity.*
+*Timelines vary based on product complexity and supplier lead times.*
 
 ---
 
