@@ -1,50 +1,62 @@
 # Mission, Vision & Values
 
-## 🎯 Mission Statement
+## Mission Statement
 
-> *[Define ASLF Formulas' core mission here — what problem do you solve and for whom?]*
-
-**Example:** "To provide high-quality, science-backed formulas that empower [customers] to achieve [outcome]."
+> To deliver high-quality, science-backed health formulas directly to consumers — powered entirely by intelligent systems, with minimal human overhead.
 
 ---
 
-## 🔭 Vision
+## Vision
 
-> *[Define where ASLF Formulas is headed in the long term.]*
+> To build the world's first fully autonomous supplement brand — where AI agents manage every business function and robotic systems handle all physical operations, creating a scalable company that runs 24/7 without human staff.
 
-**Example:** "To become the leading formula solutions company trusted by [target market] worldwide."
-
----
-
-## 💡 Core Values
-
-### 1. Quality First
-We never compromise on the quality of our formulas or our service. Every product that leaves under the ASLF Formulas name meets our rigorous internal standards.
-
-### 2. Integrity
-We operate with full transparency — with our customers, partners, and each other. We do what we say we'll do.
-
-### 3. Innovation
-We continuously seek better formulas, better processes, and better ways to serve our customers.
-
-### 4. Customer-Centricity
-Our customers are at the heart of every decision. We listen, adapt, and deliver.
-
-### 5. Accountability
-We own our results — the wins and the lessons. Every team member takes responsibility for their work.
+ASLF Formulas is pioneering the **autonomous company** model: owned and directed by a human, but operated entirely by AI agents and physical automation. Our goal is to prove that a lean, solo-founded brand can compete at scale by replacing operational overhead with intelligent systems.
 
 ---
 
-## 🏢 Company Snapshot
+## Core Values
+
+### 1. Automation-First
+Every process is designed to be executed by an AI agent or automated system. Manual tasks are treated as temporary gaps to be eliminated. Before assigning any task to a human, we ask: *can an AI agent do this?*
+
+### 2. Quality Above All
+We never compromise on the quality of our formulas. Every batch is third-party tested and cleared before sale. No cost-cutting measure will ever override our commitment to product safety.
+
+### 3. Radical Transparency
+Our systems, decisions, and data are documented and auditable. The owner can inspect any AI agent's actions, any financial report, and any customer interaction at any time.
+
+### 4. Precision Over Volume
+We build lean. A small number of high-quality, well-tested products beats a bloated catalog. A tightly configured AI agent beats a large team.
+
+### 5. Continuous Improvement
+Our AI systems are not set-and-forget. We review performance metrics weekly, update automations regularly, and replace anything that stops improving.
+
+### 6. Customer Outcomes
+Every product and every automated interaction is designed to genuinely serve our customers' goals — not just to generate a transaction.
+
+---
+
+## Operating Model
+
+| Layer | Operated By | Examples |
+|---|---|---|
+| Digital operations | AI agents | Marketing, customer support, sales flows, reporting, content |
+| Physical operations | Robotics / 3PL automation | Fulfillment, inventory, packaging |
+| Strategic direction | Human owner | OKRs, product decisions, legal, brand |
+
+---
+
+## Company Snapshot
 
 | Item | Detail |
 |---|---|
-| **Company Name** | ASLF Formulas |
+| **Company Name** | ASLF LLC (brand: ASLF Formulas) |
 | **Founded** | *[Year]* |
-| **Headquarters** | *[Location]* |
-| **Industry** | *[Industry]* |
-| **Website** | *[Website URL]* |
+| **Headquarters** | 1920 E Riverside Dr, Ste A120 PMB 263, Austin, TX 78741 |
+| **Industry** | Health & Wellness — Direct-to-consumer supplements |
+| **Website** | https://aslf-formulas.com |
 | **Email** | contact@aslf-formulas.com |
+| **Operating Model** | Fully autonomous — AI agents + robotics, single human owner |
 
 ---
 

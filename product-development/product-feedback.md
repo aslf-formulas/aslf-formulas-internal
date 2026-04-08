@@ -4,70 +4,63 @@
 
 ---
 
-## 📋 Overview
+## Overview
 
-Customer and team feedback is one of our most valuable tools for improving products. This document outlines how we collect, organize, and act on product feedback.
+Customer feedback is continuously collected and analyzed by AI agents. The owner receives a monthly feedback summary and decides on any action items. There are no team meetings or manual review processes.
 
 ---
 
-## 🔍 Feedback Sources
+## Feedback Sources (All Automated)
 
-| Source | How We Collect It | Frequency |
+| Source | How Collected | Frequency |
 |---|---|---|
-| Customer reviews (website) | Automated / manual review | Ongoing |
+| Customer reviews (website) | Auto-collected via review platform (e.g., Okendo) | Ongoing |
 | Customer reviews (marketplace) | Platform notifications | Ongoing |
-| Support tickets | Tagged in support tool | Ongoing |
-| Social media comments | Monitored by marketing | Ongoing |
-| Customer surveys | *[e.g., Post-purchase email / Typeform]* | *[Quarterly]* |
-| Internal team feedback | Monthly product meeting | Monthly |
-| Direct customer interviews | Ad hoc / scheduled | *[As needed]* |
+| Support tickets | Tagged automatically by AI support agent | Ongoing |
+| Social media comments | Monitored by AI agent | Ongoing |
+| Post-purchase surveys | Automated email via Klaviyo | After each order |
 
 ---
 
-## 🗂️ Feedback Categories
+## Feedback Categories
 
-All feedback is tagged with one of the following categories:
+All feedback is automatically tagged by the AI agent:
 
-- **Quality** — Concerns about the product itself (taste, texture, effectiveness, packaging)
-- **Shipping** — Delivery time, packaging damage
+- **Quality** — Product taste, texture, effectiveness, packaging
+- **Shipping** — Delivery time, damage
 - **Price** — Perceived value for money
 - **Feature Request** — Ideas for new products or improvements
 - **Praise** — Positive feedback worth noting
-- **Bug / Error** — Something isn't working as expected
+- **Issue / Defect** — Something isn’t working as expected
 
 ---
 
-## 📊 Feedback Review Process
+## Feedback Review Process
 
-1. **Collect** — All feedback is logged in *[Tool: e.g., Notion, spreadsheet, Airtable]*
-2. **Categorize** — Tag each piece of feedback with a category and product
-3. **Prioritize** — Monthly review to identify the most impactful themes
-4. **Act** — Assign action items to relevant team members
-5. **Close the loop** — Where possible, follow up with customers who provided feedback
-
----
-
-## 📅 Monthly Feedback Review Meeting
-
-**Who attends:** Product, Customer Support, Marketing
-**When:** *[e.g., First Tuesday of each month]*
-**Agenda:**
-1. Review top feedback themes from the past month
-2. Identify any urgent quality or product issues
-3. Decide on action items for next month
-4. Review status of prior month's action items
+1. **Collect** — AI agent aggregates feedback from all sources continuously
+2. **Categorize** — AI agent tags each item by category and product
+3. **Summarize** — Monthly feedback summary generated automatically and included in the monthly report
+4. **Owner reviews** — Owner reviews summary and identifies themes worth acting on
+5. **Act** — Owner decides on action items (product iteration, supplier change, etc.)
 
 ---
 
-## 💡 Feature Request Process
+## Monthly Feedback Summary (AI-Generated)
 
-When a customer or team member suggests a new feature or product:
+Included in the monthly report, the AI agent surfaces:
+- Top feedback themes by volume and sentiment
+- Any urgent quality or safety issues (flagged immediately, not waiting for monthly)
+- Feature requests that have appeared 3+ times
+- Trend vs. prior month
 
-1. Log it in the feedback tracker with details
-2. If it comes up 3+ times, elevate to the product roadmap discussion
-3. Assess feasibility and prioritize based on demand and strategic fit
-4. If approved, add to the [Product Roadmap](./product-roadmap.md)
-5. Notify the requester if possible when it's launched
+---
+
+## Feature Request Process
+
+When a feature request appears 3+ times in feedback:
+1. AI agent flags it in the monthly summary
+2. Owner evaluates feasibility and strategic fit
+3. If approved, owner adds to the [Product Roadmap](./product-roadmap.md)
 
 ---
 

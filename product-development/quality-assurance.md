@@ -4,83 +4,83 @@
 
 ---
 
-## 🎯 QA Philosophy
+## QA Philosophy
 
-Quality is non-negotiable at ASLF Formulas. Every product that carries our name must meet our internal quality standards before it reaches a customer. We are committed to consistency, safety, and accuracy across all products.
+Quality is non-negotiable. Every product that carries the ASLF Formulas name must meet our standards before it reaches a customer. The owner is the final authority on all quality decisions. AI agents monitor post-launch quality signals continuously.
 
 ---
 
-## ✅ Quality Standards
+## Quality Standards
 
 | Standard | Requirement |
 |---|---|
 | Ingredient accuracy | Must match spec sheet exactly |
-| Label compliance | Must meet *[relevant regulatory standards]* |
+| Label compliance | Must meet applicable regulatory standards |
 | Packaging integrity | No damage, leaks, or defects |
 | Shelf life | Minimum *[X months]* remaining at time of sale |
 | Batch documentation | Full traceability records for every batch |
 
 ---
 
-## 🔬 QA Checkpoints
+## QA Checkpoints
 
-### 1. Supplier/Ingredient QA
+### 1. Supplier / Ingredient QA
 
-- [ ] Request Certificate of Analysis (COA) for all raw materials
-- [ ] Verify supplier certifications (*[e.g., GMP, ISO, organic]*)
-- [ ] Conduct spot checks on incoming materials
+- [ ] Request Certificate of Analysis (CoA) for all raw materials
+- [ ] Verify supplier certifications (e.g., GMP, ISO)
+- [ ] Owner reviews CoA before placing order
 
 ### 2. Production QA
 
-- [ ] First batch review with production partner
+- [ ] Request first batch review from production partner
 - [ ] Check formula consistency against approved spec
 - [ ] Check fill weight / quantity accuracy
 - [ ] Review labelling before packaging
 
-### 3. Pre-Shipment QA
+### 3. Pre-Shipment QA — Third-Party Testing
 
-- [ ] Visual inspection of final packaged product
-- [ ] Random sample batch testing (if applicable)
-- [ ] Verify expiry dates are correct and clearly printed
-- [ ] Confirm batch numbers are recorded
+- [ ] Pull sample from each new batch (see [SOP-008](../operations/standard-operating-procedures.md))
+- [ ] Submit to third-party lab for full CoA
+- [ ] Owner reviews CoA results
+- [ ] Only clear inventory for sale after passing CoA
+- [ ] Verify expiry dates and batch numbers are recorded
 
-### 4. Post-Launch QA
+### 4. Post-Launch QA (Automated Monitoring)
 
-- [ ] Monitor customer reviews for quality complaints
-- [ ] Track return/refund rates related to quality issues
-- [ ] Conduct 60-day post-launch product audit
-
----
-
-## 🚨 Handling Quality Issues
-
-If a quality issue is discovered **before shipping:**
-1. Quarantine the affected batch immediately
-2. Notify *[Name / supplier]* and document the issue
-3. Do not ship until the issue is resolved or the batch is rejected
-
-If a quality issue is discovered **after shipping:**
-1. Notify management immediately
-2. Assess scope — how many units are affected?
-3. Initiate a recall procedure if needed (see below)
-4. Contact affected customers proactively
-5. Offer replacement, refund, or resolution
+- [ ] AI agent monitors customer reviews for quality complaints — flagged automatically
+- [ ] Return/refund rate tracked weekly — spikes trigger owner alert
+- [ ] 60-day post-launch audit included in monthly report
 
 ---
 
-## 📋 Product Recall Procedure
+## Handling Quality Issues
 
-In the event a recall is needed:
+**If discovered before shipping:**
+1. Owner quarantines the affected batch immediately
+2. Owner contacts supplier and documents the issue
+3. Do not ship until owner reviews and clears the batch
+
+**If discovered after shipping:**
+1. AI agent flags issue (via review spike, support ticket pattern, or direct report)
+2. Owner notified immediately
+3. Owner assesses scope — how many units affected?
+4. Owner initiates recall if needed (see below)
+5. AI agent contacts affected customers using owner-approved message
+6. Owner approves final resolution (replacement, refund)
+
+---
+
+## Product Recall Procedure
+
+Recall decisions are made by the **owner only**.
 
 1. **Identify** — Determine which batches and customers are affected
-2. **Stop sales** — Remove product from all sales channels immediately
-3. **Notify** — Contact affected customers directly
-4. **Report** — Notify relevant regulatory authorities if required by law
-5. **Resolve** — Offer refunds or replacements
-6. **Investigate** — Determine root cause and implement corrective action
-7. **Document** — Record everything for compliance purposes
-
-Recall decisions are made by **[Owner/Management]** only.
+2. **Stop sales** — Owner removes product from all sales channels immediately
+3. **Notify customers** — AI agent sends recall notice (owner approves message first)
+4. **Report** — Owner notifies relevant regulatory authorities if required by law
+5. **Resolve** — Refunds or replacements processed
+6. **Investigate** — Determine root cause; update supplier or formula requirements
+7. **Document** — Full record kept for compliance
 
 ---
 

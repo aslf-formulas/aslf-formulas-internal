@@ -4,83 +4,71 @@
 
 ---
 
-## 📋 Overview
+## Overview
 
-Not every customer issue can be resolved at the first point of contact. This document defines when and how to escalate issues to ensure they're handled appropriately and efficiently.
-
----
-
-## 🚦 Escalation Levels
-
-### Level 1 — Front-Line Support
-**Handled by:** Customer Support Agent / First Responder
-
-Resolve directly without escalation:
-- General product questions
-- Order status inquiries
-- Minor complaints with a clear resolution (replacement, refund under $[X])
-- Standard returns and exchanges
+The AI support agent handles all routine customer issues autonomously. Escalation to the owner only occurs for a defined set of edge cases that require human judgment, legal authority, or strategic decisions.
 
 ---
 
-### Level 2 — Team Lead / Senior Support
-**Handled by:** *[Name / Role]*
-**Escalate when:**
-- Customer is extremely upset or threatening to leave a negative review
-- Refund requested over $[X]
-- Issue has been unresolved for more than [X] hours/days
-- Customer has contacted support more than 3 times about the same issue
+## Escalation Tiers
 
-**How to escalate:**
-1. Tag *[Name]* in the support ticket / chat thread
-2. Summarize the issue and what's already been tried
-3. Set customer expectation: "I'm escalating this to our senior support team — you'll hear back within [timeframe]."
+### Tier 1 — AI Agent Autonomous Resolution
+The AI agent resolves these without any escalation:
 
----
-
-### Level 3 — Management / Owner
-**Handled by:** *[Name / Role]*
-**Escalate when:**
-- Legal threats, fraud claims, or chargebacks
-- Media or PR-sensitive complaints (e.g., social media viral potential)
-- Safety or product quality concerns
-- Requests that exceed standard policy
-
-**How to escalate:**
-1. Email *[Name]* at *[email]* immediately
-2. Include full ticket/conversation history
-3. Do not make any promises to the customer at this stage
+- General product questions and FAQs
+- Order status and tracking inquiries
+- Standard refunds within policy (under $[X])
+- Replacement requests for damaged or incorrect items
+- Shipping delay notifications and updates
+- Review responses (positive)
 
 ---
 
-## ⚡ Urgent Escalation (Same-Day Required)
+### Tier 2 — AI Agent Drafts, Owner Approves
+The AI agent drafts a suggested response and flags it for owner review before sending. Owner reviews in the daily digest or via alert.
 
-Immediately escalate to management if a customer reports:
-- A safety issue with a product
-- A serious allergic reaction or health concern
-- Fraud or data breach concerns
-- Threats of legal action or regulatory complaints
+**Trigger conditions:**
+- Refund request over $[X] (outside standard policy)
+- Customer has contacted support 3+ times about the same unresolved issue
+- Negative review that may require a public or non-standard response
+- Request to make an exception to standard policy
+
+**Process:**
+1. AI agent drafts a recommended response and resolution
+2. Ticket flagged `[OWNER REVIEW]` in support dashboard
+3. Owner reviews in daily digest or dashboard — approves, edits, or overrides
+4. AI agent sends the approved response
 
 ---
 
-## 📝 Escalation Log
+### Tier 3 — Owner Direct Action (Immediate Alert)
+Owner is alerted immediately and handles directly. AI agent pauses on the ticket and sends only an acknowledgement.
 
-All escalated cases must be logged with:
+**Trigger conditions:**
+- Legal threat, fraud claim, or formal chargeback dispute
+- Product safety concern (allergic reaction, injury, health issue)
+- PR-sensitive complaint (viral risk, press inquiry)
+- Data breach or privacy concern reported by a customer
+
+**Process:**
+1. AI agent detects trigger keywords or conditions
+2. Immediate alert sent to owner (email + SMS)
+3. AI agent sends customer: *"Thank you for reaching out. This has been escalated and you'll hear from us within [X hours]."*
+4. Owner handles directly
+
+---
+
+## Escalation Log
+
+All Tier 2 and Tier 3 escalations are automatically logged with:
 - Customer name and contact
 - Issue summary
-- Escalation level and date
+- Tier classification and date
 - Resolution and outcome
 
-Log location: *[e.g., shared spreadsheet / CRM / Notion page]*
+Log location: *[CRM / support tool dashboard]*
 
----
-
-## 📊 Escalation Review
-
-All Level 2 and Level 3 escalations are reviewed monthly to identify:
-- Recurring patterns or product issues
-- Training gaps in the support team
-- Policy improvements needed
+The owner reviews escalation patterns monthly as part of the monthly KPI review to identify recurring issues or policy gaps.
 
 ---
 

@@ -4,13 +4,13 @@
 
 ---
 
-## 📋 Overview
+## Overview
 
-ASLF Formulas follows an annual budgeting cycle with quarterly reviews to ensure we're on track with financial targets.
+ASLF Formulas follows an annual budgeting cycle with quarterly reviews. The owner sets the annual budget. AI agents track actual spend vs. budget monthly and surface variances automatically. There are no departments or teams — all spending is tracked as a single operating business with defined categories.
 
 ---
 
-## 📅 Budgeting Calendar
+## Budgeting Calendar
 
 | Activity | Timing |
 |---|---|
@@ -22,45 +22,44 @@ ASLF Formulas follows an annual budgeting cycle with quarterly reviews to ensure
 
 ---
 
-## 🗂️ Budget Categories
+## Budget Categories
 
 | Category | Annual Budget | Monthly Budget |
 |---|---|---|
 | Marketing & Advertising | *[$X]* | *[$X]* |
-| Payroll & Contractors | *[$X]* | *[$X]* |
-| Software & Tools | *[$X]* | *[$X]* |
+| AI Tools & Software | *[$X]* | *[$X]* |
 | Operations & Logistics | *[$X]* | *[$X]* |
 | Product Development | *[$X]* | *[$X]* |
-| Customer Support | *[$X]* | *[$X]* |
-| Office & Admin | *[$X]* | *[$X]* |
+| External Services (legal, accounting, lab testing) | *[$X]* | *[$X]* |
 | Contingency (10%) | *[$X]* | *[$X]* |
 | **Total** | *[$X]* | *[$X]* |
 
----
-
-## 📝 Budget Planning Process
-
-1. **Gather data** — Review previous year's actuals vs. budget
-2. **Set revenue targets** — Define expected income for the year
-3. **Allocate by department** — Each area submits their budget needs
-4. **Review and approve** — Leadership reviews, adjusts, and approves
-5. **Communicate** — Share approved budget with relevant team members
-6. **Track monthly** — Compare actual spend vs. budget each month
+> Note: There is no payroll category. ASLF Formulas has no employees. Owner compensation is handled via owner’s draw.
 
 ---
 
-## 📊 Budget vs. Actuals Tracking
+## Budget Planning Process
 
-Track monthly:
+1. **Review actuals** — AI agent generates prior year actuals vs. budget summary for owner review
+2. **Set revenue targets** — Owner defines expected income for the year
+3. **Allocate by category** — Owner sets spending limits per category
+4. **Track monthly** — AI agent compares actual spend vs. budget and includes in the monthly digest
+5. **Adjust quarterly** — Owner reviews and adjusts at each quarterly review
+
+---
+
+## Budget vs. Actuals Tracking
+
+AI agent generates monthly and includes in the monthly report:
 
 | Category | Budget | Actual | Variance | Notes |
 |---|---|---|---|---|
 | Marketing | *[$X]* | *[$X]* | *[+/-$X]* | |
-| Payroll | *[$X]* | *[$X]* | *[+/-$X]* | |
-| Software | *[$X]* | *[$X]* | *[+/-$X]* | |
+| AI Tools & Software | *[$X]* | *[$X]* | *[+/-$X]* | |
+| Operations & Logistics | *[$X]* | *[$X]* | *[+/-$X]* | |
 | *(etc.)* | | | | |
 
-Variances over **±15%** require a written explanation and, if recurring, a budget revision.
+Variances over **±15%** trigger an automatic alert to the owner for review.
 
 ---
 
