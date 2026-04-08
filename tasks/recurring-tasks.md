@@ -8,6 +8,14 @@
 
 ---
 
+## Weekly
+
+| Task | Due | Executed By | Details |
+|---|---|---|---|
+| **Longevity News Weekly Script** | Every Friday | AI agent researches → Owner records | Run the weekly longevity news agent: search top 5 stories + 1 bonus, draft script, save to `marketing/weekly-news/` using naming convention `{Month}{Year}-{N}.md`. See [longevity-news-strategy.md](../marketing/longevity-news-strategy.md) |
+
+---
+
 ## Monthly
 
 | Task | Due | Executed By | Details |

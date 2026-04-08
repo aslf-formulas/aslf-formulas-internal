@@ -125,12 +125,36 @@ Track weekly, review monthly:
 
 ## 📂 Content Archive
 
-Keep a running log of published episodes:
+All episode scripts live in `marketing/weekly-news/`.
 
-| Week | Date | Top Stories Covered | Video Link | Performance Notes |
+### File Naming Convention
+
+Files are named `{Month}{Year}-{EpisodeNumber}` — no spaces, no separators.
+
+**Pattern:** `[MonthName][4-digit year]-[episode number]`
+
+| Example | Meaning |
+|---|---|
+| `April2026-1.md` | First episode of April 2026 |
+| `April2026-2.md` | Second episode of April 2026 |
+| `April2026-3.md` | Third episode of April 2026 |
+| `April2026-4.md` | Fourth episode of April 2026 |
+| `May2026-1.md` | First episode of May 2026 |
+
+There are typically 4 episodes per month (one per week). When a new month starts, the episode counter resets to 1.
+
+**How to determine the filename when running the weekly agent:**
+1. Check today's date
+2. Identify the current month name (full, e.g. `April`) and 4-digit year
+3. Count how many episodes already exist in `marketing/weekly-news/` for that month
+4. The new episode number = existing count + 1
+5. Save as `{Month}{Year}-{N}.md`
+
+### Episode Log
+
+| File | Week | Stories Covered | Video Link | Performance Notes |
 |---|---|---|---|---|
-| Ep. 1 | *[Date]* | *[Story 1, Story 2, Story 3]* | *[Link]* | *[Notes]* |
-| Ep. 2 | *[Date]* | *[Story 1, Story 2, Story 3]* | *[Link]* | *[Notes]* |
+| [April2026-1.md](./weekly-news/April2026-1.md) | Apr 7, 2026 | FDA epigenetic trial, Aging redefined, 73% lifespan mice, GLP-1 longevity trials, ARPA-H $144M, Vitamin D3 bonus | *[Link]* | *[Notes]* |
 
 ---
 
