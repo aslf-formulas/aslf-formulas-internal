@@ -19,6 +19,41 @@ This document maps out key recurring workflows at ASLF Formulas to ensure consis
 4. Marketing: Review previous week's content performance
 5. Customer Support: Clear any outstanding tickets from the weekend
 
+---
+
+## 📰 Longevity News Weekly Flow
+
+**Frequency:** Weekly
+**Owner:** Marketing / Content Creator
+**Reference:** [marketing/longevity-news-strategy.md](../marketing/longevity-news-strategy.md)
+
+### Monday / Tuesday — Research
+- [ ] Scan PubMed, bioRxiv, Longevity.Technology, Lifespan.io for new studies or breakthroughs
+- [ ] Check X/Twitter for notable posts from David Sinclair, Peter Attia, Bryan Johnson, Andrew Huberman, Rhonda Patrick
+- [ ] Review any new YouTube uploads from key longevity personalities
+- [ ] Scan longevity newsletters (Optispan, Levels Health, InsideTracker)
+- [ ] Select top 3–5 stories — prioritize novelty, credibility, audience relevance
+
+### Wednesday — Script Draft
+- [ ] Draft the weekly longevity news script using the template in the strategy doc
+- [ ] Add ASLF Formulas angle where relevant (ingredients, products, protocols)
+- [ ] Outline captions and copy for supporting social posts
+
+### Thursday — Record & Edit
+- [ ] Record short video (target: 60–90 seconds, vertical format)
+- [ ] Edit video — captions, b-roll, branding
+- [ ] Prepare carousel or text post for the week's headlines
+- [ ] Write Story teaser copy
+
+### Friday — Publish
+- [ ] Post Story teaser
+- [ ] Publish Reel / TikTok / YouTube Short
+- [ ] Post supporting carousel or headline post
+- [ ] Log episode in the Content Archive (marketing/longevity-news-strategy.md)
+- [ ] Note performance baseline for next week's comparison
+
+---
+
 ### Friday: Weekly Wrap-Up
 1. Log completed tasks in project management tool
 2. Update any in-progress project statuses
