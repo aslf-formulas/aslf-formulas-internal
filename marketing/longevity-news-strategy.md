@@ -83,6 +83,17 @@ follow us — we do this every week. Drop your questions below."
 
 **Tone:** Confident, conversational, science-informed but accessible. No fear-mongering. No unverified claims about products.
 
+### Script Writing Guidelines
+
+These rules apply to every script, without exception:
+
+1. **No absolute debunking language.** Phrases like "the science no longer backs that up," "scientists were wrong," or any language that frames a single study as overturning established consensus are not allowed. Replace with hedged alternatives such as "a new study suggests," "researchers now estimate," or "this challenges previous assumptions."
+
+2. **Citation required for every health claim.** Every story that includes a specific statistic, study finding, or research outcome must include a citation. The preferred format is spoken aloud in the script — e.g., *"according to a January 2026 study published in eClinicalMedicine."* If not spoken, an on-screen lower-third text overlay is required during that story segment, formatted as:
+   > Source: [Author last name] et al., [Journal], [Month Year]
+   
+   No health claim goes on screen without one of these two options.
+
 ---
 
 ## 📲 Publishing Schedule
