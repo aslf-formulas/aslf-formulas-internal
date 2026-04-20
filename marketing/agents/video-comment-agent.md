@@ -154,4 +154,4 @@ If a comment should NOT be replied to (hostile, spam, requires medical guidance 
 
 ---
 
-*Add to the AI Agent Registry in [operations/onboarding.md](../../operations/onboarding.md) under AGT-009.*
+*Registered in the [Agent Index](../../agents/README.md).*

@@ -42,17 +42,7 @@ Every new AI agent or automation must go through this checklist before going liv
 
 ## AI Agent Registry
 
-| Agent ID | Function | Tool / Platform | Decision Tier | Status |
-|---|---|---|---|---|
-| AGT-001 | Email marketing flows | Klaviyo | Tier 1 | Active |
-| AGT-002 | Abandoned cart recovery | Klaviyo | Tier 1 | Active |
-| AGT-003 | Order fulfillment routing | Shopify | Tier 1 | Active |
-| AGT-004 | Customer support responses | AI chatbot (TBD) | Tier 1 | Planned |
-| AGT-005 | Daily/weekly reporting | Make.com / Triple Whale | Tier 1 | Planned |
-| AGT-006 | Ad campaign optimization | Meta Advantage+ / Google Smart Bidding | Tier 1 | Active |
-| AGT-007 | Content generation | Claude API | Tier 2 | Planned |
-| AGT-008 | Inventory reorder alerts | Shopify / inventory app | Tier 2 | Planned |
-| AGT-009 | Video comment replies | Claude API | Tier 2 | Active |
+Agent specs and the full registry live in the [agents/README.md](../../agents/README.md). Each department manages its own agents in a dedicated `agents/` subfolder alongside its `guidelines/` folder.
 
 ---
 
