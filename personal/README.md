@@ -8,9 +8,10 @@ The same principle that drives ASLF Formulas applies here: **if it's recurring a
 
 ## Sections
 
-| Folder | Description |
+| File | Description |
 |---|---|
-| *(add folders as needed)* | Health, finances, habits, goals, travel, etc. |
+| [fun-things-to-do.md](./fun-things-to-do.md) | Backlog of activities — outdoors, food, travel, hobbies, culture |
+| *(add more as needed)* | Health, finances, habits, goals, etc. |
 
 ---
 

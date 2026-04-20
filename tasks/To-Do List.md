@@ -39,6 +39,19 @@
 
 ---
 
+## Weekend Planning
+
+> Pull from this section when planning a weekend. The goal is a realistic mix: handle 1–2 company items that actually need the owner, and leave real room for something enjoyable. Not every weekend needs a company task.
+
+| # | Item | Type | Notes |
+|---|---|---|---|
+| W1 | **Texas Franchise Tax — File No Tax Due Report** | Company | 30-min task, can be done Saturday morning. Deadline May 15. |
+| W2 | **Document Registered Agent Info** | Company | 15-min task — find the info and add it to the repo. |
+| W3 | **Pick a fun activity from the list** | Personal | See [personal/fun-things-to-do.md](../personal/fun-things-to-do.md) — hiking, food, music, day trip |
+| W4 | **Read something non-business** | Personal | Pick a book, long article, or magazine. No work content. |
+
+---
+
 ## Completed Tasks
 
 | Task | Completed | Notes |

@@ -32,8 +32,7 @@ As a solo founder, the company and the person are inseparable. Burning out perso
 
 ## How to Invoke
 
-At the start of any session, say:
-
+**General session start:**
 > *"Run optimizer agent"*
 
 The agent will:
@@ -41,6 +40,15 @@ The agent will:
 2. Review `personal/` for any tracked goals or open items
 3. Return a prioritized action list, split by **Today**, **This Week**, and **Backlog**
 4. Flag anything that should be automated instead of done manually
+
+**Weekend planning:**
+> *"Plan my weekend"*
+
+The agent will:
+1. Check the Weekend Planning section of `tasks/To-Do List.md` for any company tasks that are time-sensitive or quick enough to be worth doing on a weekend
+2. Pull 1–2 fun activity suggestions from `personal/fun-things-to-do.md`
+3. Return a balanced weekend plan — company tasks capped at 2 items, fun activities given equal weight
+4. Never front-load the weekend with company work; fun comes first unless there's a hard deadline
 
 ---
 
@@ -50,6 +58,7 @@ The agent will:
 - **Personal health is a company asset.** Downtime, sleep, and recovery are not optional.
 - **One system, two domains.** Company and personal life share the same calendar — they must be planned together.
 - **Eliminate before optimizing.** If a task doesn't need to exist, remove it before trying to make it efficient.
+- **Weekends are not workdays.** Company tasks on weekends are the exception, not the default. Fun is not a reward for finishing work — it is a scheduled, protected priority.
 
 ---
 
