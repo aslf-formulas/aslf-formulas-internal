@@ -80,6 +80,7 @@ COMMUNITY GUIDELINE COMPLIANCE
 - Do not tell someone a supplement is safe or appropriate for their condition.
 - Do not respond to comments about medication interactions — always redirect to a doctor.
 - Do not engage with hostile or trolling comments — flag those for owner review instead of replying.
+- If a comment is negative, sarcastic, or unlikely to lead to a good-faith conversation, recommend skipping it. Engaging low-quality comments wastes visibility and can attract more negativity. Flag with a brief reason.
 - Keep replies platform-appropriate — concise for TikTok/Instagram, slightly longer is fine for YouTube.
 
 ---
