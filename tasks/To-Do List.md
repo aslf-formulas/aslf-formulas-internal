@@ -1,6 +1,6 @@
 # Open Tasks
 
-*Last updated: March 2026*
+*Last updated: April 2026*
 
 > This file tracks all one-time tasks pending or in progress for ASLF LLC.
 > Each task is labeled by type:
@@ -17,6 +17,8 @@
 |---|---|---|---|---|
 | 1 | **Chase Business Credit Card — Follow Up** | Owner Action | Call Chase reconsideration: **1-800-432-3117**. Active Chase business checking account on file. Need card for supplier chargeback protection. If denied → apply for secured business card first. See [business-setup-checklist.md](../finance/business-setup-checklist.md) | ASAP |
 | 2 | **Texas Franchise Tax — File No Tax Due Report** | Owner Action | File at [Texas Webfile](https://comptroller.texas.gov/taxes/file-pay/). No payment required under $2.47M revenue. Automated reminder fires April 15. | May 15, 2026 |
+| 3 | **Amazon Store — Build Main Page** | Owner Review | Amazon Brand Store main page is currently blank. AI agent drafts layout: hero banner, brand story section, featured products, lifestyle imagery. Owner reviews and publishes via Amazon Seller Central → Stores. Align visuals and copy with brand identity in [brand-identity.md](../company/company-guidelines/brand-identity.md) | ASAP |
+| 4 | **Website — Add About Page** | Owner Review | aslf-formulas.com is missing an About page. AI agent drafts copy: founder story, brand mission, why longevity/health, what makes ASLF Formulas different. Owner reviews and publishes via Shopify (Pages → Add page). Align with [mission-vision-values.md](../company/company-guidelines/mission-vision-values.md) | This month |
 
 ---
 
@@ -47,8 +49,10 @@
 |---|---|---|---|
 | W1 | **Texas Franchise Tax — File No Tax Due Report** | Company | 30-min task, can be done Saturday morning. Deadline May 15. |
 | W2 | **Document Registered Agent Info** | Company | 15-min task — find the info and add it to the repo. |
-| W3 | **Pick a fun activity from the list** | Personal | See [personal/fun-things-to-do.md](../personal/fun-things-to-do.md) — hiking, food, music, day trip |
-| W4 | **Read something non-business** | Personal | Pick a book, long article, or magazine. No work content. |
+| W3 | **Amazon Store — Build Main Page** | Company | Creative work — good for a weekend morning. AI drafts, owner reviews and publishes. |
+| W4 | **Website — Add About Page** | Company | AI drafts copy, owner reviews and publishes via Shopify. 30–45 min total. |
+| W5 | **Pick a fun activity from the list** | Personal | See [personal/fun-things-to-do.md](../personal/fun-things-to-do.md) — hiking, food, music, day trip |
+| W6 | **Read something non-business** | Personal | Pick a book, long article, or magazine. No work content. |
 
 ---
 
@@ -72,4 +76,4 @@
 
 ---
 
-*Last updated: March 2026*
+*Last updated: April 2026*
