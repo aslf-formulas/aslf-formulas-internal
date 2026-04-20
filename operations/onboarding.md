@@ -52,6 +52,7 @@ Every new AI agent or automation must go through this checklist before going liv
 | AGT-006 | Ad campaign optimization | Meta Advantage+ / Google Smart Bidding | Tier 1 | Active |
 | AGT-007 | Content generation | Claude API | Tier 2 | Planned |
 | AGT-008 | Inventory reorder alerts | Shopify / inventory app | Tier 2 | Planned |
+| AGT-009 | Video comment replies | Claude API | Tier 2 | Active |
 
 ---
 
