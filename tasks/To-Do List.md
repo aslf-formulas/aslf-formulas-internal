@@ -24,7 +24,6 @@
 
 | # | Task | Type | Details | Deadline |
 |---|---|---|---|---|
-| 3 | **Website — Terms of Service** | Owner Review | All other policies are live. AI agent can draft Terms of Service — owner reviews and publishes to Shopify. | This quarter |
 | 4 | **Document Registered Agent Info** | Owner Action | Provide registered agent name and contact info to be added to this repo. Agent is currently active and paid. | Next session |
 | 5 | **LLC Operating Agreement** | External Service | Not legally required in Texas but recommended. Have an attorney draft or use a legal service. Defines ownership, management, and dissolution process. | This quarter |
 
@@ -55,6 +54,7 @@
 | Business Insurance Application | March 2026 | Awaiting confirmation |
 | Third-Party Testing SOP | March 2026 | See SOP-008 |
 | YouTube Thumbnail Process | March 2026 | See youtube-thumbnails.md |
+| Website — Terms of Service | April 2026 | Using Shopify's auto-generated ToS — updated automatically per store, no manual action needed |
 | Website Policies Published | March 2026 | Privacy, Return, Shipping, Accessibility, Privacy Choices, Contact — all live |
 
 ---
