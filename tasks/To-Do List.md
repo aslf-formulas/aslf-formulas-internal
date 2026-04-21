@@ -45,6 +45,7 @@
 
 | # | Task | Notes | Deadline |
 |---|---|---|---|
+| 1 | **Plan trip to Portugal** | | — |
 
 ---
 
