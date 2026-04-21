@@ -6,8 +6,9 @@ This section contains all task tracking for ASLF LLC — both recurring schedule
 
 | File | Description |
 |---|---|
-| [recurring-tasks.md](./recurring-tasks.md) | All recurring tasks — monthly, quarterly, annual, and event-triggered |
 | [open-tasks.md](./open-tasks.md) | All one-time open tasks, prioritized by urgency |
+| [recurring-tasks.md](./recurring-tasks.md) | All recurring tasks — monthly, quarterly, annual, and event-triggered |
+| [task-agent.md](./task-agent.md) | Instructions for completing every open and recurring task |
 
 ---
 
