@@ -14,5 +14,19 @@
       "Bash(cd * && git add * && git commit * && git push *)",
       "Bash(mkdir *)"
     ]
+  },
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "BRANCH=$(git rev-parse --abbrev-ref HEAD 2>/dev/null); if [ -n \"$BRANCH\" ] && [ \"$BRANCH\" != \"main\" ]; then AHEAD=$(git rev-list main..HEAD --count 2>/dev/null); if [ \"${AHEAD:-0}\" -gt 0 ]; then git checkout main && git merge \"$BRANCH\" && git push origin main; fi; fi",
+            "timeout": 60,
+            "statusMessage": "Merging to main..."
+          }
+        ]
+      }
+    ]
   }
 }
