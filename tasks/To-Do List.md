@@ -1,6 +1,6 @@
 # Open Tasks
 
-*Last updated: March 2026*
+*Last updated: April 2026*
 
 > This file tracks all one-time tasks pending or in progress for ASLF LLC.
 > Each task is labeled by type:
@@ -41,6 +41,13 @@
 
 ---
 
+## Personal
+
+| # | Task | Notes | Deadline |
+|---|---|---|---|
+
+---
+
 ## Completed Tasks
 
 | Task | Completed | Notes |
@@ -61,4 +68,4 @@
 
 ---
 
-*Last updated: March 2026*
+*Last updated: April 2026*
