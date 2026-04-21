@@ -11,24 +11,17 @@
 
 ---
 
-## Medium Priority
+## Backlog
 
 | # | Task | Type | Details | Deadline |
 |---|---|---|---|---|
 | 4 | **Document Registered Agent Info** | Owner Action | Provide registered agent name and contact info to be added to this repo. Agent is currently active and paid. | Next session |
 | 5 | **LLC Operating Agreement** | External Service | Not legally required in Texas but recommended. Have an attorney draft or use a legal service. Defines ownership, management, and dissolution process. | This quarter |
-| 9 | **Update Website About Page** | Owner Action | Update the About page on aslf-formulas.com with current content. | — |
-| 10 | **Add Amazon Front Page (A+ Content / Store Page)** | Owner Action | Set up or update the Amazon storefront/front page for ASLF Formulas products. | — |
-
----
-
-## Low Priority
-
-| # | Task | Type | Details | Deadline |
-|---|---|---|---|---|
 | 6 | **Copyright Registration** | Owner Action | Register key YouTube videos and website content with US Copyright Office ($65–$85/filing). Trademark ≠ copyright — these are separate protections. | This year |
 | 7 | **Reapply for Chase Business Credit Card** | Owner Action | If reconsideration (#1) fails, build credit with a secured business card for 6 months, then reapply. | 6 months |
 | 8 | **Confirm Business Insurance Coverage** | Owner Review | Application submitted March 2026. Once confirmed, document policy number, coverage amounts, and renewal date here. | Pending insurer |
+| 9 | **Update Website About Page** | Owner Action | Update the About page on aslf-formulas.com with current content. | — |
+| 10 | **Add Amazon Front Page (A+ Content / Store Page)** | Owner Action | Set up or update the Amazon storefront/front page for ASLF Formulas products. | — |
 
 ---
 
