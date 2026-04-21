@@ -26,6 +26,8 @@
 |---|---|---|---|---|
 | 4 | **Document Registered Agent Info** | Owner Action | Provide registered agent name and contact info to be added to this repo. Agent is currently active and paid. | Next session |
 | 5 | **LLC Operating Agreement** | External Service | Not legally required in Texas but recommended. Have an attorney draft or use a legal service. Defines ownership, management, and dissolution process. | This quarter |
+| 9 | **Update Website About Page** | Owner Action | Update the About page on aslf-formulas.com with current content. | — |
+| 10 | **Add Amazon Front Page (A+ Content / Store Page)** | Owner Action | Set up or update the Amazon storefront/front page for ASLF Formulas products. | — |
 
 ---
 
