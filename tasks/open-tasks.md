@@ -2,15 +2,6 @@
 
 *Last updated: April 2026*
 
-> This file tracks all one-time tasks pending or in progress for ASLF LLC.
-> Each task is labeled by type:
-> - **Automated** — AI handles without owner involvement
-> - **Owner Review** — AI prepares, owner approves or confirms
-> - **Owner Action** — requires direct action from the owner (phone call, filing, signature, etc.)
-> - **External Service** — requires an outside party (attorney, bank, insurer)
-
----
-
 ## High Priority
 
 | # | Task | Type | Details | Deadline |

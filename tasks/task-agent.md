@@ -6,6 +6,17 @@
 
 ---
 
+## Task Type Legend
+
+| Type | Who acts |
+|---|---|
+| **Automated** | AI handles without owner involvement |
+| **Owner Review** | AI prepares, owner approves or confirms |
+| **Owner Action** | Requires direct action from the owner (phone call, filing, signature, etc.) |
+| **External Service** | Requires an outside party (attorney, bank, insurer) |
+
+---
+
 ## How to Close an Open Task
 
 When a task is complete:
