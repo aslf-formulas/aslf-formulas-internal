@@ -21,6 +21,7 @@
 | 7 | **Reapply for Chase Business Credit Card** | Owner Action | If reconsideration (#1) fails, build credit with a secured business card for 6 months, then reapply. | 6 months |
 | 8 | **Confirm Business Insurance Coverage** | Owner Review | Application submitted March 2026. Once confirmed, document policy number, coverage amounts, and renewal date here. | Pending insurer |
 | 10 | **Add Amazon Front Page (A+ Content / Store Page)** | Owner Action | Set up or update the Amazon storefront/front page for ASLF Formulas products. | — |
+| 11 | **Verify TikTok Account for Business** | Owner Action | Complete TikTok's business account verification process. | — |
 
 ---
 
