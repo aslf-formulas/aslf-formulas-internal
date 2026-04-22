@@ -24,19 +24,19 @@
 
 ---
 
-## Personal
-
-| # | Task | Notes | Deadline |
-|---|---|---|---|
-| 1 | **Plan trip to Portugal** | | — |
-
----
-
 ## Recurring (Daily)
 
 | # | Task | Notes |
 |---|---|---|
 | 1 | **Cut and publish Shorts from long-format videos** | Clip highlights from new long-form YouTube content and publish as YouTube Shorts |
+
+---
+
+## Personal
+
+| # | Task | Notes | Deadline |
+|---|---|---|---|
+| 1 | **Plan trip to Portugal** | | — |
 
 ---
 
