@@ -34,6 +34,7 @@ Each department manages its own agents inside a dedicated `agents/` subfolder:
 | Agent ID | File | Department | Task | Tier | Status |
 |---|---|---|---|---|---|
 | AGT-009 | [marketing/agents/video-comment-agent.md](../marketing/agents/video-comment-agent.md) | Marketing | Reply to video comments | Tier 2 | Active |
+| AGT-010 | [marketing/agents/longevity-news-script-agent.md](../marketing/agents/longevity-news-script-agent.md) | Marketing | Research and draft weekly longevity news script | Tier 2 | Active |
 
 ---
 
