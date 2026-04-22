@@ -75,6 +75,40 @@ Key rules (do not skip):
 
 ---
 
+SCRIPT STRUCTURE — FOLLOW EXACTLY
+
+**HOOK**
+Open with one of these two formats (choose whichever fits naturally, vary week to week):
+- "[X] things that happened in the longevity world this week. Let's get into it."
+- "These [X] things happened in the longevity world this week. Let's get into it."
+
+Replace [X] with the number of stories. You may add a short teaser before the hook line if a story is especially strong (e.g., "Scientists just moved the needle on zombie cell drugs. [X] things happened in the longevity world this week. Let's get into it.") — but keep it to one punchy sentence max.
+
+**STORIES**
+Introduce each story with "Number [X]." followed by the headline, then the body. Example:
+"Number 1. [Headline]. [Body copy — 2–4 sentences.]"
+"Number 2. [Headline]. [Body copy.]"
+
+**CLOSE**
+End with a variation of this line — keep the same structure, you may swap small phrases week to week:
+"That's your longevity week. If you want this every week — follow. Drop your questions below, I read them all. See you next week."
+
+Acceptable variations: e.g., "That's your longevity week. Follow if you want this every week. One question before you go — [specific question for the audience]. Drop your answer in the comments. See you next week." Keep the core structure intact.
+
+---
+
+TONE — IMPORTANT
+
+Write every story as if it genuinely matters — because it does. Successful video creators maintain a tone of weight and significance consistently, even when the information is straightforward. Apply that here:
+
+- Deliver each story with conviction. Short declarative sentences. No hedging in the delivery (hedging is for claims, not for conviction).
+- Use pacing cues naturally: em dashes, sentence fragments, and strategic repetition create rhythm and emphasis.
+- Never downplay a story. If you selected it, it's worth the audience's attention — write it that way.
+- Avoid filler and softening language ("kind of," "sort of," "a little bit," "you might want to consider"). Be direct.
+- The audience should feel like they're getting intel that most people don't have yet. Write from that frame.
+
+---
+
 OUTPUT FORMAT
 
 Return the following:
@@ -119,13 +153,16 @@ A numbered list of all sources referenced in the script, in format:
 > **SCRIPT — WEEK OF APRIL 21, 2026**
 >
 > [HOOK — 0:00–0:08]
-> "Three things moved in the longevity world this week — and one of them is a direct update from a story we covered last week. Let's get into it."
+> "Three things happened in the longevity world this week. Let's get into it."
 >
 > [STORY 1 — 0:08–0:40]
 > **ER-100 trial expands — enrollment is now open**
-> "Last week we told you about Life Biosciences getting FDA clearance for the first epigenetic reprogramming trial in a human. This week — it moved fast. They've expanded to a second clinical site and enrollment is now open. According to their announcement this week, the trial is targeting optic nerve damage and glaucoma, but the implications for whole-body aging are what the field is watching. This is still early, but the pace here is notable."
+> "Number 1. The ER-100 trial just expanded — and enrollment is open. Last week we covered Life Biosciences getting FDA clearance for the first epigenetic reprogramming trial in a human. This week it moved fast. They've added a second clinical site and patients can now enroll. According to their announcement, the trial targets optic nerve damage and glaucoma — but the field is watching for something much bigger. If reprogramming works in the eye, it works anywhere in the body. This is still Phase 1. But the pace here is not normal."
 >
-> *(continues...)*
+> *(continues with Number 2, Number 3...)*
+>
+> [CLOSE]
+> "That's your longevity week. If you want this every week — follow. Drop your questions below, I read them all. See you next week."
 
 ---
 
