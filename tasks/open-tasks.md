@@ -20,7 +20,6 @@
 | 6 | **Copyright Registration** | Owner Action | Register key YouTube videos and website content with US Copyright Office ($65–$85/filing). Trademark ≠ copyright — these are separate protections. | This year |
 | 7 | **Reapply for Chase Business Credit Card** | Owner Action | If reconsideration (#1) fails, build credit with a secured business card for 6 months, then reapply. | 6 months |
 | 8 | **Confirm Business Insurance Coverage** | Owner Review | Application submitted March 2026. Once confirmed, document policy number, coverage amounts, and renewal date here. | Pending insurer |
-| 9 | **Update Website About Page** | Owner Action | Update the About page on aslf-formulas.com with current content. | — |
 | 10 | **Add Amazon Front Page (A+ Content / Store Page)** | Owner Action | Set up or update the Amazon storefront/front page for ASLF Formulas products. | — |
 
 ---
@@ -58,6 +57,7 @@
 | YouTube Thumbnail Process | March 2026 | See youtube-thumbnails.md |
 | Website — Terms of Service | April 2026 | Using Shopify's auto-generated ToS — updated automatically per store, no manual action needed |
 | Website Policies Published | March 2026 | Privacy, Return, Shipping, Accessibility, Privacy Choices, Contact — all live |
+| Update Website About Page | April 2026 | Updated aslf-formulas.com About page with current content |
 
 ---
 
