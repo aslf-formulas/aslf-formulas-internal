@@ -79,11 +79,11 @@ Key rules (do not skip):
 SCRIPT STRUCTURE — FOLLOW EXACTLY
 
 **HOOK**
-Open with one of these two formats (choose whichever fits naturally, vary week to week):
+Keep the hook short and clean. It must only announce the number of stories and invite the audience in. Use one of these two formats (vary week to week):
 - "[X] things that happened in the longevity world this week. Let's get into it."
 - "These [X] things happened in the longevity world this week. Let's get into it."
 
-Replace [X] with the number of stories. You may add a short teaser before the hook line if a story is especially strong (e.g., "Scientists just moved the needle on zombie cell drugs. [X] things happened in the longevity world this week. Let's get into it.") — but keep it to one punchy sentence max.
+Replace [X] with the number of stories. Do NOT add teasers, previews of stories, or extra sentences before the hook. The hook is one line, period. This keeps the opening tight and maximizes engagement.
 
 **STORIES**
 Introduce each story with "Number [X]." followed by the headline, then the body. Example:
@@ -91,10 +91,11 @@ Introduce each story with "Number [X]." followed by the headline, then the body.
 "Number 2. [Headline]. [Body copy.]"
 
 **CLOSE**
-End with a variation of this line — keep the same structure, you may swap small phrases week to week:
+End with this exact structure every week. You may swap minor phrasing but do NOT add pushy audience questions (e.g., "which one would you act on?", "what did you think?"). The invite to comment must be open-ended, not a prompt:
+
 "That's your longevity week. If you want this every week — follow. Drop your questions below, I read them all. See you next week."
 
-Acceptable variations: e.g., "That's your longevity week. Follow if you want this every week. One question before you go — [specific question for the audience]. Drop your answer in the comments. See you next week." Keep the core structure intact.
+Acceptable minor variations: e.g., "That's your longevity week. Follow if you want this every week. Drop your questions below — I read them all. See you next week." Keep the structure and the open-ended invitation intact. Never ask the audience a directed question in the close.
 
 ---
 
