@@ -20,7 +20,7 @@
 [STORY 2 — 0:40–1:15]
 **An FDA-approved antiretroviral just lowered biological age in healthy adults**
 
-"Number 2. A twelve-week human trial of an FDA-approved antiretroviral combination — FTC/TAF — just showed biological age reductions in healthy adults. DunedinPACE dropped 0.061. PhenoAge dropped over 6 years. Inflammatory markers came down with it. What's wild is the specifics matter — a closely related formulation, FTC/TDF, showed nothing. Same drug class, different outcome. The leading hypothesis: these drugs suppress retrotransposons — rogue genetic elements that get noisier as we age. If that holds up, an entire class of drugs already sitting in pharmacies becomes a longevity tool."
+"Number 2. A twelve-week human trial just showed something striking. Descovy — an FDA-approved antiretroviral originally developed for HIV — reduced measurable markers of biological aging in healthy adults. Across multiple aging clocks, the participants came out looking biologically younger than when they started. Inflammation dropped along with it. What makes this wild: a closely related version of the same drug showed nothing. Same class, different formulation, completely different result. The leading theory is that these drugs quiet down rogue pieces of old DNA in our cells that get noisier with age. If that holds up, an entire class of drugs already sitting in pharmacies becomes a longevity tool."
 
 ---
 
@@ -54,7 +54,7 @@
 ## Sources (for on-screen overlays)
 
 - **Story 1:** Seragon Biosciences / Tsinghua University. "SRN-901, a Novel Longevity Combination Drug, Extends Lifespan and Healthspan." *Drug Design, Development and Therapy*, April 2026.
-- **Story 2:** Fight Aging! Newsletter, "Antiretroviral FTC/TAF reduces DunedinPACE and PhenoAge in healthy adults," April 20, 2026.
+- **Story 2:** Fight Aging! Newsletter, "Antiretroviral FTC/TAF (Descovy) reduces biological age markers in healthy adults," April 20, 2026.
 - **Story 3:** Fight Aging! Newsletter, "HMGB1 Box A induces DNA gap formation and reverses proteomic aging markers in aged primates," April 20, 2026.
 - **Story 4:** Zammit AR et al. "Lifetime cognitive enrichment and risk of incident Alzheimer disease dementia." *Neurology*, February 2026 — Rush University Medical Center.
 - **Story 5:** World Mitochondria Society / International Society of Microbiota. "Targeting Longevity 2026: Scientists shift the longevity debate from 'fixing aging' to preserving biological coordination." EurekAlert!, April 8–9, 2026.
