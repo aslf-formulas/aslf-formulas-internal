@@ -15,7 +15,6 @@
 
 | # | Task | Type | Details | Deadline |
 |---|---|---|---|---|
-| 4 | **Document Registered Agent Info** | Owner Action | Provide registered agent name and contact info to be added to this repo. Agent is currently active and paid. | Next session |
 | 5 | **LLC Operating Agreement** | External Service | Not legally required in Texas but recommended. Have an attorney draft or use a legal service. Defines ownership, management, and dissolution process. | This quarter |
 | 6 | **Copyright Registration** | Owner Action | Register key YouTube videos and website content with US Copyright Office ($65–$85/filing). Trademark ≠ copyright — these are separate protections. | This year |
 | 7 | **Reapply for Chase Business Credit Card** | Owner Action | If reconsideration (#1) fails, build credit with a secured business card for 6 months, then reapply. | 6 months |
@@ -52,13 +51,14 @@
 | Federal Trademark Filing — ASLF Formulas | In progress | Serial #99569595, with attorneys |
 | Domain Name | Secured | aslf-formulas.com |
 | Shopify Store | Live | aslf-formulas.com |
-| Registered Agent | Active | Name to be documented |
+| Registered Agent | Active | Registered Agents Inc. — 5900 Balcones Drive STE 100, Austin, TX 78731. Contact: David Roberts, Assistant Secretary |
 | Business Insurance Application | March 2026 | Awaiting confirmation |
 | Third-Party Testing SOP | March 2026 | See SOP-008 |
 | YouTube Thumbnail Process | March 2026 | See youtube-thumbnails.md |
 | Website — Terms of Service | April 2026 | Using Shopify's auto-generated ToS — updated automatically per store, no manual action needed |
 | Website Policies Published | March 2026 | Privacy, Return, Shipping, Accessibility, Privacy Choices, Contact — all live |
 | Update Website About Page | April 2026 | Updated aslf-formulas.com About page with current content |
+| Document Registered Agent Info | April 2026 | Registered Agents Inc. (Austin, TX) — full details in business-setup-checklist.md |
 
 ---
 

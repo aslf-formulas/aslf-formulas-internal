@@ -52,7 +52,7 @@ This document tracks all business setup tasks for ASLF LLC (Austin, Texas). Item
 |---|---|---|
 | LLC formation (ASLF LLC) | ✅ | Texas LLC, Austin |
 | EIN from IRS | ✅ | On file |
-| Registered Agent | ✅ | Paid registered agent service active — **need to document agent name/contact in this file** (owner to provide) |
+| Registered Agent | ✅ | **Registered Agents Inc.** — 5900 Balcones Drive STE 100, Austin, TX 78731. Contact: David Roberts, Assistant Secretary. Service active and paid. |
 | LLC Operating Agreement | ❌ **OPEN TASK** | Not legally required in TX but strongly recommended. Define management structure, ownership, and dissolution process. |
 | Texas Franchise Tax | ❌ **OPEN TASK** | See Financial section above |
 
@@ -106,7 +106,6 @@ Your **trademark** protects your **brand name and logo** from others using it co
 | 🔴 HIGH | Follow up on Chase Business Credit Card | ASAP |
 | 🔴 HIGH | Texas Franchise Tax — file No Tax Due report | May 15, 2026 |
 | 🟡 MEDIUM | Website Privacy Policy & Terms of Service | This quarter |
-| 🟡 MEDIUM | Document Registered Agent name and contact info | Next session |
 | 🟡 MEDIUM | LLC Operating Agreement | This quarter |
 | 🟢 LOW | Copyright registration for YouTube videos & website content | This year |
 | 🟢 LOW | Reapply for Chase Business Credit Card (if reconsideration fails) | 6 months |
