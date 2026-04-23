@@ -32,9 +32,9 @@
 ---
 
 [STORY 4 — 1:50–2:25]
-**Eleven popular longevity compounds failed to extend lifespan in rigorous trials**
+**Lifelong learning linked to 38 percent lower Alzheimer's risk**
 
-"Number 4. The National Institute on Aging runs the most rigorous lifespan-testing program in the world — the ITP. This week they reported null results on eleven compounds in mice. Astaxanthin. Alpha-ketoglutarate. Pioglitazone. And eight others. No lifespan extension. Here's the honest read: these results don't mean these compounds are worthless — some may still have legitimate benefits for specific health markers. But the picture on whole-life lifespan extension is more complicated than the supplement aisle suggests. If you're taking any of these specifically to live longer, it's worth knowing where the evidence actually stands."
+"Number 4. A study out of Rush University Medical Center, published in Neurology, just put a number on something researchers have suspected for years. Adults in the top ten percent of lifetime cognitive enrichment — reading, writing, learning new languages, taking on mentally demanding work — had a 38 percent lower risk of developing Alzheimer's compared to those in the bottom ten percent. Onset delayed by about five years. It's not a cure. 21 percent of the high-enrichment group still developed Alzheimer's. But this is one of the largest protective effects we have for dementia — and it costs nothing. Keep learning. Your brain is building reserve."
 
 ---
 
@@ -56,5 +56,5 @@
 - **Story 1:** Seragon Biosciences / Tsinghua University. "SRN-901, a Novel Longevity Combination Drug, Extends Lifespan and Healthspan." *Drug Design, Development and Therapy*, April 2026.
 - **Story 2:** Fight Aging! Newsletter, "Antiretroviral FTC/TAF reduces DunedinPACE and PhenoAge in healthy adults," April 20, 2026.
 - **Story 3:** Fight Aging! Newsletter, "HMGB1 Box A induces DNA gap formation and reverses proteomic aging markers in aged primates," April 20, 2026.
-- **Story 4:** NIA Interventions Testing Program, "Eleven compounds report null lifespan results in mice," April 2026.
-- **Story 5:** World Mitochondria Society / International Society of Microbiota, "Targeting Longevity 2026: Scientists shift the longevity debate from 'fixing aging' to preserving biological coordination," EurekAlert!, April 8–9, 2026.
+- **Story 4:** Zammit AR et al. "Lifetime cognitive enrichment and risk of incident Alzheimer disease dementia." *Neurology*, February 2026 — Rush University Medical Center.
+- **Story 5:** World Mitochondria Society / International Society of Microbiota. "Targeting Longevity 2026: Scientists shift the longevity debate from 'fixing aging' to preserving biological coordination." EurekAlert!, April 8–9, 2026.
