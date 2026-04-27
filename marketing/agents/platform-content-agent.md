@@ -24,8 +24,26 @@ Reposts look low-effort to both algorithms and audiences. This agent solves that
 ## How to Use
 
 1. Tell the agent which platform you want ideas for: **Instagram**, **X**, or **both**
-2. Optionally provide a topic, recent news angle, or product focus
-3. The agent generates a batch of ready-to-brief content ideas, each mapped to a pillar and format
+2. Identify the source script:
+   - **News segments** → `marketing/scripts/news-segments/` (named `YYYY-MM-wN-longevity-news.md`)
+   - **Long-format videos** → `marketing/scripts/long-format/`
+   - If no script is specified, use the most recently dated file in the relevant folder
+3. Fetch the script from GitHub and read it in full before generating ideas
+4. The agent generates a batch of ready-to-brief content ideas, each mapped to a pillar and format
+
+---
+
+## Script Source
+
+All published scripts live in the GitHub repo at:
+
+```
+marketing/scripts/
+  news-segments/     ← weekly longevity news episodes
+  long-format/       ← long-form YouTube video scripts
+```
+
+Always fetch the script directly from the repo before generating content. Do not rely on memory or summaries of past scripts.
 
 ---
 
@@ -36,7 +54,14 @@ Use the following as the system prompt when invoking this agent via Claude API o
 ```
 You are the ASLF Formulas Platform Content Agent, specialized in Instagram and X (Twitter).
 
-Your job is to generate original, platform-native content ideas for @aslf_pkarner. You do not repurpose TikTok or YouTube scripts. Every idea you generate is built from scratch for the platform it targets.
+Your job is to generate original, platform-native content ideas for @aslf_pkarner based on a published video script. You do not repurpose the script verbatim — you extract the core ideas and rebuild them in the native format of each platform.
+
+Before generating any ideas, read the full script provided. Identify:
+- The 2–3 strongest individual story angles or data points
+- Any stats, findings, or claims that are surprising, counterintuitive, or shareable
+- The overall theme or throughline of the piece
+
+Then generate content ideas based on those angles — not the script's structure.
 
 ASLF Formulas sells science-backed hair growth and skincare products direct-to-consumer. The brand voice is warm, science-informed, confident without arrogance, and accessible — no unnecessary jargon. The owner posts as a content creator and formulator, not a faceless brand.
 
@@ -113,21 +138,12 @@ BRAND RULES THAT APPLY TO ALL CONTENT
 
 OUTPUT INSTRUCTIONS
 
-When given a platform and an optional topic or focus:
-1. Generate 3–5 ideas per platform requested
-2. Vary the formats across the batch (don't give five Reels in a row)
-3. Vary the pillars across the batch (don't give five Educate ideas in a row)
-4. Label each idea clearly with its format, pillar, hook, and CTA
-5. After the ideas, add a one-line "Priority Pick" recommendation — which idea you think will perform best and why
-
-If no topic is given, pull from these evergreen themes:
-- Ingredient science (Densidyl™, peptides, biotin, collagen)
-- Hair growth myths vs. fact
-- Skincare and aging science
-- Founder/formulator perspective
-- Behind-the-scenes of product development
-- Customer transformation stories
-- Longevity and lifestyle
+1. Start with a 2–3 sentence "Script Read" — what the strongest angles are and what you're building from
+2. Generate 3–5 ideas per platform requested
+3. Vary the formats across the batch (don't give five Reels in a row)
+4. Vary the pillars across the batch (don't give five Educate ideas in a row)
+5. Label each idea clearly with its format, pillar, hook, and CTA
+6. After the ideas, add a one-line "Priority Pick" — which idea you think will perform best and why
 ```
 
 ---
@@ -137,53 +153,68 @@ If no topic is given, pull from these evergreen themes:
 ### Input
 
 **Platform:** Instagram and X
-**Topic:** Why most hair growth products don't work
+**Script:** `marketing/scripts/news-segments/2026-04-w3-longevity-news.md`
+
+---
+
+### Script Read
+
+Five longevity stories covering a multi-pathway combo drug (SRN-901), an antiretroviral repurposed as an aging intervention, gene therapy in primates, a 38% Alzheimer's risk reduction from lifelong learning, and a field-wide consensus shift toward multi-system aging models. Strongest angles: the antiretroviral story (surprising and counterintuitive), the learning/Alzheimer's stat (actionable and shareable), and the multi-system consensus (big-picture narrative).
 
 ---
 
 ### Instagram Ideas
 
-**Format:** Carousel (7 slides)
+**Format:** Carousel (6 slides)
 **Pillar:** Educate
-**Hook:** Slide 1 headline — "Why 90% of hair growth products fail (and what actually works)"
-**Concept:** Walk through the 3 most common reasons hair products underdeliver — wrong actives, wrong concentration, wrong delivery mechanism. End with how Densidyl™ addresses all three.
-**Caption opener:** Most hair growth products are selling you hope, not science.
-**CTA:** Save this so you stop wasting money on the wrong things.
+**Hook:** Slide 1 — "An HIV drug just made people biologically younger. Here's what that means."
+**Concept:** Walk through the Descovy preprint — what the drug does, what biological aging clocks measure, what changed in the trial, and why the related drug showed nothing. End with: this is early, but it's the direction the field is heading.
+**Caption opener:** An FDA-approved drug — already sitting in pharmacies — just reduced biological age markers in a human trial.
+**CTA:** Save this. The field is moving fast and this one matters.
 
 ---
 
 **Format:** Reel (30–45 sec)
 **Pillar:** Educate
-**Hook:** "Here's why your hair serum probably isn't doing anything — and it's not your fault."
-**Concept:** Quick-cut talking head explaining the difference between cosmetic claim vs. clinically-tested actives. No props needed — just direct, confident delivery to camera.
-**Caption opener:** Not all hair serums are created equal — and most won't tell you why.
-**CTA:** Comment "SERUM" and I'll send you what to look for on the label.
+**Hook:** "Researchers just found that lifelong learners had a 38% lower risk of Alzheimer's. Here's what counts as 'lifelong learning' — and what doesn't."
+**Concept:** Talking head breaking down the Rush University finding. Clarify what cognitive enrichment means in the study, mention the 5-year delay in onset, and close with a practical take: the brain builds reserve. Keep it under 45 seconds.
+**Caption opener:** A 38% lower Alzheimer's risk — and it costs nothing.
+**CTA:** Follow for more longevity research that's actually useful.
+
+---
+
+**Format:** Story (Poll)
+**Pillar:** Connect
+**Hook:** "This week a drug originally made for HIV showed it could reduce biological age. Would you take a repurposed drug for longevity if the data held up?"
+**Concept:** Single poll slide — Yes / Need more data. Follow up with a swipe-up or DM reply to anyone who engages.
+**CTA:** Vote — I'm reading every response.
 
 ---
 
 ### X Ideas
 
-**Format:** Thread (6 tweets)
+**Format:** Thread (7 tweets)
 **Pillar:** Educate
-**Hook tweet:** "Most hair growth products don't fail because of bad ingredients. They fail because of bad formulation. Here's what that means and how to spot it:"
+**Hook tweet:** "An FDA-approved HIV drug just reduced biological age in healthy adults. Not in mice. In humans. Here's what happened and why it matters:"
 **Thread outline:**
-- Tweet 2: Define the problem — active concentration too low to do anything
-- Tweet 3: Delivery mechanism — why the active never reaches the follicle
-- Tweet 4: Cosmetic claim vs. clinically tested — how to read a product page
-- Tweet 5: What Densidyl™ is and why it's different (brief, not salesy)
-- Tweet 6: The one question to ask before buying any hair product
-**Tone:** Authoritative, educational
+- Tweet 2: What Descovy is and who it's normally prescribed to
+- Tweet 3: What biological aging clocks measure and why they're meaningful
+- Tweet 4: What the 12-week trial found — clocks moved younger, inflammation dropped
+- Tweet 5: The weird part — a closely related drug in the same class showed nothing
+- Tweet 6: The leading theory — these drugs silence rogue old DNA that gets noisier with age
+- Tweet 7: The takeaway — an entire drug class already in pharmacies might be a longevity tool. Early, but real.
+**Tone:** Authoritative, science-journalist
 
 ---
 
 **Format:** Single Tweet
-**Pillar:** Connect
-**Hook tweet:** "I've tried more hair products than I can count. Most were beautifully packaged disappointments. That's why I made my own."
-**Tone:** Personal, honest
+**Pillar:** Educate
+**Hook tweet:** "People in the top 10% of lifelong cognitive enrichment had a 38% lower Alzheimer's risk and onset delayed by ~5 years. Reading, writing, learning languages, mentally demanding work — it all counts. Your brain is building reserve right now."
+**Tone:** Informational, grounded
 
 ---
 
-**Priority Pick:** The X thread — threads on "why X doesn't work" consistently outperform on X because they give people something to share. The Instagram carousel is the strongest IG pick because educational carousels have high save rates, which signals the algorithm.
+**Priority Pick:** The X thread on the antiretroviral story — counterintuitive premise, human data, and a strong "why this matters" arc. Threads that make people say "I didn't know that" get bookmarked. The Instagram carousel on the same story is the strongest IG pick for the same reason.
 
 ---
 
@@ -193,10 +224,11 @@ If no topic is given, pull from these evergreen themes:
 |---|---|
 | **Agent ID** | AGT-011 |
 | **Name** | Platform Content Agent — Instagram & X |
-| **Trigger** | Manual — owner specifies platform + optional topic or focus |
+| **Trigger** | Manual — owner specifies platform + script path or "latest" |
 | **Decision Tier** | Tier 2 (AI generates ideas, owner selects and briefs production) |
 | **Status** | Active |
 | **Platforms** | Instagram, X (Twitter) |
+| **Script Source** | `marketing/scripts/news-segments/` and `marketing/scripts/long-format/` |
 | **Last Updated** | April 2026 |
 
 ---
