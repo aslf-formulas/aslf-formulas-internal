@@ -21,6 +21,7 @@
 | 8 | **Confirm Business Insurance Coverage** | Owner Review | Application submitted March 2026. Once confirmed, document policy number, coverage amounts, and renewal date here. | Pending insurer |
 | 10 | **Add Amazon Front Page (A+ Content / Store Page)** | Owner Action | Set up or update the Amazon storefront/front page for ASLF Formulas products. | — |
 | 11 | **Verify TikTok Account for Business** | Owner Action | Complete TikTok's business account verification process. | — |
+| 12 | **Create Order Insert Brochure** | Owner Action | Design and produce a branded brochure to include with every order. Should reinforce brand identity, highlight product benefits, include QR code or URL for reorders/reviews, and reflect ASLF Formulas' science-backed, no-filler positioning. | — |
 
 ---
 
@@ -28,7 +29,7 @@
 
 | # | Task | Notes |
 |---|---|---|
-| 1 | **Cut and publish Shorts from long-format videos** | Clip highlights from new long-form YouTube content and publish as YouTube Shorts |
+| 1 | **Cut and publish Shorts from long-format videos** | Clip highlights from new long-form YouTube content and publish as YouTube Shoots |
 
 ---
 
@@ -37,7 +38,6 @@
 | # | Task | Notes | Deadline |
 |---|---|---|---|
 | 1 | **Plan trip to Portugal** | | — |
-| 2 | **[TEST] Claude GitHub MCP write test** | Added via Claude GitHub MCP integration — confirms write access is working. Safe to delete. | — |
 
 ---
 
