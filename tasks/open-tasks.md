@@ -21,6 +21,7 @@
 | 7 | **Reapply for Chase Business Credit Card** | Owner Action | If reconsideration (#1) fails, build credit with a secured business card for 6 months, then reapply. | 6 months |
 | 8 | **Confirm Business Insurance Coverage** | Owner Review | Application submitted March 2026. Once confirmed, document policy number, coverage amounts, and renewal date here. | Pending insurer |
 | 10 | **Add Amazon Front Page (A+ Content / Store Page)** | Owner Action | Set up or update the Amazon storefront/front page for ASLF Formulas products. | — |
+| 11 | **Develop Platform-Native Strategy for Instagram and X** | Owner Action | Currently reposting YouTube/TikTok content verbatim — content performs well on YouTube/TikTok but is underperforming on IG and X. Need to develop dedicated strategies for each platform: native formats, caption structures, posting cadence, and how to adapt the four content pillars (Educate, Transform, Sell, Connect) to IG and X's distinct algorithms and audiences. | — |
 
 ---
 
