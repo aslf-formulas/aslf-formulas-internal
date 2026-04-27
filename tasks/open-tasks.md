@@ -21,7 +21,6 @@
 | 7 | **Reapply for Chase Business Credit Card** | Owner Action | If reconsideration (#1) fails, build credit with a secured business card for 6 months, then reapply. | 6 months |
 | 8 | **Confirm Business Insurance Coverage** | Owner Review | Application submitted March 2026. Once confirmed, document policy number, coverage amounts, and renewal date here. | Pending insurer |
 | 10 | **Add Amazon Front Page (A+ Content / Store Page)** | Owner Action | Set up or update the Amazon storefront/front page for ASLF Formulas products. | — |
-| 11 | **Verify TikTok Account for Business** | Owner Action | Complete TikTok's business account verification process. | — |
 
 ---
 
@@ -60,6 +59,7 @@
 | Website Policies Published | March 2026 | Privacy, Return, Shipping, Accessibility, Privacy Choices, Contact — all live |
 | Update Website About Page | April 2026 | Updated aslf-formulas.com About page with current content |
 | Document Registered Agent Info | April 2026 | Registered Agents Inc. (Austin, TX) — full details in business-setup-checklist.md |
+| Verify TikTok Account for Business | April 2026 | Business account verified |
 
 ---
 
