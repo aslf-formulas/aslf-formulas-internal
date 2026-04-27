@@ -37,6 +37,7 @@
 | # | Task | Notes | Deadline |
 |---|---|---|---|
 | 1 | **Plan trip to Portugal** | | — |
+| 2 | **[TEST] Claude GitHub MCP write test** | Added via Claude GitHub MCP integration — confirms write access is working. Safe to delete. | — |
 
 ---
 
