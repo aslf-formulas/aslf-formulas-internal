@@ -30,7 +30,7 @@
 | # | Task | Notes |
 |---|---|---|
 | 1 | **Cut and publish Shorts from long-format videos** | Clip highlights from new long-form YouTube content and publish as YouTube Shorts |
-| 2 | **Answer comments on YouTube videos** | Reply to new comments across all videos. Keep replies under 150 characters (agent constraint). |
+| 2 | **Answer social media comments** | Reply to new comments across all social media platforms. Keep replies under 150 characters (agent constraint). |
 
 ---
 
