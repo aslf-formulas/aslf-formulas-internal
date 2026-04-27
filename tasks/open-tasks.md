@@ -8,6 +8,7 @@
 |---|---|---|---|---|
 | 1 | **Chase Business Credit Card — Follow Up** | Owner Action | Call Chase reconsideration: **1-800-432-3117**. Active Chase business checking account on file. Need card for supplier chargeback protection. If denied → apply for secured business card first. See [business-setup-checklist.md](../finance/business-setup-checklist.md) | ASAP |
 | 2 | **Texas Franchise Tax — File No Tax Due Report** | Owner Action | File at [Texas Webfile](https://comptroller.texas.gov/taxes/file-pay/). No payment required under $2.47M revenue. Automated reminder fires April 15. | May 15, 2026 |
+| 3 | **Create Order Insert Brochure** | Owner Action | Design and produce a branded brochure to include with every order. Should reinforce brand identity, highlight product benefits, include QR code or URL for reorders/reviews, and reflect ASLF Formulas' science-backed, no-filler positioning. | — |
 
 ---
 
@@ -21,7 +22,6 @@
 | 8 | **Confirm Business Insurance Coverage** | Owner Review | Application submitted March 2026. Once confirmed, document policy number, coverage amounts, and renewal date here. | Pending insurer |
 | 10 | **Add Amazon Front Page (A+ Content / Store Page)** | Owner Action | Set up or update the Amazon storefront/front page for ASLF Formulas products. | — |
 | 11 | **Verify TikTok Account for Business** | Owner Action | Complete TikTok's business account verification process. | — |
-| 12 | **Create Order Insert Brochure** | Owner Action | Design and produce a branded brochure to include with every order. Should reinforce brand identity, highlight product benefits, include QR code or URL for reorders/reviews, and reflect ASLF Formulas' science-backed, no-filler positioning. | — |
 
 ---
 
@@ -29,7 +29,7 @@
 
 | # | Task | Notes |
 |---|---|---|
-| 1 | **Cut and publish Shorts from long-format videos** | Clip highlights from new long-form YouTube content and publish as YouTube Shoots |
+| 1 | **Cut and publish Shorts from long-format videos** | Clip highlights from new long-form YouTube content and publish as YouTube Shorts |
 
 ---
 
