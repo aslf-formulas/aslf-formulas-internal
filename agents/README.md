@@ -36,6 +36,7 @@ Each department manages its own agents inside a dedicated `agents/` subfolder:
 | AGT-009 | [marketing/agents/video-comment-agent.md](../marketing/agents/video-comment-agent.md) | Marketing | Reply to video comments | Tier 2 | Active |
 | AGT-010 | [marketing/agents/longevity-news-script-agent.md](../marketing/agents/longevity-news-script-agent.md) | Marketing | Research and draft weekly longevity news script | Tier 2 | Active |
 | AGT-011 | [marketing/agents/platform-content-agent.md](../marketing/agents/platform-content-agent.md) | Marketing | Generate platform-native content ideas for Instagram and X | Tier 2 | Active |
+| AGT-012 | [marketing/agents/shorts-agent.md](../marketing/agents/shorts-agent.md) | Marketing | Identify best segments from long-format videos to repurpose as Shorts | Tier 2 | Active |
 
 ---
 
