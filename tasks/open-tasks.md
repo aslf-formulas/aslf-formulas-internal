@@ -10,6 +10,7 @@
 | 2 | **Texas Franchise Tax — File No Tax Due Report** | Owner Action | File at [Texas Webfile](https://comptroller.texas.gov/taxes/file-pay/). No payment required under $2.47M revenue. Automated reminder fires April 15. | May 15, 2026 |
 | 3 | **Create Order Insert Brochure** | Owner Action | Design and produce a branded brochure to include with every order. Should reinforce brand identity, highlight product benefits, include QR code or URL for reorders/reviews, and reflect ASLF Formulas' science-backed, no-filler positioning. | — |
 | 4 | **Add Densidyl Before/After Photos to Website** | Owner Action | Pull before/after photos from existing Densidyl customer testimonies and add them to the Hair Growth Boost Serum product page (and supporting pages where relevant) for social proof. Strengthens conversion on the storefront. | — |
+| 9 | **Fix Product Hover Images on Storefront** | Owner Action | On aslf-formulas.com product grid, the hover-state ("second image") shown on each product card doesn't match expectations — images appear mismatched or inconsistent across products. Audit primary + hover image pairs for every product in Shopify and correct any that show the wrong image on hover. | — |
 
 ---
 
