@@ -9,6 +9,7 @@
 | 1 | **Chase Business Credit Card — Follow Up** | Owner Action | Call Chase reconsideration: **1-800-432-3117**. Active Chase business checking account on file. Need card for supplier chargeback protection. If denied → apply for secured business card first. See [business-setup-checklist.md](../finance/business-setup-checklist.md) | ASAP |
 | 2 | **Texas Franchise Tax — File No Tax Due Report** | Owner Action | File at [Texas Webfile](https://comptroller.texas.gov/taxes/file-pay/). No payment required under $2.47M revenue. Automated reminder fires April 15. | May 15, 2026 |
 | 3 | **Create Order Insert Brochure** | Owner Action | Design and produce a branded brochure to include with every order. Should reinforce brand identity, highlight product benefits, include QR code or URL for reorders/reviews, and reflect ASLF Formulas' science-backed, no-filler positioning. | — |
+| 4 | **Add Densidyl Before/After Photos to Website** | Owner Action | Pull before/after photos from existing Densidyl customer testimonies and add them to the Hair Growth Boost Serum product page (and supporting pages where relevant) for social proof. Strengthens conversion on the storefront. | — |
 
 ---
 
