@@ -24,6 +24,7 @@
 | 8 | **Confirm Business Insurance Coverage** | Owner Review | Application submitted March 2026. Once confirmed, document policy number, coverage amounts, and renewal date here. | Pending insurer |
 | 10 | **Add Amazon Front Page (A+ Content / Store Page)** | Owner Action | Set up or update the Amazon storefront/front page for ASLF Formulas products. | — |
 | 11 | **Develop Platform-Native Strategy for Instagram and X** | Owner Action | Currently reposting YouTube/TikTok content verbatim — content performs well on YouTube/TikTok but is underperforming on IG and X. Need to develop dedicated strategies for each platform: native formats, caption structures, posting cadence, and how to adapt the four content pillars (Educate, Transform, Sell, Connect) to IG and X's distinct algorithms and audiences. | — |
+| 12 | **Create Pets Page — aslf-formulas.com/pets** | Owner Action | Build a standalone pets page at aslf-formulas.com/pets, completely independent from existing product pages but sharing the same base URL and brand aesthetic. Page should introduce the ASLF Formulas canine longevity supplement line, reflect the science-backed, ingredient-transparent brand positioning, and serve as a landing point for the canine product line. In Shopify, this can be done via Pages (Online Store → Pages → Add page, set URL handle to `pets`) or as a separate collection page. No cross-linking with existing human product pages required — treat it as its own section. | — |
 
 ---
 
