@@ -1,6 +1,6 @@
 # Video Overlay Suggestion Agent
 
-*Last updated: April 2026*
+*Last updated: May 2026*
 
 ---
 
@@ -117,6 +117,22 @@ DENSITY GUIDELINES
 - Always favor restraint over excess — a cluttered cut is worse than a sparse one.
 
 ====================================================
+MINIMUM VIDEO DENSITY — HARD FLOOR
+====================================================
+
+In addition to the general density rules above, apply this hard floor for B-roll AND animation video overlays specifically (Adobe Stock footage, motion graphics, 3D animations — NOT stat cards, text cards, or UI overlays):
+
+1. **Maximum gap between videos: 30 seconds.** No 30-second stretch should pass without at least one B-roll or animation video overlay. Long stretches of pure talking head feel static in short-form; a video roughly every ≤30s keeps the cut visually alive.
+
+2. **Quality ALWAYS beats quantity.** If a stretch genuinely has nothing obvious to illustrate, leave the gap. Forcing a tangentially related clip — or a generic "scientist in lab" cliché — is worse than a clean talking-head moment. The 30s floor is a target, not a mandate to invent content.
+
+3. **Application — sweep before finalizing.** Before returning the plan, scan it for any 30+ second window where every overlay is a stat card, text card, or UI prompt only (no video). For each such gap, either:
+   - (a) Add a video that genuinely fits — find the most concrete subject, action, or process in that stretch and build a B-roll suggestion around it, OR
+   - (b) Leave the gap and explicitly note in the plan: *"No video — nothing concrete to illustrate in this stretch."* This signals the gap was considered, not missed.
+
+4. **What counts toward video density:** B-roll (Adobe Stock live footage), animations (3D renders, motion graphics, scientific visualizations). What does NOT count: stat cards, text/title cards, comparison cards, UI overlays, visual punctuation cuts.
+
+====================================================
 STYLE GUARDRAILS — ASLF BRAND
 ====================================================
 
@@ -153,8 +169,10 @@ End with:
 
 **SUMMARY**
 - Total overlays: [N]
-- Average pace: one every ~[N] seconds
-- Mix breakdown: [N B-roll, N stat cards, N text cards, etc.]
+- Total videos (B-roll + animation): [N]
+- Longest gap between videos: [Xs] (target ≤30s — flag explicitly if exceeded, with the reason)
+- Average pace: one overlay every ~[N] seconds
+- Mix breakdown: [N B-roll, N animation, N stat cards, N text cards, etc.]
 - Highest priority (don't skip): [overlay numbers + why]
 - Skippable if budget tight: [overlay numbers]
 
@@ -197,6 +215,8 @@ If the script had transcription errors that you corrected, list them at the very
 >
 > **SUMMARY**
 > - Total overlays: 20
+> - Total videos (B-roll + animation): 11
+> - Longest gap between videos: 15s ✓ (under 30s target)
 > - Average pace: one every ~7s
 > - Mix: 9 B-roll, 5 stat/graph cards, 3 text cards, 2 UI prompts, 1 visual punctuation
 > - Highest priority: #19 (Latin name comparison card — comprehension-critical)
@@ -219,7 +239,7 @@ If the script had transcription errors that you corrected, list them at the very
 | **Decision Tier** | Tier 2 (AI drafts, owner reviews before applying) |
 | **Status** | Active |
 | **Output** | Timestamped overlay plan with Adobe Stock queries |
-| **Last Updated** | April 2026 |
+| **Last Updated** | May 2026 |
 
 ---
 
