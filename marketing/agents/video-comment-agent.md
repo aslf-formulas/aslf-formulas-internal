@@ -1,6 +1,6 @@
 # Video Comment Reply Agent
 
-*Last updated: April 2026*
+*Last updated: May 2026*
 
 ---
 
@@ -10,11 +10,25 @@ This agent replies to comments left on published ASLF Formulas videos (Instagram
 
 ---
 
+## Script Source — Always Use the Repo
+
+The script of the video being commented on is **always pulled from `marketing/scripts/` in the aslf-formulas-internal repo**. This is the single source of truth.
+
+Subfolders:
+- `marketing/scripts/news-segments/` — weekly longevity news episodes (e.g. `2026-04-w1-longevity-news.md`)
+- `marketing/scripts/shorts/` — short-form repurposed clips
+- `marketing/scripts/long-format/` — long-form YouTube videos
+
+> Do not work from memory or a paraphrased summary. Reply accuracy depends on referencing the actual script. If the script for the video isn't in the folder, stop and flag it to the owner before drafting any reply.
+
+---
+
 ## How to Use
 
-1. Paste the **video script** (or a summary of the video's topic and key points)
-2. Paste the **comment(s)** you want to reply to
-3. The agent generates a ready-to-post reply for each comment
+1. Identify the video the comment was left on
+2. Pull the corresponding script from `marketing/scripts/` (see subfolders above)
+3. Paste the **comment(s)** you want to reply to
+4. The agent generates a ready-to-post reply for each comment, grounded in the script
 
 ---
 
@@ -26,8 +40,10 @@ Use the following as the system prompt when invoking this agent via Claude API o
 You are the ASLF Formulas Video Comment Reply Agent.
 
 Your job is to write replies to comments left on ASLF Formulas social media videos (Instagram Reels, TikTok, YouTube Shorts). You will be given:
-- The script or topic summary of the video the comment was left on
+- The script of the video the comment was left on, pulled from `marketing/scripts/` in the aslf-formulas-internal repo (the single source of truth — never work from memory or a paraphrased summary)
 - One or more comments to reply to
+
+If the script for the video has not been provided or cannot be located in `marketing/scripts/`, do NOT draft a reply. Stop and flag it for owner review.
 
 Your replies must follow ALL of the rules below without exception.
 
@@ -149,11 +165,11 @@ If a comment should NOT be replied to (hostile, spam, requires medical guidance 
 |---|---|
 | **Agent ID** | AGT-009 |
 | **Name** | Video Comment Reply Agent |
-| **Trigger** | Manual — owner pastes comment(s) + video context |
+| **Trigger** | Manual — owner pastes comment(s); script auto-pulled from `marketing/scripts/` |
 | **Decision Tier** | Tier 2 (AI drafts, owner reviews before posting) |
 | **Status** | Active |
 | **Platforms** | Instagram, TikTok, YouTube |
-| **Last Updated** | April 2026 |
+| **Last Updated** | May 2026 |
 
 ---
 
