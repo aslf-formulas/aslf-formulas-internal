@@ -122,11 +122,11 @@ MINIMUM VIDEO DENSITY — HARD FLOOR
 
 In addition to the general density rules above, apply this hard floor for B-roll AND animation video overlays specifically (Adobe Stock footage, motion graphics, 3D animations — NOT stat cards, text cards, or UI overlays):
 
-1. **Maximum gap between videos: 30 seconds.** No 30-second stretch should pass without at least one B-roll or animation video overlay. Long stretches of pure talking head feel static in short-form; a video roughly every ≤30s keeps the cut visually alive.
+1. **Maximum gap between videos: 10 seconds.** No 10-second stretch should pass without at least one B-roll or animation video overlay. Long stretches of pure talking head feel static in short-form; a video roughly every ≤10s keeps the cut visually alive. (Rationale: short-form retention research consistently recommends b-roll cadence of 3–10s for TikTok / YouTube Shorts. ASLF uses 10s as the upper bound — tight enough to stay dynamic, loose enough that the talking-head delivery still has breathing room. Revisit if early TikTok analytics suggest mid-video drop-off; consider 5–7s if so.)
 
-2. **Quality ALWAYS beats quantity.** If a stretch genuinely has nothing obvious to illustrate, leave the gap. Forcing a tangentially related clip — or a generic "scientist in lab" cliché — is worse than a clean talking-head moment. The 30s floor is a target, not a mandate to invent content.
+2. **Quality ALWAYS beats quantity.** If a stretch genuinely has nothing obvious to illustrate, leave the gap. Forcing a tangentially related clip — or a generic "scientist in lab" cliché — is worse than a clean talking-head moment. The 10s floor is a target, not a mandate to invent content.
 
-3. **Application — sweep before finalizing.** Before returning the plan, scan it for any 30+ second window where every overlay is a stat card, text card, or UI prompt only (no video). For each such gap, either:
+3. **Application — sweep before finalizing.** Before returning the plan, scan it for any 10+ second window where every overlay is a stat card, text card, or UI prompt only (no video). For each such gap, either:
    - (a) Add a video that genuinely fits — find the most concrete subject, action, or process in that stretch and build a B-roll suggestion around it, OR
    - (b) Leave the gap and explicitly note in the plan: *"No video — nothing concrete to illustrate in this stretch."* This signals the gap was considered, not missed.
 
@@ -170,7 +170,7 @@ End with:
 **SUMMARY**
 - Total overlays: [N]
 - Total videos (B-roll + animation): [N]
-- Longest gap between videos: [Xs] (target ≤30s — flag explicitly if exceeded, with the reason)
+- Longest gap between videos: [Xs] (target ≤10s — flag explicitly if exceeded, with the reason)
 - Average pace: one overlay every ~[N] seconds
 - Mix breakdown: [N B-roll, N animation, N stat cards, N text cards, etc.]
 - Highest priority (don't skip): [overlay numbers + why]
@@ -189,7 +189,7 @@ If the script had transcription errors that you corrected, list them at the very
 
 > **OVERLAY PLAN — Longevity News, Week of April 27, 2026**
 >
-> Total runtime: 2:27 | Format: Short-form vertical | Total overlays: 20
+> Total runtime: 2:27 | Format: Short-form vertical | Total overlays: 22
 >
 > ### HOOK — 0:00–0:04
 > *"Five things that happened in the longevity world this week..."*
@@ -214,12 +214,12 @@ If the script had transcription errors that you corrected, list them at the very
 > *(continues for every overlay through the close...)*
 >
 > **SUMMARY**
-> - Total overlays: 20
-> - Total videos (B-roll + animation): 11
-> - Longest gap between videos: 15s ✓ (under 30s target)
+> - Total overlays: 22
+> - Total videos (B-roll + animation): 14
+> - Longest gap between videos: 9s ✓ (under 10s target)
 > - Average pace: one every ~7s
-> - Mix: 9 B-roll, 5 stat/graph cards, 3 text cards, 2 UI prompts, 1 visual punctuation
-> - Highest priority: #19 (Latin name comparison card — comprehension-critical)
+> - Mix: 11 B-roll, 5 stat/graph cards, 3 text cards, 2 UI prompts, 1 visual punctuation
+> - Highest priority: #22 (Latin name comparison card — comprehension-critical)
 > - Skippable if budget tight: elephant cutaway, UI prompts at the close
 >
 > **CORRECTIONS APPLIED**
