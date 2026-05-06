@@ -1,6 +1,6 @@
 # Open Tasks
 
-*Last updated: April 2026*
+*Last updated: May 2026*
 
 ## High Priority
 
@@ -11,6 +11,7 @@
 | 3 | **Create Order Insert Brochure** | Owner Action | Design and produce a branded brochure to include with every order. Should reinforce brand identity, highlight product benefits, include QR code or URL for reorders/reviews, and reflect ASLF Formulas' science-backed, no-filler positioning. | — |
 | 4 | **Add Densidyl Before/After Photos to Website** | Owner Action | Pull before/after photos from existing Densidyl customer testimonies and add them to the Hair Growth Boost Serum product page (and supporting pages where relevant) for social proof. Strengthens conversion on the storefront. | — |
 | 9 | **Fix Product Hover Images on Storefront** | Owner Action | On aslf-formulas.com product grid, the hover-state ("second image") shown on each product card doesn't match expectations — images appear mismatched or inconsistent across products. Audit primary + hover image pairs for every product in Shopify and correct any that show the wrong image on hover. | — |
+| 13 | **Create Hair Serum How-To Card with Expected Results Timeline** | Owner Action | Design a "how to use" card for the Hair Growth Boost Serum that includes: step-by-step usage instructions (application method, frequency, amount), expected results timeline (e.g. Week 2–4: reduced shedding, Month 2–3: new growth visible, Month 4–6: measurable density improvement), and a note anchoring expectations to the Densidyl™ clinical data. Card can serve dual purpose: physical insert in orders and a digital asset for social/email. Coordinate with order insert brochure (Task #3) — may be combined into one piece or kept separate depending on design. | — |
 
 ---
 
@@ -68,4 +69,4 @@
 
 ---
 
-*Last updated: April 2026*
+*Last updated: May 2026*
