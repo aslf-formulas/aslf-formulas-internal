@@ -10,7 +10,6 @@
 | 2 | **Texas Franchise Tax — File No Tax Due Report** | Owner Action | File at [Texas Webfile](https://comptroller.texas.gov/taxes/file-pay/). No payment required under $2.47M revenue. Automated reminder fires April 15. | May 15, 2026 |
 | 3 | **Create Order Insert Brochure** | Owner Action | Design and produce a branded brochure to include with every order. Should reinforce brand identity, highlight product benefits, include QR code or URL for reorders/reviews, and reflect ASLF Formulas' science-backed, no-filler positioning. | — |
 | 4 | **Add Densidyl Before/After Photos to Website** | Owner Action | Pull before/after photos from existing Densidyl customer testimonies and add them to the Hair Growth Boost Serum product page (and supporting pages where relevant) for social proof. Strengthens conversion on the storefront. | — |
-| 9 | **Fix Product Hover Images on Storefront** | Owner Action | On aslf-formulas.com product grid, the hover-state ("second image") shown on each product card doesn't match expectations — images appear mismatched or inconsistent across products. Audit primary + hover image pairs for every product in Shopify and correct any that show the wrong image on hover. | — |
 | 13 | **Create Hair Serum How-To Card with Expected Results Timeline** | Owner Action | Design a "how to use" card for the Hair Growth Boost Serum that includes: step-by-step usage instructions (application method, frequency, amount), expected results timeline (e.g. Week 2–4: reduced shedding, Month 2–3: new growth visible, Month 4–6: measurable density improvement), and a note anchoring expectations to the Densidyl™ clinical data. Card can serve dual purpose: physical insert in orders and a digital asset for social/email. Coordinate with order insert brochure (Task #3) — may be combined into one piece or kept separate depending on design. | — |
 
 ---
@@ -19,6 +18,7 @@
 
 | # | Task | Type | Details | Deadline |
 |---|---|---|---|---|
+| 5 | **LLC Operating Agreement** | External Service | Not legally required in Texas but recommended. Have an attorney draft or use a legal service. Defines ownership, management, and dissolution process. | This quarter |
 | 6 | **Copyright Registration** | Owner Action | Register key YouTube videos and website content with US Copyright Office ($65–$85/filing). Trademark ≠ copyright — these are separate protections. | This year |
 | 7 | **Reapply for Chase Business Credit Card** | Owner Action | If reconsideration (#1) fails, build credit with a secured business card for 6 months, then reapply. | 6 months |
 | 8 | **Confirm Business Insurance Coverage** | Owner Review | Application submitted March 2026. Once confirmed, document policy number, coverage amounts, and renewal date here. | Pending insurer |
@@ -65,7 +65,7 @@
 | Update Website About Page | April 2026 | Updated aslf-formulas.com About page with current content |
 | Document Registered Agent Info | April 2026 | Registered Agents Inc. (Austin, TX) — full details in business-setup-checklist.md |
 | Verify TikTok Account for Business | April 2026 | Business account verified |
-| LLC Operating Agreement | May 2026 | Drafted and executed |
+| Fix Product Hover Images on Storefront | May 2026 | Audited and corrected primary + hover image pairs across all Shopify products |
 
 ---
 
