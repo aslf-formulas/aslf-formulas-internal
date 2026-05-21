@@ -10,7 +10,7 @@ This agent generates evergreen anti-aging and longevity topic ideas for standalo
 
 Topics from this agent are timeless — drawn from established longevity science domains (cellular senescence, mitochondrial health, NAD+, mTOR/rapamycin, autophagy, gut microbiome, sleep, exercise, fasting, hormesis, etc.) — and can be filmed this month or six months from now without going stale.
 
-Output is a topic backlog stored in `marketing/ideas/[YYYY-MM-topic-pool].md`. The owner draws from this backlog when ready to script a new standalone Short or long-form video.
+The agent returns a shortlist for the owner to pick from. Once the owner picks a topic, the chosen idea is handed off directly to the relevant scripting agent (AGT-015 for Shorts, AGT-016 for long-form). No persistent backlog is maintained — fresh ideas are generated each time the agent runs.
 
 ---
 
@@ -24,7 +24,7 @@ This agent runs in **a single phase**, invoked on demand.
    - **Exclusions** (e.g., "not mouse studies", "nothing controversial", "skip topics covered in the last 3 months")
    - **Quantity** (default: 10)
 2. Agent returns a tagged shortlist of topic ideas.
-3. Owner reviews and either picks one to take to scripting OR appends the shortlist to the monthly backlog file.
+3. Owner picks a topic. The pick is handed off to AGT-015 (Short) or AGT-016 (long-form) to begin scripting.
 
 ---
 
@@ -46,7 +46,6 @@ Before generating new ideas, review:
 1. marketing/scripts/standalone-shorts/ — recent standalone Short scripts
 2. marketing/scripts/long-form/ — recent long-form scripts
 3. marketing/scripts/news-segments/ — last 8 weeks of news episodes (to avoid overlap)
-4. marketing/ideas/ — recent topic-pool files (to avoid re-suggesting ideas the owner saw last month)
 
 If a topic has been covered recently, either skip it or propose a meaningfully different angle on it.
 
@@ -118,19 +117,7 @@ Context: [theme / format target / exclusions / quantity, or "open"]
 
 After the shortlist, end with:
 
-"Reply with the topic you want to script (e.g., 'topic 3'), and I'll hand off to the scripting agent. Or reply 'save' to append this shortlist to marketing/ideas/[current-month]-topic-pool.md as a backlog for later."
-
-====================================================
-SAVING TO BACKLOG
-====================================================
-
-If the owner replies "save", append the entire shortlist to:
-marketing/ideas/[YYYY-MM]-topic-pool.md
-
-Use YYYY-MM for the current month. If the file doesn't exist, create it with a header:
-"# Topic Backlog — [Month YYYY]"
-
-Append entries below any existing entries in the file. Each entry should retain its full format from Step 4 so the owner can come back to it later without re-running ideation.
+"Reply with the topic you want to script (e.g., 'topic 3'), and I'll hand off to the scripting agent (AGT-015 for Shorts, AGT-016 for long-form)."
 
 ====================================================
 TONE
@@ -169,7 +156,7 @@ Each topic should pass the test: could I write a one-sentence hook for this righ
 >
 > ... (continues)
 >
-> Reply with the topic you want to script (e.g., 'topic 3'), and I'll hand off to the scripting agent. Or reply 'save' to append this shortlist to marketing/ideas/2026-05-topic-pool.md as a backlog for later.
+> Reply with the topic you want to script (e.g., 'topic 3'), and I'll hand off to the scripting agent (AGT-015 for Shorts, AGT-016 for long-form).
 
 ---
 
@@ -182,10 +169,10 @@ Each topic should pass the test: could I write a one-sentence hook for this righ
 | **Trigger** | Manual — on demand when owner wants topic ideas |
 | **Decision Tier** | Tier 2 (AI generates, owner selects) |
 | **Status** | Active |
-| **Output** | Tagged topic shortlist + optional save to monthly backlog file |
+| **Output** | Tagged topic shortlist returned in chat. Owner-selected topic is handed off to AGT-015 or AGT-016. |
 | **Last Updated** | May 2026 |
 
 ---
 
 *Registered in the [Agent Index](../../agents/README.md).*
-*Output location: `marketing/ideas/[YYYY-MM]-topic-pool.md`*
+*Hands off to: [AGT-015](short-script-agent.md), [AGT-016](long-form-script-agent.md)*
