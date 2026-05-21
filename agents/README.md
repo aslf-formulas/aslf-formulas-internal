@@ -38,6 +38,7 @@ Each department manages its own agents inside a dedicated `agents/` subfolder:
 | AGT-011 | [marketing/agents/platform-content-agent.md](../marketing/agents/platform-content-agent.md) | Marketing | Generate platform-native content ideas for Instagram and X | Tier 2 | Active |
 | AGT-012 | [marketing/agents/shorts-agent.md](../marketing/agents/shorts-agent.md) | Marketing | Identify best segments from long-format videos to repurpose as Shorts | Tier 2 | Active |
 | AGT-013 | [marketing/agents/video-overlay-agent.md](../marketing/agents/video-overlay-agent.md) | Marketing | Generate full timestamped editing plan from script (B-roll, graphs, text, logos, zooms, pattern interrupts, SFX, loop close) | Tier 2 | Active |
+| AGT-018 | [marketing/agents/compliance-review-agent.md](../marketing/agents/compliance-review-agent.md) | Marketing | Review draft scripts against compliance and community rules before owner approval | Tier 2 | Active |
 
 ---
 
