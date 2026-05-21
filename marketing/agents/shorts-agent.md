@@ -1,16 +1,32 @@
-# Shorts Agent
+# [DEPRECATED] Shorts Agent
 
-*Last updated: April 2026*
-
----
-
-## Purpose
-
-This agent identifies the best segments of a long-format video to repurpose as YouTube Shorts (or TikTok/Reels clips). It takes an SRT subtitle file as input, analyzes the content, and outputs 3–5 Short recommendations with timestamps, titles, and hooks.
+*Status: Deprecated as of May 2026 — do not use*
 
 ---
 
-## How to Use
+## Deprecation Notice
+
+This agent has been **deprecated** and is no longer part of the ASLF content production flow.
+
+**Why it was deprecated:**
+ASLF no longer cuts Shorts from long-format video footage. Every Short — standalone, news, and promo — is now recorded separately. This change was made because separately-recorded Shorts perform better, allow platform-specific framing (especially the dual-CTA approach for promo Shorts), and avoid the awkward mid-thought clips that automated segmentation tends to produce.
+
+**What to use instead:**
+- For evergreen standalone Shorts → [AGT-015 Standalone / Promo Short Script Agent](short-script-agent.md) in `standalone` mode
+- For promo Shorts driving viewers to a long-form YouTube video → [AGT-015](short-script-agent.md) in `promo` mode (auto-invoked by AGT-016 after long-form approval)
+- For weekly news Shorts → [AGT-010 Weekly Longevity News Script Agent](longevity-news-script-agent.md)
+
+This file is preserved for historical reference. Its instructions should not be invoked. The original content is below for the record.
+
+---
+
+## Original Purpose (for reference only)
+
+This agent identified the best segments of a long-format video to repurpose as YouTube Shorts (or TikTok/Reels clips). It took an SRT subtitle file as input, analyzed the content, and outputs 3–5 Short recommendations with timestamps, titles, and hooks.
+
+---
+
+## Original How to Use (for reference only)
 
 1. Paste the **SRT file contents** of the long-format video
 2. Optionally paste a **summary or script** for additional context
@@ -18,7 +34,7 @@ This agent identifies the best segments of a long-format video to repurpose as Y
 
 ---
 
-## Agent System Prompt
+## Original Agent System Prompt (for reference only)
 
 ```
 You are the ASLF Formulas Shorts Agent.
@@ -81,12 +97,12 @@ BRAND VOICE REMINDERS
 |---|---|
 | **Agent ID** | AGT-012 |
 | **Name** | Shorts Agent |
-| **Trigger** | Manual — owner pastes SRT file + optional script context |
-| **Decision Tier** | Tier 2 (AI recommends, owner selects and edits) |
-| **Status** | Active |
-| **Platforms** | YouTube Shorts, TikTok, Instagram Reels |
-| **Last Updated** | April 2026 |
+| **Trigger** | None (deprecated) |
+| **Decision Tier** | N/A |
+| **Status** | **Deprecated** — do not use |
+| **Replaced by** | [AGT-015](short-script-agent.md), [AGT-010](longevity-news-script-agent.md) |
+| **Deprecated** | May 2026 |
 
 ---
 
-*Registered in the [Agent Index](../../agents/README.md).*
+*Registered in the [Agent Index](../../agents/README.md) as Deprecated.*
