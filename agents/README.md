@@ -39,8 +39,9 @@ Each department manages its own agents inside a dedicated `agents/` subfolder:
 | AGT-012 | [marketing/agents/shorts-agent.md](../marketing/agents/shorts-agent.md) | Marketing | Identify best segments from long-format videos to repurpose as Shorts | Tier 2 | Active |
 | AGT-013 | [marketing/agents/video-overlay-agent.md](../marketing/agents/video-overlay-agent.md) | Marketing | Generate full timestamped editing plan from script (B-roll, graphs, text, logos, zooms, pattern interrupts, SFX, loop close) | Tier 2 | Active |
 | AGT-014 | [marketing/agents/content-ideation-agent.md](../marketing/agents/content-ideation-agent.md) | Marketing | Generate evergreen anti-aging/longevity topic ideas for standalone Shorts and long-form videos | Tier 2 | Active |
-| AGT-015 | [marketing/agents/short-script-agent.md](../marketing/agents/short-script-agent.md) | Marketing | Draft standalone or promo Short scripts (30–90s vertical), compliance-reviewed and routed to repo | Tier 2 | Active |
-| AGT-016 | [marketing/agents/long-form-script-agent.md](../marketing/agents/long-form-script-agent.md) | Marketing | Draft 8–15 min YouTube long-form scripts, compliance-reviewed and routed to repo. Auto-triggers AGT-015 promo mode on approval. | Tier 2 | Active |
+| AGT-015 | [marketing/agents/short-script-agent.md](../marketing/agents/short-script-agent.md) | Marketing | Draft standalone or promo Short scripts (30–90s vertical), compliance-reviewed and routed to repo. Promo mode produces dual CTAs per variant. | Tier 2 | Active |
+| AGT-016 | [marketing/agents/long-form-script-agent.md](../marketing/agents/long-form-script-agent.md) | Marketing | Draft 8–15 min YouTube long-form scripts (YouTube-exclusive), compliance-reviewed and routed to repo. Auto-triggers AGT-015 promo mode on approval. | Tier 2 | Active |
+| AGT-017 | [marketing/agents/video-metadata-agent.md](../marketing/agents/video-metadata-agent.md) | Marketing | Generate per-platform video metadata (titles, descriptions, captions, hashtags, thumbnail concepts) and append to the script file | Tier 2 | Active |
 | AGT-018 | [marketing/agents/compliance-review-agent.md](../marketing/agents/compliance-review-agent.md) | Marketing | Review draft scripts against compliance and community rules before owner approval | Tier 2 | Active |
 
 ---
