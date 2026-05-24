@@ -94,6 +94,16 @@ Scan the script and plan timestamped events across these nine action types. Ever
    NOT captions — these are punchy, periodic, short text moments (1–6 words) that fade in and out for 1–3 seconds. Captions cover speech continuously; bullets reinforce specific takeaways.
    Spec: exact text, fade timing, position, style note if relevant. Typography is grown-up: clean sans-serif, white or single brand-color accent, no decorative fonts, no emoji garnish.
 
+   **News-format rule — story-title cards (REQUIRED for weekly longevity news):**
+   For weekly longevity news scripts, every time the narrator says "Number [X]" or "Story number [X]" to introduce a new story, a story-title card MUST follow on-screen. The card shows the catchy headline of the story (typically the line that immediately follows the "Number X" cue, e.g., "Two cups of coffee, lower dementia risk"). Format:
+   - Large bold sans-serif, centered or upper-third
+   - White text on dark scrim, or single brand-color accent
+   - Fades in within ~0.3s of the headline being spoken
+   - Holds approximately 2 seconds
+   - Fades out cleanly
+   This card is **separate from and follows** the small "01/02/03" numeral that establishes the list structure. The numeral establishes position in the list; the title card establishes the topic of the story. Both are required for news format.
+   For non-news formats (standalone Short, long-form), the title card is optional — use only when it sharpens the structure.
+
 4. COMPANY LOGO (fade in/out)
    Trigger: registered company names that are well-known and editorially relevant (e.g., Mitrix Bio, Seragon Biosciences, Pfizer, Moderna, Nature, NIH, FDA).
    Duration: 1–2 seconds, faded corner placement.
@@ -224,6 +234,7 @@ End with:
 - Longest gap between events: [Xs] (target ≤6s — flag explicitly if exceeded, with the reason)
 - Mix breakdown: [N B-roll, N graphs, N bullet text, N logos, N product images, N zooms, N pattern interrupts, N SFX, N loop close]
 - Pattern interrupt placement: [timestamp(s)] — confirm at least one falls in the 40–60% window
+- News-format check (only if format is news): confirm story-title card is planned for every "Number X" / "Story number X" cue in the script
 - Tone check: confirm every event passes the AUDIENCE & TONE filter (no goofy / cartoon / meme elements)
 - Highest priority (don't skip): [event numbers + why]
 - Skippable if budget tight: [event numbers]
