@@ -1,12 +1,12 @@
 # Weekly Longevity News Script Agent
 
-*Last updated: May 2026*
+*Last updated: June 2026*
 
 ---
 
 ## Purpose
 
-This agent researches the latest developments in longevity and anti-aging, reviews prior episodes for follow-up opportunities, and drafts a ready-to-record script for the weekly longevity news video.
+This agent researches the latest developments in longevity and anti-aging — spanning both scientific research and the longevity industry/business landscape — reviews prior episodes for follow-up opportunities, and drafts a ready-to-record script for the weekly longevity news video.
 
 It follows the format, tone, and rules defined in [`longevity-news-strategy.md`](../guidelines/longevity-news-strategy.md). Do not duplicate those guidelines here — reference that document instead.
 
@@ -72,6 +72,20 @@ Search the following sources for developments from the past 7 days:
 - YouTube — check for new uploads from: David Sinclair, Peter Attia, Rhonda Patrick
 - Newsletters/sites: Optispan, Levels Health, InsideTracker
 
+**Also research the longevity industry and business landscape (this is genuinely interesting to our audience, not just the science):**
+
+- Funding rounds and capital raises — especially startups raising to build something that doesn't exist yet (seed through late-stage VC; large or notable rounds)
+- IPOs, SPACs, and other public-market moves by longevity/aging companies
+- Mergers, acquisitions, and clinic/company roll-ups and consolidation
+- Government and public funding — national programs, agency awards (e.g., ARPA-H), FDA designations, and policy/regulatory milestones
+- Sovereign wealth fund and large institutional investment into longevity
+- Cross-border moves — companies expanding into new countries/markets, joint ventures, relocations
+- New company launches and notable platform/product announcements
+
+Sources for industry/business: Longevity.Technology, Fierce Biotech, BioSpace, STAT News, Endpoints News, company press releases (PRNewswire/GlobeNewswire/Business Wire), and SEC filings (8-K/6-K) for public companies.
+
+Industry/business stories are valid shortlist candidates and should be mixed in with the science stories — surface the most interesting ones rather than defaulting to science-only.
+
 Apply the verification rules: every story must come from a credible, verifiable source. Drop rumors, speculation, and unverified social posts.
 
 STEP 1C — OUTPUT THE SHORTLIST
@@ -79,7 +93,7 @@ STEP 1C — OUTPUT THE SHORTLIST
 Return up to 10 bullet-point candidate stories. Order them best-to-weakest based on:
 1. Novelty — genuinely new information or meaningful development
 2. Credibility — peer-reviewed study, credible outlet, or established figure
-3. Relevance — connection to our audience's interests or ASLF products
+3. Relevance — connection to our audience's interests or ASLF products (industry, funding, and policy developments count — our audience finds the *business* of longevity interesting too)
 4. Engagement potential — surprising, actionable, or shareable
 
 Use this exact format for the shortlist:
@@ -274,7 +288,7 @@ Agent loads compliance rules, drafts the script with on-screen disclaimer, appli
 | **Decision Tier** | Tier 2 (AI drafts, AGT-018 reviews, owner approves before recording) |
 | **Status** | Active |
 | **Output** | Draft script + caption + on-screen text cues + citations + AGT-018 compliance verdict |
-| **Last Updated** | May 2026 |
+| **Last Updated** | June 2026 |
 
 ---
 

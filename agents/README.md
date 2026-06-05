@@ -34,7 +34,7 @@ Each department manages its own agents inside a dedicated `agents/` subfolder:
 | Agent ID | File | Department | Task | Tier | Status |
 |---|---|---|---|---|---|
 | AGT-009 | [marketing/agents/video-comment-agent.md](../marketing/agents/video-comment-agent.md) | Marketing | Reply to video comments | Tier 2 | Active |
-| AGT-010 | [marketing/agents/longevity-news-script-agent.md](../marketing/agents/longevity-news-script-agent.md) | Marketing | Research and draft weekly longevity news script (auto-routes through AGT-018 compliance review) | Tier 2 | Active |
+| AGT-010 | [marketing/agents/longevity-news-script-agent.md](../marketing/agents/longevity-news-script-agent.md) | Marketing | Research and draft weekly longevity news script — covers both science and longevity industry/business news (auto-routes through AGT-018 compliance review) | Tier 2 | Active |
 | AGT-011 | [marketing/agents/platform-content-agent.md](../marketing/agents/platform-content-agent.md) | Marketing | Generate platform-native content ideas for Instagram and X (incl. recurring X News Roundup mode) | Tier 2 | Active |
 | AGT-012 | [marketing/agents/shorts-agent.md](../marketing/agents/shorts-agent.md) | Marketing | ~~Identify best segments from long-format videos to repurpose as Shorts~~ — Deprecated. ASLF no longer cuts Shorts from long-form footage; all Shorts are recorded separately. Replaced by AGT-015 (standalone + promo) and AGT-010 (news). | — | **Deprecated** |
 | AGT-013 | [marketing/agents/video-overlay-agent.md](../marketing/agents/video-overlay-agent.md) | Marketing | Generate full timestamped editing plan from script (B-roll, graphs, text, logos, zooms, pattern interrupts, SFX, loop close) | Tier 2 | Active |
