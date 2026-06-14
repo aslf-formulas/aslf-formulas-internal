@@ -1,74 +1,99 @@
 # Brand Identity
 
-## 🎨 Brand Overview
-
-This document outlines the ASLF Formulas brand guidelines to ensure consistency across all communications, marketing materials, and customer touchpoints.
+> *ASLF Formulas is the work of a longevity analyst who cares about the field
+> so much that he built a clean product line he'd actually trust. The editorial
+> mission leads; the products exist because of it, not the other way around.*
+>
+> Full positioning: [positioning.md](./positioning.md). This file translates that
+> identity into voice and visual consistency.
+>
+> **Last updated: June 2026**
 
 ---
 
-## 📛 Brand Name Usage
+## Two Identities (never blur)
+
+We run two distinct public identities. See [positioning.md](./positioning.md) §5.
+
+| Identity | Handle | Role |
+|---|---|---|
+| **The Analyst** (merged with personal/acting) | `@aslf_pkarner` | The editorial mission + the human. Synthesis, news, explainers, honest takes — including on topics we sell nothing for. |
+| **The Brand** (product) | `@aslf_formulas` | Product and commerce only. No analyst/editorial content. |
+
+The personal name never goes pure-product on any platform. The brand's own name
+does the selling.
+
+---
+
+## Brand Name Usage
 
 - **Correct:** ASLF Formulas
 - **Incorrect:** ASLF formulas / Aslf Formulas / aslf formulas
-- Always use the full name on first reference in a document. Abbreviations may be used in subsequent references only in internal contexts.
+- Brand handle: `@aslf_formulas`. Analyst handle: `@aslf_pkarner`.
 
 ---
 
-## 🗣️ Tone of Voice
+## Voice of the Analyst (primary editorial voice)
 
-Our brand voice should always feel:
+This is the voice for all analyst-handle content. Reference points: **Veritasium,
+Huberman** — clear, mature, science-literate, never vlogger, never hype-merchant.
 
 | Attribute | What It Means |
 |---|---|
-| **Professional** | Knowledgeable and credible — never sloppy or casual |
-| **Clear** | Simple, direct language — avoid jargon |
-| **Approachable** | Friendly and helpful — never cold or corporate |
-| **Confident** | Assured in our expertise — never arrogant |
+| **Synthesist** | Connects the dots — the map, not the list. Explains what things mean *together*. |
+| **Honest / anti-hype** | Says when it's just mice, just preliminary, or doesn't work. Won't oversell — ever. |
+| **Clear** | Plain language, makes complex science legible. Respects the audience's intelligence. |
+| **Credible** | Cites sources, qualifies claims. Confident without arrogance. |
+| **Human** | The person behind the analysis is present — not a faceless brand. |
 
-### ✅ Do Say
-- "Our formula is designed to deliver consistent results."
-- "We're here to help you find the right solution."
+### Do Say
+- "Here's how these three findings connect — and which one actually matters."
+- "This was a mouse study, so treat it as a signal, not a result."
+- "Honestly, the evidence for that popular ingredient is underwhelming."
 
-### ❌ Don't Say
-- "This product is literally the best ever."
-- "We can't help with that."
+### Don't Say
+- "This product is literally the best ever." / "Guaranteed results."
+- "Big breakthrough!" with no qualifier or source.
+- Anything that dresses a sell up as objective analysis (positioning.md §6).
 
 ---
 
-## 🎨 Visual Identity
+## Brand Voice (product handle / commerce)
+
+The `@aslf_formulas` product voice stays professional, clean, and transparent —
+ingredient-forward, no filler, no overclaiming. It echoes the analyst's honesty
+but is openly a product voice (clearly fenced selling, never disguised).
+
+---
+
+## Visual Identity
 
 ### Logo
 - *[Add logo file path or link here]*
-- Minimum size: *[Xpx / Xcm]*
-- Clear space: Always maintain a margin of at least [X] around the logo
-- Do not stretch, recolor, or add effects to the logo
+- Do not stretch, recolor, or add effects to the logo.
 
 ### Color Palette
 
 | Color Name | Hex Code | Usage |
 |---|---|---|
-| Primary | `#[XXXXXX]` | Main brand color — headlines, CTAs |
-| Secondary | `#[XXXXXX]` | Supporting elements |
-| Accent | `#[XXXXXX]` | Highlights, buttons |
-| Dark | `#[XXXXXX]` | Body text |
+| Primary | `#[XXXXXX]` | Main brand color |
+| Accent | `#[XXXXXX]` | Highlights — used surgically (single accent on near-black) |
+| Dark | `#[XXXXXX]` | Body text / backgrounds |
 | Light | `#[XXXXXX]` | Backgrounds |
 
 ### Typography
-
-| Use | Font | Weight |
-|---|---|---|
-| Headings | *[Font Name]* | Bold |
-| Body Text | *[Font Name]* | Regular |
-| Captions | *[Font Name]* | Light |
+- Overlays / headings: **Inter or Helvetica Now, Bold, all-caps** (per editorial style)
+- Clean sans-serif throughout. No decorative or meme fonts.
 
 ---
 
-## 📸 Imagery Style
+## Imagery & Motion Style
 
-- Use clean, high-resolution photography
-- Avoid overly staged or stock-photo-feeling images
-- Preferred aesthetic: *[describe your preferred style, e.g., "minimalist, lab-inspired, clean backgrounds"]*
+- Clean, high-resolution, lab-inspired. Cinematic, mature — documentary-grade,
+  not vlogger.
+- White on near-black with surgical use of a single accent color.
+- No cartoon SFX, meme overlays, or goofy effects (see AGT-013 tone rules).
 
 ---
 
-*Last updated: March 2026*
+*Last updated: June 2026*
