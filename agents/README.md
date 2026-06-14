@@ -29,6 +29,17 @@ Each department manages its own agents inside a dedicated `agents/` subfolder:
 
 ---
 
+## Standard Context — Loaded by Every Agent
+
+Before doing any task work, **every content, strategy, and operations agent loads these files as standing context** and acts consistently with them. Following the repo principle (reference, don't duplicate), this is declared once here rather than copied into each agent:
+
+1. **[company-guidelines/positioning.md](../company-guidelines/positioning.md)** — the source of truth for who ASLF Formulas is in public: *a longevity analyst who built a clean product line out of conviction; the editorial mission leads, the products are downstream.* It defines the analyst/synthesist voice, the connective-analysis differentiator (the map, not the list), the two-handle architecture (`@aslf_pkarner` = analyst + human; `@aslf_formulas` = product-only), the analyst-vs-product content split (~1-in-5 product-led on the analyst handle), the radical-honesty rule, and the success metrics. **All output must pull in this direction.**
+2. **[marketing/guidelines/compliance-and-community-rules.md](../marketing/guidelines/compliance-and-community-rules.md)** — compliance source of truth. Per positioning.md §7.2, the honesty discipline this enforces is the brand's **editorial signature**, not only risk management.
+
+If positioning.md and an older instruction inside an agent ever conflict, **positioning.md wins** until the agent file is updated. The session-start protocol (see [tasks/](../tasks/)) loads this index first, so this standard context is established at the top of every session.
+
+---
+
 ## Agent Registry
 
 | Agent ID | File | Department | Task | Tier | Status |
@@ -51,4 +62,5 @@ Each department manages its own agents inside a dedicated `agents/` subfolder:
 1. Create an `agents/` subfolder inside the relevant department folder if it doesn't exist
 2. Add the agent file there, following the structure of existing agents
 3. Reference guidelines from the department's `guidelines/` folder — do not duplicate them
-4. Register the agent in the table above
+4. Ensure the agent honors the **Standard Context** above (positioning.md + compliance rules) so its output is consistent with the company's editorial identity
+5. Register the agent in the table above
