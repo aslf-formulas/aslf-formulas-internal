@@ -1,148 +1,129 @@
 # Longevity News — Weekly Social Media Strategy
 
-*Last updated: April 2026*
+> *ASLF Formulas is the work of a longevity analyst who cares about the field
+> so much that he built a clean product line he'd actually trust. The editorial
+> mission leads; the products exist because of it, not the other way around.*
+>
+> Full positioning: [../../company-guidelines/positioning.md](../../company-guidelines/positioning.md).
+>
+> **Last updated: June 2026**
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
-Position ASLF Formulas as a trusted voice in the longevity and anti-aging space by curating and commenting on the week's most relevant developments. Each week, we publish a short-form video (and supporting social posts) summarizing top news from leading researchers, companies, and personalities in the longevity community.
+The weekly news is our **appointment franchise** — the recurring habit that
+makes us the voice people rely on to stay current. We don't just list the
+week's developments; we act as the **analyst/synthesist** who tells people
+which few actually matter and *how they connect* (the map, not the list —
+positioning.md §4). Each week: a short-form video plus supporting native posts.
+
+Protect the signature open ("X things that happened in the longevity world this
+week. Let's get into it."). A format becomes a *show*.
 
 ---
 
-## 🧬 Content Focus Areas
-
-These are the primary news categories to monitor each week:
+## Content Focus Areas
 
 | Category | What to Track |
 |---|---|
-| **Research & Science** | New studies, clinical trials, peer-reviewed breakthroughs (NAD+, senolytics, epigenetics, telomeres, etc.) |
-| **Companies & Startups** | Funding rounds, product launches, partnerships from longevity biotech (e.g., Altos Labs, Calico, BioAge, Retro Biosciences, Unity Biotechnology) |
-| **Key Personalities** | Insights, announcements, or content from leading voices (e.g., David Sinclair, Peter Attia, Bryan Johnson, Andrew Huberman, Rhonda Patrick) |
-| **Products & Supplements** | New launches, formulations, or clinical backing for longevity-related supplements |
-| **Lifestyle & Protocols** | Evidence-backed habits going viral — fasting, cold exposure, sleep optimization, zone 2 cardio, etc. |
-| **Policy & Industry** | FDA updates, longevity-related legislation, major conferences (e.g., ARDD, Longevity Summit) |
+| **Research & Science** | New studies, trials, peer-reviewed work (NAD+, senolytics, epigenetics, telomeres, etc.) |
+| **Companies & Startups** | Funding, launches, partnerships (Altos, Calico, BioAge, Retro, Unity, etc.) |
+| **Industry, Money & Policy** | IPOs, sovereign investment, government programs, FDA updates, conferences — *our differentiator; cover longevity as an industry, not only as science* |
+| **Key Personalities** | Sinclair, Attia, Bryan Johnson, Huberman, Patrick — report on, don't compete with |
+| **Products & Supplements** | New formulations / clinical backing (neutral, editorial) |
+| **Lifestyle & Protocols** | Evidence-backed habits trending — fasting, cold exposure, sleep, zone 2 |
 
 ---
 
-## 🔍 Weekly Research Process
+## Weekly Research Process
 
-Run through these steps every **Monday or Tuesday** to gather material for the week's content:
+Run every **Monday/Tuesday**:
 
-1. **Scan news sources** — Check the following weekly:
-   - PubMed / bioRxiv for recent preprints
-   - Longevity.Technology, Lifespan.io, and Science Daily (longevity tag)
-   - X/Twitter: follow key personalities and hashtags (#longevity, #antiaging, #biohacking)
-   - YouTube: David Sinclair, Peter Attia, Rhonda Patrick — any new uploads?
-   - Newsletters: Optispan (Dr. Peter Attia), Levels Health, InsideTracker
-
-2. **Select top 3–5 stories** — Prioritize based on:
-   - Novelty (is this new information or a new take?)
-   - Relevance to our audience and products
-   - Credibility of the source
-   - Potential for engagement (surprising, actionable, or shareable)
-
-3. **Add context and ASLF angle** — For each story, note:
-   - What is the key takeaway in plain language?
-   - How does this connect to our formulas or ingredients?
-   - What should our audience do with this information?
-
-4. **Draft the script** — Use the Script Template below
-
-5. **Record the short video** — Aim for 60–90 seconds (vertical format for Reels/TikTok/Shorts)
-
-6. **Repurpose into social posts** — Each video becomes:
-   - 1x Reel / TikTok / YouTube Short
-   - 1x carousel or text post with the top headlines
-   - 1x Story teaser before the Reel goes live
+1. **Scan sources** — Fight Aging! (primary), PubMed/bioRxiv, Longevity.Technology,
+   Lifespan.io, Science Daily; X key personalities; new YouTube uploads;
+   newsletters (Optispan, etc.). *(Full source map governed by the forthcoming
+   information-pipeline doc.)*
+2. **Select 3–5 stories** — short, punchy counts beat maximum coverage; six is
+   over-capacity. Prioritize by:
+   - **Freshness/recency** (hard filter for inclusion)
+   - **Connective potential** — does it link to other stories or a larger trend?
+     *Stories that build the map are worth more than isolated items.*
+   - Novelty, source credibility, shareability
+   - *(Note: we do NOT select for "relevance to our products." Story choice is
+     editorial. Product mention, if any, is fenced and rare — positioning.md §6.)*
+3. **Add the analyst angle** — for each story: the plain-language takeaway, and
+   *how it connects* to the other stories or the broader trend. (Describe, don't
+   prescribe — no "you should"; frame as "researchers found / the data suggests.")
+4. **Draft the script** (AGT-010) → mandatory **AGT-018 compliance review**.
+5. **Produce** the short video (vertical) via the editing pipeline (AGT-013).
+6. **Repurpose natively** per platform (positioning.md §5; social-media-playbook.md).
 
 ---
 
-## 📝 Script Template
+## Script Guidelines (every script, no exceptions)
 
-Use this structure for the weekly longevity news video:
+1. **No absolute debunking language.** Use hedged framing ("a new study
+   suggests," "this challenges previous assumptions").
+2. **Citation required for every health claim** — spoken ("according to a
+   January 2026 study in eClinicalMedicine") or on-screen lower-third
+   (`Source: [Author] et al., [Journal], [Month Year]`).
+3. **Connective framing encouraged** — where two stories relate, say so on
+   camera. The connection is the value.
+4. **Mouse-study, drug-dosage, mortality-stat, and disease-target rules** per
+   compliance-and-community-rules.md §3.2.
 
-```
-HOOK (0–5 sec)
-"Here's what happened in the longevity world this week — and why it matters."
-
-STORY 1 (5–30 sec)
-[Headline + 1–2 sentences of context + quick ASLF angle if applicable]
-
-STORY 2 (30–55 sec)
-[Headline + 1–2 sentences of context]
-
-STORY 3 (55–75 sec)
-[Headline + 1–2 sentences of context]
-
-CLOSE (75–90 sec)
-"If you want to stay on top of what's actually moving the needle in longevity science,
-follow us — we do this every week. Drop your questions below."
-[CTA: follow, comment, share]
-```
-
-**Tone:** Confident, conversational, science-informed but accessible. No fear-mongering. No unverified claims about products.
-
-### Script Writing Guidelines
-
-These rules apply to every script, without exception:
-
-1. **No absolute debunking language.** Phrases like "the science no longer backs that up," "scientists were wrong," or any language that frames a single study as overturning established consensus are not allowed. Replace with hedged alternatives such as "a new study suggests," "researchers now estimate," or "this challenges previous assumptions."
-
-2. **Citation required for every health claim.** Every story that includes a specific statistic, study finding, or research outcome must include a citation. The preferred format is spoken aloud in the script — e.g., *"according to a January 2026 study published in eClinicalMedicine."* If not spoken, an on-screen lower-third text overlay is required during that story segment, formatted as:
-   > Source: [Author last name] et al., [Journal], [Month Year]
-   
-   No health claim goes on screen without one of these two options.
+**Tone:** analyst/synthesist — clear, mature, science-informed, accessible.
+Reference points Veritasium/Huberman. No fear-mongering, no overclaiming.
 
 ---
 
-## 📲 Publishing Schedule
+## Publishing Schedule
 
 | Day | Action |
 |---|---|
-| Monday / Tuesday | Research — collect top 3–5 stories |
-| Wednesday | Draft script and outline social posts |
-| Thursday | Record video, edit, prepare captions |
-| Friday | Publish Reel/Short + supporting posts |
-| Friday | Story teaser before or same day as Reel |
+| Mon/Tue | Research — collect + select stories |
+| Wed | Draft script (AGT-010) → compliance (AGT-018) |
+| Thu | Record, edit (AGT-013), metadata (AGT-017) |
+| Fri | Publish + supporting native posts (incl. X roundup) |
 
 ---
 
-## 🏷️ Hashtag Set
-
-Use a rotating mix from this set:
+## Hashtag Set
 
 ```
 #longevity #antiaging #healthspan #lifespan #biohacking
 #longevityresearch #longevityscience #livinglonger #agingresearch
-#supplements #healthoptimization #ASLFFormulas
+#healthoptimization #ASLFFormulas
 ```
+*(News-only set; do not carry to standalone/promo Shorts — per AGT-017.)*
 
 ---
 
-## 📊 Success Metrics
+## Success Metrics
 
-Track weekly, review monthly:
+Led by habit-and-trust signals (positioning.md §9):
 
 | Metric | Target |
 |---|---|
-| Reel / Short views | Growing week-over-week |
-| Saves & shares | Higher than avg. feed post |
+| Repeat viewership / week-over-week growth | Rising — the habit forming |
+| Saves & shares | Above avg feed post (used to keep others current) |
+| Comment sentiment & volume | ≥5/video; "I come here for this" signal |
 | Follower growth attributed | Track via weekly baseline |
-| Comments / questions | At least 5 per video (community signal) |
-| Link clicks (if applicable) | Track via bio link or story swipe-up |
+| Branded search lift | Rising over time |
+
+Per-episode diagnosis via AGT-019 (when built), using 24h + 7d checkpoints.
 
 ---
 
-## 📂 Content Archive
+## Content Archive
 
-Keep a running log of published episodes:
-
-| Week | Date | Top Stories Covered | Video Link | Performance Notes |
+| Week | Date | Top Stories | Link | Performance Notes |
 |---|---|---|---|---|
-| Ep. 1 | *[Date]* | *[Story 1, Story 2, Story 3]* | *[Link]* | *[Notes]* |
-| Ep. 2 | *[Date]* | *[Story 1, Story 2, Story 3]* | *[Link]* | *[Notes]* |
+| Ep. 1 | *[Date]* | *[...]* | *[Link]* | *[Notes]* |
+
+*(Episodes 7–8 complete and in repo; keep this log current.)*
 
 ---
 
-*Last updated: April 2026*
+*Last updated: June 2026*

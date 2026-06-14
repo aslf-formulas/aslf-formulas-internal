@@ -1,81 +1,79 @@
 # Marketing Strategy
 
-*Last updated: March 2026*
+> *ASLF Formulas is the work of a longevity analyst who cares about the field
+> so much that he built a clean product line he'd actually trust. The editorial
+> mission leads; the products exist because of it, not the other way around.*
+>
+> Full positioning: [../../company-guidelines/positioning.md](../../company-guidelines/positioning.md).
+>
+> **Last updated: June 2026**
 
 ---
 
-## 🎯 Marketing Goals
+## The Primary Asset: Editorial Trust
 
-| Goal | Target | Timeline |
+Our marketing strategy is, first, an **audience strategy**. The asset we
+compound is *trust as the longevity analyst*. Commerce is downstream of it.
+We do not lead with paid-acquisition funnels; we lead with becoming a habit.
+
+---
+
+## Goals (in order)
+
+| Goal | Signal | Horizon |
 |---|---|---|
-| Increase brand awareness | *[e.g., +X% website traffic]* | *[Q/Year]* |
-| Grow customer base | *[e.g., X new customers]* | *[Q/Year]* |
-| Improve retention | *[e.g., X% repeat purchase rate]* | *[Q/Year]* |
-| Drive revenue | *[e.g., $X in marketing-attributed sales]* | *[Q/Year]* |
+| Become a weekly **habit** | Repeat viewership on the franchise | Ongoing / multi-year |
+| Become the **named** longevity voice | Branded search (name + "longevity") | Multi-year |
+| Be used to keep others current | Share rate on the news | Ongoing |
+| Earn trust (not just reach) | Comment sentiment ("I trust you / I come here for this") | Ongoing |
+| Convert trust to revenue (downstream) | Product revenue from the brand channel | Trails the above |
 
 ---
 
-## 🗺️ Go-To-Market Approach
+## Go-To-Market Approach
 
-### Primary Channels
-- *[Channel 1 — e.g., Instagram / Facebook Ads]*
-- *[Channel 2 — e.g., Email Marketing]*
-- *[Channel 3 — e.g., SEO / Content Marketing]*
-- *[Channel 4 — e.g., Partnerships / Referrals]*
+### Primary channels (analyst handle)
+- YouTube (authority engine + weekly news), TikTok (reach), X (speed),
+  Instagram analyst carousels.
 
-### Secondary Channels
-- *[Channel — e.g., LinkedIn]*
-- *[Channel — e.g., Influencer Marketing]*
+### Product channel (brand handle)
+- `@aslf_formulas` + Shopify storefront + email (Klaviyo). Clearly fenced
+  selling. Email nurtures the audience the analyst content brings in.
 
----
-
-## 💰 Marketing Budget
-
-| Category | Allocated Budget | Notes |
-|---|---|---|
-| Paid Advertising | *[$X / month]* | *[Platform(s)]* |
-| Content Creation | *[$X / month]* | *[Tools, freelancers, etc.]* |
-| Email Marketing | *[$X / month]* | *[Platform cost]* |
-| Events / PR | *[$X / quarter]* | *[Trade shows, press, etc.]* |
-| **Total** | *[$X / month]* | |
+### Sequence
+Editorial content earns the audience → a minority of fenced product content +
+the brand channel converts the willing → trust keeps them. Never invert.
 
 ---
 
-## 📈 Key Metrics (KPIs)
+## Key Metrics (KPIs)
 
-| KPI | Current | Target |
-|---|---|---|
-| Website Monthly Visitors | *[X]* | *[X]* |
-| Email List Size | *[X]* | *[X]* |
-| Email Open Rate | *[X%]* | *[X%]* |
-| Social Media Followers | *[X]* | *[X]* |
-| Customer Acquisition Cost (CAC) | *[$X]* | *[$X]* |
-| Return on Ad Spend (ROAS) | *[X:1]* | *[X:1]* |
-| Conversion Rate | *[X%]* | *[X%]* |
+Led by habit-and-trust signals (positioning.md §9); commerce metrics trail.
 
----
+| KPI | Type |
+|---|---|
+| Branded search volume | Trust / habit |
+| Repeat viewership / franchise retention | Habit |
+| Share + save rate | Trust |
+| Comment sentiment | Trust |
+| Follower growth (analyst handle) | Reach |
+| Product revenue, AOV, repeat purchase (brand) | Commerce (downstream) |
 
-## 🗓️ Marketing Calendar
-
-| Month | Campaign / Initiative | Channel | Owner |
-|---|---|---|---|
-| January | *[e.g., New Year promotion]* | *[Channel]* | *[Name]* |
-| February | *[e.g., Valentine's campaign]* | *[Channel]* | *[Name]* |
-| March | *[e.g., Spring launch]* | *[Channel]* | *[Name]* |
-| *(continue for each month)* | | | |
+*(Avoid over-indexing on CAC/ROAS as primary; for a trust-led editorial brand
+they are lagging, downstream metrics.)*
 
 ---
 
-## 🔧 Tools & Platforms
+## Tools
 
-| Tool | Purpose | Link |
-|---|---|---|
-| *[e.g., Mailchimp]* | Email marketing | *[URL]* |
-| *[e.g., Meta Ads Manager]* | Paid social ads | *[URL]* |
-| *[e.g., Google Analytics]* | Website analytics | *[URL]* |
-| *[e.g., Canva]* | Content creation | *[URL]* |
-| *[e.g., Buffer / Later]* | Social scheduling | *[URL]* |
+| Tool | Purpose |
+|---|---|
+| Shopify | Storefront |
+| Klaviyo | Email / CRM |
+| Make.com | Automation |
+| Canva | Thumbnails / assets |
+| Claude (Anthropic API) | Content + ops agents |
 
 ---
 
-*Last updated: March 2026*
+*Last updated: June 2026*

@@ -1,109 +1,100 @@
 # Social Media Playbook
 
-*Last updated: March 2026*
+> *ASLF Formulas is the work of a longevity analyst who cares about the field
+> so much that he built a clean product line he'd actually trust. The editorial
+> mission leads; the products exist because of it, not the other way around.*
+>
+> Full positioning: [../../company-guidelines/positioning.md](../../company-guidelines/positioning.md).
+> This playbook resolves open Task #11 (platform-native strategy for IG and X).
+>
+> **Last updated: June 2026**
 
 ---
 
-## Social Media Goals
+## The Two Identities (never blur)
 
-- Build brand awareness and recognition
-- Drive traffic to the website
-- Engage and grow the community
-- Generate leads and sales
+| Identity | Handle | What it does | Platforms |
+|---|---|---|---|
+| **The Analyst** (merged with personal/acting) | `@aslf_pkarner` | Editorial mission + the human behind it | YouTube, TikTok, X, Instagram |
+| **The Brand** (product) | `@aslf_formulas` | Product / commerce only | Instagram primarily |
 
----
+The personal name never goes pure-product. The brand's own name does the
+selling. See positioning.md §5.
 
-## Platform Guidelines
-
-### Instagram
-
-| Item | Detail |
-|---|---|
-| **Handle** | *[@aslf_formulas or your handle]* |
-| **Post Frequency** | *[e.g., 4–5x per week]* |
-| **Stories** | *[e.g., Daily]* |
-| **Reels** | *[e.g., 2–3x per week]* |
-| **Primary Content** | *[e.g., product showcases, education, customer testimonials]* |
-| **Tone** | Professional yet relatable |
-
-**Best Practices:**
-- Use the brand color palette in all visuals
-- Always include a CTA in captions
-- AI agent responds to all comments automatically
-- Use 5–10 targeted hashtags per post
+### Instagram migration (in progress — positioning.md §5.1)
+Analyst content was historically mis-posted on `@aslf_formulas`. We are
+relocating that identity to `@aslf_pkarner`, not deleting work:
+1. Stop posting analyst content on the brand handle now.
+2. Re-establish the analyst identity on the personal handle (bio + pinned
+   origin-story asset).
+3. Migrate only the best-performing old pieces, refreshed.
+4. One handoff post on the brand handle pointing followers to `@aslf_pkarner`.
+5. Brand handle settles into product-only. Never bulk-delete.
 
 ---
 
-### Facebook
+## Platform Roles (analyst handle)
 
-| Item | Detail |
-|---|---|
-| **Page** | *[Page name / URL]* |
-| **Post Frequency** | *[e.g., 3–4x per week]* |
-| **Primary Content** | *[e.g., educational posts, promotions, community updates]* |
-| **Tone** | Informative and community-focused |
+### YouTube
+- **Role:** authority engine. Long-form connective theses + Shorts + weekly news.
+- Long-form is YouTube-exclusive; this is where depth compounds.
+- CTA: "Subscribe." Hair-science anchor lives here.
 
-**Best Practices:**
-- Share blog posts and articles to drive website traffic
-- Run boosted posts for high-performing organic content
+### TikTok
+- **Role:** reach + testing ground. Shorts and news.
+- Strictest health-content scrutiny (supplement-seller account) — cleanest
+  framing, product fenced. CTA: "Follow."
+
+### X
+- **Role:** speed + connective commentary. Text-first.
+- Single data points, fast takes, links to the deeper pieces. Weekly news
+  roundup franchise.
+
+### Instagram (analyst)
+- **Role:** synthesis in carousel form — lay "study A + funding + policy →
+  trend" across slides. Reels for short-form.
+- Native content only; watermarked TikTok reposts are suppressed.
+
+## Platform Role (brand handle)
+
+### Instagram (`@aslf_formulas`)
+- **Role:** product and commerce only. Clean product photography, ingredient
+  transparency, fenced selling. No editorial/analyst content.
+
+### Not currently active
+- Facebook, LinkedIn — not part of the current strategy. Revisit only if a
+  clear audience case emerges; do not spread thin (positioning.md: dominate
+  where the audience compounds).
 
 ---
 
-### LinkedIn
+## Voice & Standards
 
-| Item | Detail |
-|---|---|
-| **Page** | *[Company page URL]* |
-| **Post Frequency** | *[e.g., 2–3x per week]* |
-| **Primary Content** | *[e.g., industry insights, company news, automation journey]* |
-| **Tone** | Professional, thought-leadership focused |
-
----
-
-### TikTok / YouTube *(if applicable)*
-
-| Item | Detail |
-|---|---|
-| **Handle** | *[Handle]* |
-| **Post Frequency** | *[e.g., 2x per week]* |
-| **Primary Content** | *[e.g., tutorials, demonstrations, formula breakdowns]* |
-
----
-
-## Content Calendar Template
-
-| Day | Platform | Content Type | Topic/Theme | Status |
-|---|---|---|---|---|
-| Monday | Instagram | Feed Post | *[Topic]* | ☐ Planned |
-| Tuesday | Facebook | Article Share | *[Topic]* | ☐ Planned |
-| Wednesday | Instagram | Reel | *[Topic]* | ☐ Planned |
-| Thursday | LinkedIn | Thought Leadership | *[Topic]* | ☐ Planned |
-| Friday | Instagram | Story / Behind-the-scenes | *[Topic]* | ☐ Planned |
-
-Content is drafted by AI agent and scheduled automatically. Owner reviews the monthly content plan before it goes live.
+- Analyst voice per [../../company-guidelines/brand-identity.md](../../company-guidelines/brand-identity.md):
+  synthesist, honest, anti-hype, clear, human.
+- Every health claim cited; mouse studies qualified; product fenced.
+- All scripts pass the AGT-018 compliance gate before publishing.
+- Consistent posting slot per platform (control the variable; don't over-optimize
+  time-of-day until ~20+ posts per platform exist).
 
 ---
 
 ## What NOT to Post
 
-- Unverified claims about product results
-- Disparaging competitor comparisons
-- Political or controversial topics
-- Low-quality or unbranded visuals
-- Content not reviewed by owner
+- Analyst/editorial content on the brand handle (and vice versa).
+- Unverified product-result claims; disguised selling on the analyst handle.
+- Overclaiming, hype, or disease-cure framing (see compliance-and-community-rules.md).
+- Watermarked cross-platform reposts without native reformatting.
 
 ---
 
-## Monthly Reporting (Automated)
+## Reporting (Automated)
 
-AI agent tracks and includes in the monthly report:
-
-- Follower growth per platform
-- Total reach and impressions
-- Engagement rate (likes, comments, shares)
-- Link clicks / website traffic from social
-- Top-performing posts
+Tracked per platform, reviewed monthly — led by habit-and-trust signals
+(positioning.md §9): branded search, repeat viewership, share rate, comment
+sentiment — then reach, follower growth, and link clicks. Per-video diagnosis
+via AGT-019 (when built).
 
 ---
 
-*Last updated: March 2026*
+*Last updated: June 2026*
