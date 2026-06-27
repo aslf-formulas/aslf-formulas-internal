@@ -108,7 +108,7 @@ Duration gate: 2:14, under the 3:00 cap — plan generated.
 - **E13 — 0:34.5** | *"it's human data"* | Bullet text + SFX: "HUMAN DATA" ~1.5s; soft boom; whoosh into Story 2.
 
 ### STORY 2 — Retro $1.8B — 0:36–1:11
-- **E14 — 0:36.5** | *"Number two"* | Bullet text + SFX: "02" + title card "THE $1.8B REPROGRAMMING RACE", hold ~2s, soft ding.
+- **E14 — 0:36.5** | *"Number two"* | Bullet text + SFX: "02" + title card "THE $1.8B CELL-RESET RACE", hold ~2s, soft ding. (On-screen "cell reset" paraphrases the spoken word "reprogramming" — shorter, fits one line; overlay–audio mismatch here is intentional.)
 - **E15 — 0:38** | *"we covered a startup that raised $435 million"* | Bullet text (callback): "ICYMI · LAST EPISODE" + "NewLimit — $435M."
 - **E16 — 0:43.5** | *"The money is still pouring in"* | Bullet text: "STILL POURING IN" ~1.5s.
 - **E17 — 0:45.5** | *"Retro Biosciences, backed by OpenAI's Sam Altman"* | Logo + label + source: Retro logo faded corner (verify) + "Backed by Sam Altman (OpenAI)" + source "STAT / Longevity.Technology."
