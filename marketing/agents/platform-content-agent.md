@@ -1,6 +1,6 @@
 # Platform Content Agent — Instagram & X
 
-*Last updated: May 2026*
+*Last updated: June 2026*
 
 ---
 
@@ -131,18 +131,18 @@ This is a dedicated mode that overrides the default "extract 2–3 strongest ang
 
 Structure (keep identical every week so it is instantly recognizable):
 
-- Tweet 1 — Hook: "[N] things you probably missed in longevity last week" where N = the actual story count in that episode (do not hardcode 5; news episodes flex). Same phrasing every week. Tease the single most surprising finding in the second line to pull the scroll.
+- Tweet 1 — Hook: "The [N] biggest things in longevity last week" where N = the actual story count in that episode (do not hardcode 5; news episodes flex). Same phrasing every week — this mirrors the show's video hook ("The [N] biggest things in longevity this week") so X, YouTube, and TikTok all open the same way. Tease the single most surprising finding in the second line to pull the scroll.
 - Tweets 2 to N+1 — one story each:
   - Order by impact, NOT chronologically — lead with the most counterintuitive story, end on a strong one.
   - Open each with a light date lead-in ("May 26 —").
   - The written summary must stand alone — assume no one watches the clip. 1–3 sentences, hedged scientific language ("research suggests", "a study found"), and preserve the in-humans vs. in-laboratory-studies distinction.
   - Attach a native X video clip on the 1–2 strongest stories ONLY — never link YouTube in the thread body. The clip is a bonus, not the payload.
-- Final tweet — Close + CTA: one-line recap of the throughline, a follow ask ("Follow for the longevity roundup every week"), and the full-video link in a REPLY, not the thread body (links suppress reach).
+- NO separate close/CTA tweet. The thread is hook + N story tweets and ends on the last (strongest) story. The owner adds each segment to the post and handles the video link and any follow/CTA separately, so the agent does NOT produce a throughline-recap tweet, a "Follow for the longevity roundup every week" ask, or an in-thread/reply video link.
 
 Rules specific to this mode:
 - No exclamation marks (brand rule still applies).
 - The headline number always matches the real story count in the episode.
-- Consistency is the point: same hook structure, same visual treatment, same close, every single week.
+- Consistency is the point: same hook structure and same visual treatment every single week. The thread ends on the final story — there is no close tweet.
 
 ---
 
@@ -257,7 +257,7 @@ Five longevity stories covering a multi-pathway combo drug (SRN-901), an antiret
 **Format:** News Roundup Thread (recurring weekly franchise)
 **Pillar:** Educate
 
-**Tweet 1 (Hook):** "5 things you probably missed in longevity last week.
+**Tweet 1 (Hook):** "The 5 biggest things in longevity last week.
 An HIV drug made people biologically younger — and that wasn't even the strangest finding."
 
 **Tweet 2:** "Apr 14 — An FDA-approved HIV drug reduced biological age markers in healthy adults over a 12-week trial. Aging clocks moved younger, inflammation dropped. A closely related drug in the same class did nothing — which is the part researchers can't fully explain yet." *(native clip — strongest story)*
@@ -268,9 +268,9 @@ An HIV drug made people biologically younger — and that wasn't even the strang
 
 **Tweet 5:** "Apr 17 — Gene therapy in primates produced measurable changes in tissue-level aging markers. Early-stage, but primates are a meaningful step up from rodent work."
 
-**Tweet 6:** "Apr 18 — The field is converging on a 'multi-system' model of aging — the idea that no single clock or pathway explains it. Research suggests the future is combination approaches, not silver bullets."
+**Tweet 6 (final tweet):** "Apr 18 — The field is converging on a 'multi-system' model of aging — the idea that no single clock or pathway explains it. Research suggests the future is combination approaches, not silver bullets."
 
-**Tweet 7 (Close + CTA):** "The throughline this week: aging research is moving from single targets to whole-system thinking. Follow for the longevity roundup every week." *(full video link posted as a reply, not in-thread)*
+*(No close/CTA tweet — the thread ends on the final story. The owner handles the video link and any follow ask separately.)*
 
 ---
 
@@ -286,7 +286,7 @@ An HIV drug made people biologically younger — and that wasn't even the strang
 | **Platforms** | Instagram, X (Twitter) |
 | **Modes** | Default (platform-native idea batch); X News Roundup (recurring full-episode weekly thread) |
 | **Script Source** | `marketing/scripts/news-segments/` and `marketing/scripts/long-format/` |
-| **Last Updated** | May 2026 |
+| **Last Updated** | June 2026 |
 
 ---
 
