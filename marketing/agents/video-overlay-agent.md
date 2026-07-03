@@ -1,12 +1,12 @@
 # Video Editing Agent
 
-*Last updated: May 2026*
+*Last updated: July 2026*
 
 ---
 
 ## Purpose
 
-This agent takes a finished video script (or SRT transcript) and returns a complete timestamped editing plan: a unified breakdown of where to insert B-roll, animated graphs, text overlays, logos, product images, zoom moves, pattern interrupts, sound effects, and loop-close opportunities — all timed to specific moments in the script and chosen to maximize short-form retention and engagement.
+This agent takes a finished video script (or SRT transcript) and returns a complete timestamped editing plan: a unified breakdown of where to insert B-roll, animated graphs, text overlays, logos, person photos, product images, zoom moves, pattern interrupts, sound effects, and loop-close opportunities — all timed to specific moments in the script and chosen to maximize short-form retention and engagement.
 
 **Already handled by the editor (assumed, not planned):** captions/subtitles, jump cuts on filler/breath. The agent does not duplicate these — they are noted as a reminder only.
 
@@ -111,7 +111,7 @@ NINE ENGAGEMENT ACTION TYPES — APPLY ALL
 Scan the script and plan timestamped events across these nine action types. Every action counts toward the engagement-density target (see DENSITY rule below). Every action must pass the AUDIENCE & TONE filter above.
 
 1. B-ROLL VIDEO OVERLAY (Adobe Stock)
-   Trigger: concrete subjects mentioned in the script — animals, biological subjects (DNA, cells, mitochondria, gut bacteria), compounds, drugs, peptides, people, places, equipment, body parts.
+   Trigger: concrete subjects mentioned in the script — animals, biological subjects (DNA, cells, mitochondria, gut bacteria), compounds, drugs, peptides, generic/unnamed people, places, equipment, body parts. (Named individuals → Action Type 4b person photo, not generic B-roll.)
    Duration target: ≤2 seconds per clip. Short, snappy, exemplifying. Do NOT plan long-dwell B-roll — it pulls focus from the speaker. Quick visual punctuation only.
    Use the Adobe Stock Query Rules section below.
 
@@ -134,10 +134,16 @@ Scan the script and plan timestamped events across these nine action types. Ever
    This card is **separate from and follows** the small "01/02/03" numeral that establishes the list structure. The numeral establishes position in the list; the title card establishes the topic of the story. Both are required for news format.
    For non-news formats (standalone Short, long-form), the title card is optional — use only when it sharpens the structure.
 
-4. COMPANY LOGO (fade in/out)
-   Trigger: registered company names that are well-known and editorially relevant (e.g., Mitrix Bio, Seragon Biosciences, Pfizer, Moderna, Nature, NIH, FDA).
-   Duration: 1–2 seconds, faded corner placement.
-   Use ONLY for editorial reference — companies and institutions being reported on. Do NOT use logos in a way that looks like endorsement, partnership, or sponsorship. Do NOT plan logos for ASLF Formulas' competitors or for partners we don't have a relationship with. If the logo source is uncertain, flag it as "verify before use."
+4. COMPANY LOGO / PERSON PHOTO OVERLAY (fade in/out)
+   Two triggers, same purpose — give the viewer an instant identity for a name being reported on, so they can put a face (or a brand) to the name.
+
+   a) COMPANY LOGO — Trigger: registered company/institution names that are well-known and editorially relevant (e.g., Life Biosciences, Retro Biosciences, NewLimit, Pfizer, Moderna, Nature, NIH, FDA).
+      Duration: 1–2 seconds, faded corner placement.
+
+   b) PERSON PHOTO — Trigger: a specific named individual being reported on (e.g., "David Sinclair," "Sam Altman," "Brian Armstrong," a named study author). Plan a cropped head-and-shoulders portrait of that person as a quick overlay the moment their name is spoken, so viewers can put a face to the name.
+      Spec: cropped portrait (head-and-shoulders), faded corner or lower-third placement, 1–2 seconds, paired with a small name label if useful. Use a publicly available professional or press photo; do NOT use unflattering, private, or paparazzi-style images. Named individuals get a portrait here rather than generic "people" B-roll (Action Type 1) — reserve Type 1 B-roll for unnamed/generic people footage.
+
+   Both are editorial reference ONLY — never framed as endorsement, partnership, or sponsorship. Do NOT plan logos or portraits for ASLF Formulas' competitors, or for partners we don't have a relationship with. If the logo or photo source/identity is uncertain, flag it as "verify before use."
 
 5. PRODUCT IMAGE OVERLAY
    Trigger: specific named products (books, apps, devices, supplements, lab equipment models) referenced in the script.
@@ -173,6 +179,8 @@ Scan the script and plan timestamped events across these nine action types. Ever
    Output: tell the editor whether the existing close has loop potential and, if not, suggest a small change to enable it (e.g., "fade audio out and back to the opening 'Five' counter card"). One per video, at the end. If the close genuinely doesn't loop well, say so explicitly rather than forcing it.
 
 NOT planned by this agent (already handled): captions, jump cuts on filler. Mention these as completed assumptions in the SUMMARY.
+
+Note on person photos: the person-photo overlay lives inside Action Type 4 (it is the portrait counterpart to a company logo), so the set remains nine action types. It counts toward engagement density like any other event, and is broken out separately in the SUMMARY mix breakdown for clarity.
 
 ====================================================
 ADOBE STOCK QUERY RULES — APPLY EVERY TIME
@@ -228,7 +236,7 @@ STYLE GUARDRAILS — ASLF BRAND
 - Health/medical: prefer authentic lab/clinical footage over Hollywood "hero scientist" shots.
 - Data viz: minimal clean animations, not flashy 3D.
 - Vertical format for short-form (apply via filter, not query).
-- Logos and product images: editorial only, never promotional.
+- Logos, person photos, and product images: editorial only, never promotional.
 - Color: brand palette + neutrals. Surgical use of accent color.
 
 ====================================================
@@ -245,14 +253,14 @@ For each section of the script (HOOK, STORY 1, STORY 2 ... CLOSE):
 *"[opening line of section, in italics, for context]"*
 
 **Event [N] — [TIMESTAMP]** | Trigger: *"[exact spoken phrase]"*
-Type: [B-roll / Graph / Bullet text / Logo / Product image / Zoom / Pattern interrupt / SFX / Loop close]
+Type: [B-roll / Graph / Bullet text / Logo / Person photo / Product image / Zoom / Pattern interrupt / SFX / Loop close]
 [For B-roll:]
 - Primary: `[query]`
 - Alt 1: `[query]`
 - Alt 2: `[query]`
 Filter: [orientation, type, duration]
 Duration on screen: ≤2s
-[For graph / bullet text / logo / etc.:]
+[For graph / bullet text / logo / person photo / etc.:]
 Spec: [direct description of what to build, fade timing, position, source, etc.]
 Notes: [timing, transition, or style notes — only when needed]
 
@@ -262,7 +270,7 @@ End with:
 - Total events: [N]
 - Average pace: one every ~[N] seconds
 - Longest gap between events: [Xs] (target ≤6s — flag explicitly if exceeded, with the reason)
-- Mix breakdown: [N B-roll, N graphs, N bullet text, N logos, N product images, N zooms, N pattern interrupts, N SFX, N loop close]
+- Mix breakdown: [N B-roll, N graphs, N bullet text, N logos, N person photos, N product images, N zooms, N pattern interrupts, N SFX, N loop close]
 - Pattern interrupt placement: [timestamp(s)] — confirm at least one falls in the 40–60% window
 - News-format check (only if format is news): confirm story-title card is planned for every "Number X" / "Story number X" cue in the script
 - Tone check: confirm every event passes the AUDIENCE & TONE filter (no goofy / cartoon / meme elements)
@@ -312,7 +320,7 @@ If the script had transcription errors that you corrected, list them at the very
 > - Total events: 32
 > - Average pace: one every ~4.5s
 > - Longest gap between events: 5s ✓ (under 6s target)
-> - Mix: 11 B-roll, 5 graphs, 6 bullet text, 2 logos, 4 zooms, 2 pattern interrupts, 1 loop close, ~5 SFX cues
+> - Mix: 11 B-roll, 5 graphs, 6 bullet text, 2 logos, 0 person photos, 4 zooms, 2 pattern interrupts, 1 loop close, ~5 SFX cues
 > - Pattern interrupt placement: 1:14 (49% of video, in the sag zone) ✓
 > - Tone check: ✓ All events pass — no cartoon SFX, all typography clean sans-serif, no meme overlays
 > - Highest priority: Latin name comparison card at 2:13 (comprehension-critical), Mitrix Bio logo at 0:38
@@ -343,8 +351,8 @@ If the script had transcription errors that you corrected, list them at the very
 | **Trigger** | Manual — run after recording, before editing |
 | **Decision Tier** | Tier 2 (AI drafts, owner reviews before applying) |
 | **Status** | Active |
-| **Output** | Full timestamped editing plan with 9 action types and Adobe Stock queries |
-| **Last Updated** | May 2026 |
+| **Output** | Full timestamped editing plan with 9 action types (incl. company-logo / person-photo overlays) and Adobe Stock queries |
+| **Last Updated** | July 2026 |
 
 ---
 
