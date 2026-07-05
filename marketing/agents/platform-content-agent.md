@@ -1,6 +1,6 @@
 # Platform Content Agent — Instagram & X
 
-*Last updated: June 2026*
+*Last updated: July 2026*
 
 ---
 
@@ -129,20 +129,25 @@ X NEWS ROUNDUP MODE (recurring weekly franchise)
 
 This is a dedicated mode that overrides the default "extract 2–3 strongest angles" rule. When the owner requests a News Roundup (or specifies a news-segment script with "roundup"), package the entire episode into one recurring weekly thread instead of pulling individual angles. The goal is a recognizable weekly franchise that builds appointment habit and gives people a reason to follow.
 
+How the thread is consumed (important — drives the format): the owner posts a native video on EVERY tweet in the thread. On X, when a viewer plays the first video, playback advances through the thread's videos one after the next. So the thread auto-plays as a sequence of clips, and Tweet 1 must tell viewers this so they know to tap play.
+
 Structure (keep identical every week so it is instantly recognizable):
 
-- Tweet 1 — Hook: "The [N] biggest things in longevity last week" where N = the actual story count in that episode (do not hardcode 5; news episodes flex). Same phrasing every week — this mirrors the show's video hook ("The [N] biggest things in longevity this week") so X, YouTube, and TikTok all open the same way. Tease the single most surprising finding in the second line to pull the scroll.
+- Tweet 1 — Hook (three lines):
+  - Line 1: "The [N] biggest things in longevity last week" where N = the actual story count in that episode (do not hardcode 5; news episodes flex). Same phrasing every week — mirrors the show's video hook so X, YouTube, and TikTok all open the same way.
+  - Line 2: tease the single most surprising finding to pull the scroll.
+  - Line 3 — autoplay-chain signal (REQUIRED): a short line telling viewers that playing the first video plays the whole thread in sequence. Use this phrasing: "▶ Play the first video and see all [N] things that happened this week." (Swap [N] for the real count.) No exclamation marks.
 - Tweets 2 to N+1 — one story each:
   - Order by impact, NOT chronologically — lead with the most counterintuitive story, end on a strong one.
   - Open each with a light date lead-in ("May 26 —").
-  - The written summary must stand alone — assume no one watches the clip. 1–3 sentences, hedged scientific language ("research suggests", "a study found"), and preserve the in-humans vs. in-laboratory-studies distinction.
-  - Attach a native X video clip on the 1–2 strongest stories ONLY — never link YouTube in the thread body. The clip is a bonus, not the payload.
+  - The written summary must stand alone — assume some readers won't play the videos. 1–3 sentences, hedged scientific language ("research suggests", "a study found"), and preserve the in-humans vs. in-laboratory-studies distinction.
+  - Post a native X video on EVERY tweet (the hook and each story). A video on every post is what creates the tap-to-autoplay chain — when a viewer plays the first video, X advances through the thread's videos one after the next, which is why Tweet 1 carries the autoplay-chain signal line. Never link YouTube in the thread body.
 - NO separate close/CTA tweet. The thread is hook + N story tweets and ends on the last (strongest) story. The owner adds each segment to the post and handles the video link and any follow/CTA separately, so the agent does NOT produce a throughline-recap tweet, a "Follow for the longevity roundup every week" ask, or an in-thread/reply video link.
 
 Rules specific to this mode:
 - No exclamation marks (brand rule still applies).
-- The headline number always matches the real story count in the episode.
-- Consistency is the point: same hook structure and same visual treatment every single week. The thread ends on the final story — there is no close tweet.
+- The headline number always matches the real story count in the episode — and the same [N] appears in the Tweet 1 autoplay-signal line.
+- Consistency is the point: same hook structure (including the autoplay-signal line) and same visual treatment every single week. The thread ends on the final story — there is no close tweet.
 
 ---
 
@@ -257,20 +262,23 @@ Five longevity stories covering a multi-pathway combo drug (SRN-901), an antiret
 **Format:** News Roundup Thread (recurring weekly franchise)
 **Pillar:** Educate
 
-**Tweet 1 (Hook):** "The 5 biggest things in longevity last week.
-An HIV drug made people biologically younger — and that wasn't even the strangest finding."
+*(A native video sits on every tweet — the hook and all N stories — creating the tap-to-autoplay chain. Tweet 1's third line tells viewers to tap play.)*
 
-**Tweet 2:** "Apr 14 — An FDA-approved HIV drug reduced biological age markers in healthy adults over a 12-week trial. Aging clocks moved younger, inflammation dropped. A closely related drug in the same class did nothing — which is the part researchers can't fully explain yet." *(native clip — strongest story)*
+**Tweet 1 (Hook):** "The 5 biggest things in longevity last week.
+An HIV drug made people biologically younger — and that wasn't even the strangest finding.
+▶ Play the first video and see all 5 things that happened this week."
+
+**Tweet 2:** "Apr 14 — An FDA-approved HIV drug reduced biological age markers in healthy adults over a 12-week trial. Aging clocks moved younger, inflammation dropped. A closely related drug in the same class did nothing — which is the part researchers can't fully explain yet."
 
 **Tweet 3:** "Apr 15 — People in the top tier of lifelong cognitive enrichment showed a 38% lower Alzheimer's risk, with onset delayed by roughly 5 years. Reading, demanding work, learning languages all counted. The leading explanation: the brain builds reserve over time."
 
-**Tweet 4:** "Apr 16 — A combination drug targeting multiple aging pathways at once (SRN-901) showed early promise in laboratory studies. The multi-pathway approach is a shift away from chasing one mechanism at a time." *(native clip — second strongest)*
+**Tweet 4:** "Apr 16 — A combination drug targeting multiple aging pathways at once (SRN-901) showed early promise in laboratory studies. The multi-pathway approach is a shift away from chasing one mechanism at a time."
 
 **Tweet 5:** "Apr 17 — Gene therapy in primates produced measurable changes in tissue-level aging markers. Early-stage, but primates are a meaningful step up from rodent work."
 
 **Tweet 6 (final tweet):** "Apr 18 — The field is converging on a 'multi-system' model of aging — the idea that no single clock or pathway explains it. Research suggests the future is combination approaches, not silver bullets."
 
-*(No close/CTA tweet — the thread ends on the final story. The owner handles the video link and any follow ask separately.)*
+*(No close/CTA tweet — the thread ends on the final story. The owner handles the follow ask separately.)*
 
 ---
 
@@ -284,9 +292,9 @@ An HIV drug made people biologically younger — and that wasn't even the strang
 | **Decision Tier** | Tier 2 (AI generates ideas, owner selects and briefs production) |
 | **Status** | Active |
 | **Platforms** | Instagram, X (Twitter) |
-| **Modes** | Default (platform-native idea batch); X News Roundup (recurring full-episode weekly thread) |
+| **Modes** | Default (platform-native idea batch); X News Roundup (recurring full-episode weekly thread, native video on every tweet + autoplay-signal hook) |
 | **Script Source** | `marketing/scripts/news-segments/` and `marketing/scripts/long-format/` |
-| **Last Updated** | June 2026 |
+| **Last Updated** | July 2026 |
 
 ---
 
