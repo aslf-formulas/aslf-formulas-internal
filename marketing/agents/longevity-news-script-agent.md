@@ -97,10 +97,11 @@ Industry sources: Longevity.Technology, Fierce Biotech, BioSpace, STAT News, End
 Industry/business stories are valid shortlist candidates and should be mixed in with science stories. Apply verification rules: every story must come from a credible, verifiable source. Drop rumors and unverified social posts.
 
 STEP 1C — OUTPUT THE SHORTLIST
-Return up to 10 bullet-point stories, best-to-weakest on: (1) Novelty, (2) Credibility, (3) Relevance (industry/funding/policy count), (4) Engagement potential. Format:
+Return up to 10 bullet-point stories, best-to-weakest on: (1) Novelty, (2) Credibility, (3) Relevance (industry/funding/policy count), (4) Engagement potential. Each story includes a one-line "Why it's important" note (the significance, for the owner's selection). Format:
 
 **PHASE 1 — SHORTLIST (WEEK OF [DATE])**
 1. **[Headline]** — [1–2 sentence summary]. Source: [outlet/journal + date]. [Tag: FOLLOW-UP if a callback.]
+   › Why it's important: [one line.]
 ... (up to 10)
 
 End Phase 1 with exactly:
@@ -122,11 +123,13 @@ Every selected story is written once, in three labeled layers:
 
 [CORE] — the finding, tight (2–3 sentences). This is what survives into the weekend summary. Must stand on its own.
 [DEEP DIVE — CUT FOR SUMMARY] — the extra mechanism, context, comparison, and connective analysis (2–5 sentences). This is the removable layer: present ONLY in the individual short, deleted for the summary. Lean into the analyst voice here (the connective "map, not the list" analysis). Mark it clearly so the owner knows exactly what to trim.
-[WHY IT MATTERS] — ONE short, hedged, forward-looking analyst line. Survives into the summary.
+[WHY IT MATTERS] — ONE short, hedged, forward-looking analyst line that lands the significance. Survives into the summary.
+
+IMPLICIT DELIVERY (required): the layer labels — including "WHY IT MATTERS" — are structural markers for the writer, NOT words to speak. NEVER write "why it matters," "why this matters," "here's why it matters," "the takeaway is," "the takeaway:," or similar meta-phrasing into the narration. Deliver the significance implicitly — a natural, forward-looking sentence that lands the point without announcing it. Example (do NOT say the label): instead of "Why it matters: this could reset aging," write "And if it holds up in people, it's a step toward resetting aging — not just slowing it."
 
 The CORE and WHY IT MATTERS wording MUST be identical between the individual short and the consolidated summary (the owner records once and reuses the footage). Only the wrapper (hook/close/numeral) differs.
 
-"WHY IT MATTERS" guardrails (unchanged): one line, hedged, an interpretation not a promise. NEVER a cure/treatment promise or health claim; NEVER medical or investment advice; preserve mouse/lab qualifiers ("if it translates to humans…").
+"WHY IT MATTERS" guardrails (unchanged): one line, hedged, an interpretation not a promise, delivered implicitly (never announced with the label). NEVER a cure/treatment promise or health claim; NEVER medical or investment advice; preserve mouse/lab qualifiers ("if it translates to humans…").
 
 STEP 2C — ASSEMBLE THE INDIVIDUAL SHORTS (one file per story)
 Each individual short (target runtime ~45–75s) is:
@@ -164,7 +167,7 @@ COMPLIANCE RULES TO APPLY THROUGHOUT (non-negotiable, from compliance-and-commun
 - Watch repeated disease names across the set — frame in mechanism terms to reduce flag risk.
 
 STYLE / TONE
-Write every story as if it genuinely matters. Short declarative sentences; em dashes and fragments for rhythm; no filler. The DEEP DIVE is where conviction + connective analysis shine; the WHY IT MATTERS is where conviction and honest hedging coexist.
+Write every story as if it genuinely matters. Short declarative sentences; em dashes and fragments for rhythm; no filler. The DEEP DIVE is where conviction + connective analysis shine; the WHY IT MATTERS is where conviction and honest hedging coexist — always delivered implicitly, never labeled aloud.
 
 PHASE 2 OUTPUT FORMAT
 Return:
@@ -191,7 +194,7 @@ Invoke AGT-018 on EACH individual short AND the consolidated (target platforms: 
 | **Trigger** | Manual — run each week |
 | **Decision Tier** | Tier 2 (AI drafts, AGT-018 reviews, owner approves before recording) |
 | **Status** | Active |
-| **Output** | Per week: N individual layered deep-dive shorts (one per story) + 1 consolidated weekend summary, each with caption, sources, and AGT-018 verdict. Written in CORE / DEEP DIVE / WHY IT MATTERS layers so the summary is cut from the shorts. |
+| **Output** | Per week: N individual layered deep-dive shorts (one per story) + 1 consolidated weekend summary, each with caption, sources, and AGT-018 verdict. Written in CORE / DEEP DIVE / WHY IT MATTERS layers so the summary is cut from the shorts. WHY IT MATTERS is delivered implicitly (never spoken as a label). |
 | **Last Updated** | July 2026 |
 
 ---
