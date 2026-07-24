@@ -4,8 +4,8 @@
 > and ASLF-internal rules that every script must follow before publication.
 > Loaded by AGT-010, AGT-015, AGT-016, and the Compliance Review Agent (AGT-018).
 >
-> **Last reviewed: May 2026**
-> **Next review: August 2026** (or sooner if a platform policy changes — see Maintenance Protocol)
+> **Last reviewed: July 2026**
+> **Next review: October 2026** (or sooner if a platform policy changes — see Maintenance Protocol)
 
 ---
 
@@ -18,7 +18,7 @@ Instagram, and X. Every script published must:
 2. Comply with FTC rules on health-product advertising
 3. Follow ASLF's internal informational-only framing
 4. Cite primary sources for every new scientific claim
-5. Include a "consult your doctor" disclaimer
+5. Include a “consult your doctor” disclaimer
 
 This file is the single source of truth. If a platform policy changes,
 update this file — every agent that references it will reflect the change.
@@ -32,10 +32,10 @@ thread, regardless of platform.
 
 ### Informational-only framing
 - We are **never** acting as doctors. We are **informational** only.
-- Never use prescriptive language: "you should take…", "do this…",
-  "stop doing…", "everyone needs…"
-- Use descriptive framing instead: "the study found…", "researchers
-  observed…", "the data suggests in this population…"
+- Never use prescriptive language: “you should take…”, “do this…”,
+  “stop doing…”, “everyone needs…”
+- Use descriptive framing instead: “the study found…”, “researchers
+  observed…”, “the data suggests in this population…”
 - Never recommend a specific dosage, treatment regimen, or substitution
   for medical care.
 
@@ -49,8 +49,8 @@ caption.
 
 ### No medical claims about ASLF products
 ASLF products are positioned as **structure/function** support, not as
-treatments. Never say a product "treats", "cures", "prevents", "reverses",
-or "fixes" any disease or condition. This includes hair loss as a
+treatments. Never say a product “treats”, “cures”, “prevents”, “reverses”,
+or “fixes” any disease or condition. This includes hair loss as a
 condition — frame as supporting hair growth, not curing alopecia.
 
 ### Mouse-study framing rule
@@ -59,11 +59,11 @@ reference to its results** must explicitly flag that the result was in
 mice — not just one mention buried in the middle of the script.
 
 This means:
-- **Title** must contain "in Mice" (or equivalent qualifier).
-  Canonical example: "70% Longer Lifespan in Mice"
-- **First spoken mention** must include "in mice"
+- **Title** must contain “in Mice” (or equivalent qualifier).
+  Canonical example: “70% Longer Lifespan in Mice”
+- **First spoken mention** must include “in mice”
 - **Thumbnail text** must include the qualifier
-- **On-screen overlay** at any time the result is shown must include "in mice"
+- **On-screen overlay** at any time the result is shown must include “in mice”
 
 Why: a viewer who only sees the thumbnail, or only watches the first 5
 seconds, or only sees the title in their feed, must still know the result
@@ -79,9 +79,9 @@ sources:
 - Institutional press releases for studies not yet published
 - Established longevity outlets that themselves cite primary sources
   (Fight Aging!, Longevity.Technology, Lifespan.io) — but the underlying
-  primary source must also be in the script's reference block
+  primary source must also be in the script’s reference block
 
-Each script's reference block lists: study title, authors, journal/source,
+Each script’s reference block lists: study title, authors, journal/source,
 year, link. References go at the bottom of the script file in the repo,
 not necessarily spoken on camera, but must be available in the
 description for long-form videos.
@@ -102,7 +102,7 @@ misinformation policy — Prevention, Treatment, Denial.
 - Content denying the existence of specific health conditions
 
 **Monetization implications:**
-- YouTube's Advertiser-friendly content guidelines do not allow ads on
+- YouTube’s Advertiser-friendly content guidelines do not allow ads on
   content promoting harmful health or medical claims
 - Violation = demonetization, not just removal
 
@@ -110,14 +110,24 @@ misinformation policy — Prevention, Treatment, Denial.
 - Always frame longevity interventions as research findings, not as
   guidance to replace medical care
 - Cite WHO or NIH where their position is well-established
-- Where ASLF's content diverges from mainstream guidance (e.g., emerging
+- Where ASLF’s content diverges from mainstream guidance (e.g., emerging
   longevity research), explicitly note the science is preliminary and
   recommend professional consultation
-- Avoid the words: "cure", "treat", "prevent disease" in narration
+- Avoid the words: “cure”, “treat”, “prevent disease” in narration
 - Thumbnails: no clickbait disease claims; flag mouse studies explicitly
 
-⚠️ **Ambiguity flag**: YouTube allows "discussion of specific medical
-studies" as an exception. ASLF news content falls under this exception
+**Protocol specification rule (suppression risk — HARD FAIL if violated):**
+Never deliver a specific numeric protocol — temperature + outcome percentage
++ duration — in a single sentence. Example of violation: *“raising core body
+temperature to 38.5°C reduced severe depression by 30% for up to six weeks.”*
+This reads as implicit guidance to follow a protocol regardless of intent,
+and suppresses reach on YouTube even when compliant on other dimensions.
+Fix: move numeric protocol details to on-screen text only (paired with a
+“small trial” framing label), or describe the finding in general terms
+without stacking the specifics.
+
+⚠️ **Ambiguity flag**: YouTube allows “discussion of specific medical
+studies” as an exception. ASLF news content falls under this exception
 when framed as reporting on the study, not advocating for the
 intervention.
 
@@ -127,22 +137,22 @@ intervention.
 enforces:
 
 **Prohibited claims:**
-- Disease claims: "cures X", "treats X", "prevents X"
+- Disease claims: “cures X”, “treats X”, “prevents X”
 - Wellness claims: any claim a product prevents/cures conditions related
   to physical, mental, or emotional well-being
-- Exaggerated language: "miracle", "revolutionary", "guaranteed results",
-  "100% effective"
+- Exaggerated language: “miracle”, “revolutionary”, “guaranteed results”,
+  “100% effective”
 - Unrealistic body transformation claims
 - Weight loss promises (especially restricted)
 
 **High-scrutiny categories** (ASLF operates here):
-- Dietary supplements — never "open to sell" on TikTok Shop; community
+- Dietary supplements — never “open to sell” on TikTok Shop; community
   content under heavier scrutiny
 - Anti-aging — falls under wellness category
 - Hair growth — must avoid framing as treatment for alopecia
 
 **Account-level scrutiny:**
-TikTok's algorithm applies heavier scrutiny to health content from
+TikTok’s algorithm applies heavier scrutiny to health content from
 **accounts that sell supplements** (like @aslf_pkarner). Reporting on
 neutral science can still get flagged because the account context is
 factored into automated review. This means ASLF must hold itself to
@@ -150,35 +160,64 @@ a stricter standard than a general health/science creator would.
 
 **ASLF practical rules for news + standalone Shorts:**
 - Never name a specific ASLF product alongside a disease/condition
-- Use neutral wellness framing ("supports", "may contribute to") rather
+- Use neutral wellness framing (“supports”, “may contribute to”) rather
   than outcome promises
 - Avoid before/after content that implies medical-grade results
 - Even compliant content gets shadowbanned occasionally; assume any
   health-adjacent Short is being algorithmically reviewed
-- Hashtags should not include disease names or "cure"-adjacent terms
+- Hashtags should not include disease names or “cure”-adjacent terms
 
 **Drug-name + dosage rule (high-risk):**
 Never narrate a specific drug name alongside a dosage, even in a
-reporting context. "Rapamycin… 6 milligrams a week" reads as drug
-guidance to TikTok's classifier, regardless of intent. Acceptable
-framing: "the trial protocol used a low weekly dose" without spoken
+reporting context. “Rapamycin… 6 milligrams a week” reads as drug
+guidance to TikTok’s classifier, regardless of intent. Acceptable
+framing: “the trial protocol used a low weekly dose” without spoken
 numeric dosage. If the dose is essential to the story, put it in
 on-screen text only, not narration, and pair with research-context
 framing.
 
-**Mortality statistics rule:**
-When citing mortality or disease-risk percentages (e.g., "50% lower
-all-cause mortality"), the very next or very previous sentence must
-explicitly frame this as research context: "in this observational
-study", "researchers found", "the analysis showed". Naked statistics
-read as implied health claims to TikTok's automated review.
+**Mortality statistics rule — sandwich framing required (HARD FAIL if violated):**
+When citing mortality or disease-risk percentages, research-context framing
+must appear in BOTH the sentence immediately before AND the sentence
+immediately after the statistic. Framing only before the number does not
+pass — the classifier reads the isolated number as a health claim.
+Example of violation: *“Large studies show… 63% lower Alzheimer’s risk”*
+— framing only precedes the number.
+Example of compliant form: *“In this observational cohort, researchers found
+a link to up to 63% lower incidence — a correlation, not a proven cause.”*
+Framing before AND after.
+
+**Disease-name cap per short (HARD FAIL if exceeded):**
+A single short may name at most **TWO** specific medical conditions or
+diseases. Naming three or more (e.g., Alzheimer’s + heart attacks + stroke
++ depression) is a HARD FAIL — even if each mention is individually
+compliant. Reframe additional conditions in mechanism terms: “cardiovascular
+markers” instead of “heart attacks,” “mood pathways” instead of
+“depression.”
+
+**Compounding-signals rule (HARD FAIL — most important):**
+When THREE OR MORE of the following are present in a single short, AGT-018
+must return HARD FAIL regardless of how each individual element is framed:
+- A mortality or disease-risk percentage (any size)
+- A named disease or medical condition
+- A specific numeric protocol (temperature, dose, duration, frequency)
+- Prescriptive or “lever” framing (“we have,” “you can use,” “this gives you”)
+- Account context: ASLF sells supplements — assume maximum classifier
+  scrutiny on every health short
+
+Rationale: each element alone may pass individual review. Together they
+create a compounding signal that TikTok’s classifier reads as a health
+claim regardless of intent or individual framing quality. This is the
+exact pattern that caused the Ep. 5 ban (May 2026) and the Short 02 sauna
+ban (July 2026). Individual element review is not sufficient — AGT-018
+must assess the cumulative signal before returning any verdict.
 
 **Disease-as-target language:**
-Avoid "weapon against [disease]", "fights [disease]", "destroys
-[disease]" framing even when describing a drug's mechanism.
-Acceptable: "the molecule targets senescent cells in lab models".
+Avoid “weapon against [disease]”, “fights [disease]”, “destroys
+[disease]” framing even when describing a drug’s mechanism.
+Acceptable: “the molecule targets senescent cells in lab models”.
 
-⚠️ **Ambiguity flag**: TikTok's "incidental benefits" carve-out (e.g.,
+⚠️ **Ambiguity flag**: TikTok’s “incidental benefits” carve-out (e.g.,
 protein powder mentioning recovery) suggests structure/function framing
 is generally acceptable if not positioned as the primary promise. Lean
 on broad wellness framing (energy, support, healthy aging) over specific
@@ -186,7 +225,7 @@ outcome claims.
 
 ### 3.3 Instagram / Meta (Reels + Feed + Carousels)
 
-**Meta enforces "unapproved health claims" broadly** — including subtle
+**Meta enforces “unapproved health claims” broadly** — including subtle
 implied claims.
 
 **High-risk categories** (ASLF operates here):
@@ -195,25 +234,25 @@ implied claims.
 - Hair growth
 
 **Risky phrases per Meta enforcement patterns:**
-- "Boosts immunity"
-- "Supports your body's natural processes" (yes, even this can flag)
-- "Helps with [condition]"
-- "Cognitive enhancement"
-- "Energy boost"
+- “Boosts immunity”
+- “Supports your body’s natural processes” (yes, even this can flag)
+- “Helps with [condition]”
+- “Cognitive enhancement”
+- “Energy boost”
 
 **ASLF practical rules:**
 - Use evidence-based, factual messaging — describe what was studied, not
   what the product does
-- Avoid implying outcomes even with hedging words like "may", "could",
-  "supports"
+- Avoid implying outcomes even with hedging words like “may”, “could”,
+  “supports”
 - Carousels: lead with science/study facts, not product positioning
 - Reels: prioritize educational framing over promotional framing
-- For organic content (non-ad), Meta's enforcement is lighter than for
+- For organic content (non-ad), Meta’s enforcement is lighter than for
   paid ads, but the same rules apply if content is later boosted
 
-⚠️ **Ambiguity flag**: Meta's policy is stricter for ads than for organic
+⚠️ **Ambiguity flag**: Meta’s policy is stricter for ads than for organic
 posts, but assume ad-grade scrutiny if any video might be boosted later.
-Boundary between "education" and "implied claim" is fuzzy — when in doubt,
+Boundary between “education” and “implied claim” is fuzzy — when in doubt,
 state the study finding plainly without product association in the same
 sentence.
 
@@ -245,45 +284,53 @@ this section every 90 days as part of the Maintenance Protocol.
 ## 4. FTC Rules (federal — apply to all platforms)
 
 The FTC regulates **advertising claims** for supplements regardless of
-platform. ASLF's content blurs the line between education and
+platform. ASLF’s content blurs the line between education and
 advertising because ASLF sells the products discussed.
 
 **Key FTC rules:**
 
 ### Competent and reliable scientific evidence
-Any health-effect claim must be backed by "competent and reliable
-scientific evidence" — typically well-designed human clinical trials.
+Any health-effect claim must be backed by “competent and reliable
+scientific evidence” — typically well-designed human clinical trials.
 Mouse studies do not meet this bar for product claims.
 
 ### Inadequate qualifiers
 The FTC has explicitly stated these words are **not adequate** to
 qualify a claim:
-- "Promising"
-- "Preliminary"
-- "Initial"
-- "Pilot"
-- "May" (when used alone as a hedge)
+- “Promising”
+- “Preliminary”
+- “Initial”
+- “Pilot”
+- “May” (when used alone as a hedge)
 
 These read as positive product attributes to consumers, not as
 disclaimers about evidence limits.
 
+### Qualifier construction rule
+Never lead with the positive claim and trail the qualifier. The hedge
+must come first (or be equally prominent), not as a follow-on afterthought.
+Example of violation: *“Benefits seem to scale with frequency, though most
+data is observational.”* The positive claim lands first; the qualifier
+trails. Compliant form: *“Most of the data is observational — but the
+pattern across studies is consistent.”* Hedge first, finding second.
+
 ### Clinically tested ingredient ≠ clinically tested product
-Saying "Densidyl™ has clinical data" is acceptable. Saying "our Hair
-Growth Boost Serum is clinically proven" is risky unless the finished
+Saying “Densidyl™ has clinical data” is acceptable. Saying “our Hair
+Growth Boost Serum is clinically proven” is risky unless the finished
 product itself was tested. State the ingredient was studied, link to
-the ingredient's clinical data, do not imply finished-product testing
-unless that's literally what happened.
+the ingredient’s clinical data, do not imply finished-product testing
+unless that’s literally what happened.
 
 ### Endorsements and testimonials
-- All compensated endorsements must be disclosed (ASLF doesn't currently
+- All compensated endorsements must be disclosed (ASLF doesn’t currently
   use paid endorsers — flag if this changes)
 - Testimonial results must be typical, or accompanied by clear info on
   what typical results actually are
-- "Results may vary" is **not** sufficient disclosure if the testimonial
+- “Results may vary” is **not** sufficient disclosure if the testimonial
   result is atypical
 
 ### DSHEA disclaimer
-The "This statement has not been evaluated by the FDA…" disclaimer is
+The “This statement has not been evaluated by the FDA…” disclaimer is
 required on **labels** but the FTC has clarified it does **not** fix a
 misleading advertising claim. Use it where appropriate, but do not rely
 on it to compensate for a problematic claim in a video.
@@ -296,40 +343,42 @@ Auto-flag list for the compliance review agent. Any script containing
 these phrases (or close variants) must be flagged for revision.
 
 **Disease/treatment language:**
-- "Cures", "treats", "heals", "reverses", "fixes" + any condition
-- "Prevents [disease]"
-- "Replaces medication for…"
-- "Better than [drug name]"
+- “Cures”, “treats”, “heals”, “reverses”, “fixes” + any condition
+- “Prevents [disease]”
+- “Replaces medication for…”
+- “Better than [drug name]”
 
 **Outcome promise language:**
-- "Guaranteed results"
-- "100% effective"
-- "Works for everyone"
-- "Will definitely…"
-- "Doctors hate this"
-- "Big pharma doesn't want you to know"
+- “Guaranteed results”
+- “100% effective”
+- “Works for everyone”
+- “Will definitely…”
+- “Doctors hate this”
+- “Big pharma doesn’t want you to know”
 
 **Insufficient qualifiers (FTC):**
-- "Promising preliminary research shows…"
-- "May help" (used alone without scientific context)
-- "Clinical studies suggest…" (without naming the study)
+- “Promising preliminary research shows…”
+- “May help” (used alone without scientific context)
+- “Clinical studies suggest…” (without naming the study)
 
 **Self-positioning as medical authority:**
-- "As a doctor would tell you…"
-- "Here's what your doctor doesn't know…"
-- "Trust me, this works…"
-- "I've helped thousands of people…"
+- “As a doctor would tell you…”
+- “Here’s what your doctor doesn’t know…”
+- “Trust me, this works…”
+- “I’ve helped thousands of people…”
 
 **Prescriptive language:**
-- "You should take…"
-- "Stop using [medication/product] and start using…"
-- "Don't bother seeing a doctor about…"
+- “You should take…”
+- “Stop using [medication/product] and start using…”
+- “Don’t bother seeing a doctor about…”
+- “[X] is one of the levers we have” / “one of the levers you can pull”
+  (implies action guidance — reframe as “the data on [X] is compelling”)
 
 **Disease-as-target language (TikTok-specific risk):**
-- "Weapon against [disease]"
-- "Fights [disease]"
-- "Destroys [disease]"
-- "Kills [disease]"
+- “Weapon against [disease]”
+- “Fights [disease]”
+- “Destroys [disease]”
+- “Kills [disease]”
 
 ---
 
@@ -341,7 +390,7 @@ Every script must contain:
       claim
 - [ ] A reference block at the bottom of the script file with full source
       details
-- [ ] A "consult your doctor" disclaimer:
+- [ ] A “consult your doctor” disclaimer:
       - Long-form: verbal near opening + in description
       - Shorts: on-screen text visible for ≥2 seconds within the first
         10 seconds + in caption
@@ -349,7 +398,17 @@ Every script must contain:
 - [ ] Structure/function framing for any ASLF product mention
 - [ ] No red-flag phrases from section 5
 - [ ] No drug name + numeric dosage in spoken narration (TikTok rule)
-- [ ] Research-context framing adjacent to any mortality/disease-risk statistic
+- [ ] Risk stats sandwiched: research-context framing in BOTH the sentence
+      immediately before AND immediately after every mortality/disease-risk
+      percentage — framing only before does not pass
+- [ ] Disease-name count: TWO or fewer named medical conditions per short
+- [ ] Compounding-signals check: fewer than THREE simultaneous risk factors
+      present (risk stat + disease name + numeric protocol + prescriptive
+      framing) — three or more = HARD FAIL regardless of individual framing
+- [ ] Qualifier construction: hedge leads, finding follows — never lead
+      with the positive claim and trail the qualifier
+- [ ] No numeric protocol specification (temperature + % outcome + duration)
+      delivered in a single narration sentence — move to on-screen text only
 
 ---
 
@@ -358,30 +417,30 @@ Every script must contain:
 Drop these into scripts as appropriate.
 
 ### Long-form videos (verbal, near opening)
-> "Before we dive in — this video is informational only. I'm not a
-> doctor, and nothing in this video is medical advice. If you're thinking
-> about making changes to your health routine, talk to your doctor first."
+> “Before we dive in — this video is informational only. I’m not a
+> doctor, and nothing in this video is medical advice. If you’re thinking
+> about making changes to your health routine, talk to your doctor first.”
 
 ### Long-form videos (description)
-> "This video is for informational purposes only and is not intended as
+> “This video is for informational purposes only and is not intended as
 > medical advice. Always consult with a qualified healthcare provider
 > before making any changes to your diet, supplement regimen, or
-> lifestyle. References for studies cited: [list]"
+> lifestyle. References for studies cited: [list]”
 
 ### Shorts (on-screen text, near end of intro)
-> "Informational only. Talk to your doctor before making changes."
+> “Informational only. Talk to your doctor before making changes.”
 
 ### Shorts (caption)
-> "This is informational, not medical advice. Always talk to your doctor
-> before making changes to your health routine."
+> “This is informational, not medical advice. Always talk to your doctor
+> before making changes to your health routine.”
 
 ### X thread (final post)
-> "This thread summarizes published research. It's not medical advice —
-> consult your doctor for any decisions affecting your health."
+> “This thread summarizes published research. It’s not medical advice —
+> consult your doctor for any decisions affecting your health.”
 
 ### Instagram carousel (final slide)
-> "Informational only. Not medical advice. Consult your doctor before
-> changing your routine."
+> “Informational only. Not medical advice. Consult your doctor before
+> changing your routine.”
 
 ---
 
@@ -392,7 +451,8 @@ mistakes.
 
 | Date | Platform | Content | Reason flagged (likely) | Resolution |
 |------|----------|---------|-------------------------|------------|
-| 2026-05-w1 | TikTok | Weekly Longevity News Ep. 5 ([2026-05-w1-longevity-news.md](../scripts/news-segments/2026-05-w1-longevity-news.md)) | Multiple compounding signals: (a) named rapamycin + 6mg/week dosage in narration; (b) specific disease names (Alzheimer's, dementia, COPD) repeated across stories; (c) mortality/disease-risk percentages (50% lower mortality, 14% higher dementia risk, etc.) without research-context framing adjacent to the numbers; (d) "precision weapon" disease-as-target framing in Story 5; (e) no disclaimer present in script (no on-screen text, no caption disclaimer); (f) account-level scrutiny — TikTok scrutinizes health content from supplement-seller accounts more aggressively. | Not republishing. Logged for future scripts. Rules added to sections 3.2 and 6 to prevent recurrence. |
+| 2026-05-w1 | TikTok | Weekly Longevity News Ep. 5 ([2026-05-w1-longevity-news.md](../scripts/news-segments/2026-05-w1-longevity-news.md)) | Multiple compounding signals: (a) named rapamycin + 6mg/week dosage in narration; (b) specific disease names (Alzheimer’s, dementia, COPD) repeated across stories; (c) mortality/disease-risk percentages (50% lower mortality, 14% higher dementia risk, etc.) without research-context framing adjacent to the numbers; (d) “precision weapon” disease-as-target framing in Story 5; (e) no disclaimer present in script (no on-screen text, no caption disclaimer); (f) account-level scrutiny — TikTok scrutinizes health content from supplement-seller accounts more aggressively. | Not republishing. Logged for future scripts. Rules added to sections 3.2 and 6 to prevent recurrence. |
+| 2026-07-w3 | TikTok (banned) + YouTube (suppressed) | Short 02 sauna longevity (2026-07-w3/short-02-sauna-longevity.md) | Compounding signals: (a) naked risk stats (63%, 22–63%) with sandwich framing missing — research context appeared before but not after the numbers; (b) four named conditions (Alzheimer’s, heart attacks, stroke, depression) in 90 seconds — exceeds the two-condition cap; (c) numeric protocol specification (38.5°C + 30% reduction + 6 weeks) delivered in a single narration sentence — reads as implicit guidance; (d) prescriptive “levers we have” framing in the WHY IT MATTERS line; (e) qualifier trailed the positive claim (“benefits seem to scale… though most data is observational”); (f) account-level supplement-seller scrutiny amplifying all of the above. AGT-018 returned PASS WITH WARNINGS — should have been HARD FAIL under the compounding-signals rule. | Do not re-upload the banned cut — leave it untouched to avoid trust-score suppression. Draft a clean re-record: stats sandwiched, max 2 condition names, protocol specs moved to on-screen text only, prescriptive framing removed, qualifier construction flipped. Compounding-signals rule, disease-name cap, risk-stat sandwich rule, protocol specification rule, and qualifier construction rule added to sections 3.1, 3.2, 4, 5, and 6 as a result. |
 
 ---
 
@@ -414,7 +474,10 @@ mistakes.
 - **Scripting agents** (AGT-010, AGT-015, AGT-016): load before drafting.
   Apply sections 2, 3, 5, 6, 7.
 - **Compliance Review Agent** (AGT-018): load before review. Check
-  drafts against sections 2, 3, 4, 5, 6, 8.
+  drafts against sections 2, 3, 4, 5, 6, 8. The compounding-signals
+  rule in §3.2 requires a cumulative assessment — individual element
+  review is not sufficient. Return HARD FAIL if three or more risk
+  factors are simultaneously present, regardless of individual framing.
 - **Metadata agent** (AGT-017): apply section 3 platform rules to titles,
   descriptions, hashtags. Apply section 5 red-flag list to all metadata.
 
@@ -422,7 +485,7 @@ mistakes.
 
 ## 11. Maintenance Protocol
 
-This file must reflect the **current** state of each platform's
+This file must reflect the **current** state of each platform’s
 guidelines. Platform policies change without notice, especially around
 health content. The file is kept current via a scheduled refresh and
 event-triggered updates.
@@ -440,7 +503,7 @@ event-triggered updates.
    - `X health misinformation policy update [current year]`
    - `FTC supplement advertising enforcement [current year]`
 3. Updating the **Last reviewed** and **Next review** dates at the top.
-4. Updating section 9's "last fetched" date.
+4. Updating section 9’s “last fetched” date.
 5. Committing the changes with a clear message describing what was
    updated.
 
@@ -470,4 +533,4 @@ Quarterly section.
 
 ---
 
-*Last updated: May 2026*
+*Last updated: July 2026*
