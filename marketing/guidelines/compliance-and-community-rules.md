@@ -4,8 +4,11 @@
 > and ASLF-internal rules that every script must follow before publication.
 > Loaded by AGT-010, AGT-015, AGT-016, and the Compliance Review Agent (AGT-018).
 >
-> **Last reviewed: July 2026**
-> **Next review: October 2026** (or sooner if a platform policy changes — see Maintenance Protocol)
+> **Last reviewed: July 26, 2026** (event-triggered refresh — TikTok, YouTube,
+> X policy re-check + zero-tolerance verdict policy added; see Refresh Log
+> in section 11)
+> **Next review: October 24, 2026** (or sooner if a platform policy changes —
+> see Maintenance Protocol)
 
 ---
 
@@ -19,9 +22,33 @@ Instagram, and X. Every script published must:
 3. Follow ASLF's internal informational-only framing
 4. Cite primary sources for every new scientific claim
 5. Include a “consult your doctor” disclaimer
+6. Reach a **clean PASS** — zero hard fails, zero warnings — from the
+   Compliance Review Agent (AGT-018) before it proceeds to the owner
 
 This file is the single source of truth. If a platform policy changes,
 update this file — every agent that references it will reflect the change.
+
+### Zero-tolerance verdict policy (added July 26, 2026)
+
+**Warnings are not optional.** ASLF previously allowed scripts to proceed
+to the owner on a "PASS WITH WARNINGS" verdict. That category is retired.
+The sauna Short (see section 8, 2026-07-w3) was banned on TikTok after
+AGT-018 returned PASS WITH WARNINGS when the compounding-signals rule
+should have produced a HARD FAIL — the warning was real risk, not a
+footnote. Going forward:
+
+- AGT-018 issues only **PASS** or **FAIL**. FAIL fires on any hard fail
+  **or** any warning.
+- Scripting agents (AGT-010, AGT-015, AGT-016) must revise until a clean
+  PASS, exactly as they already do for hard fails.
+- If a compliant rewrite isn't achievable without gutting the story's
+  substance, **drop the story/segment rather than publish residual risk.**
+  For AGT-010 specifically: drop it, tell the owner why, and ask which
+  other shortlisted story to substitute — do not auto-substitute.
+- This applies uniformly across every platform and every script type.
+  There is no owner override on a warning; the owner can choose not to
+  cover a topic at all, but cannot approve a script that AGT-018 has
+  flagged.
 
 ---
 
@@ -92,14 +119,42 @@ description for long-form videos.
 
 ### 3.1 YouTube (long-form + Shorts)
 
-**Core framework**: YouTube enforces a three-category medical
-misinformation policy — Prevention, Treatment, Denial.
+**Core framework (updated July 2026)**: YouTube's medical misinformation
+policy currently has **two** active categories — Prevention and Treatment.
+A prior third category (Denial) is no longer listed as a standalone
+category on YouTube's policy page; standalone COVID-19 policies were
+retired in 2023 and folded into the broader medical misinformation
+framework, which now applies to infectious diseases generally (e.g.
+influenza, measles) as well as chronic conditions like cancer.
+
+- **Prevention misinformation**: content contradicting local health
+  authority (LHA) guidance on prevention/transmission of a condition, or
+  on the safety/efficacy/ingredients of currently approved vaccines.
+- **Treatment misinformation**: content contradicting LHA guidance on
+  treatment, including promoting harmful/unapproved substances or
+  practices, or discouraging people from seeking approved treatment.
+
+**Named banned substances/practices (explicit examples on YouTube's
+policy page)**: Miracle Mineral Solution (MMS), black salve, turpentine,
+B17/amygdalin/apricot seeds, high-grade hydrogen peroxide, chelation
+therapy (for autism), gasoline/diesel/kerosene. ASLF should never mention
+any of these favorably, even in a "here's a longevity myth" debunking
+frame, without very explicit denunciation framing.
 
 **Removed/restricted content includes:**
 - Content contradicting WHO or local health authority guidance on
   prevention or treatment of specific health conditions
 - Content promoting unproven remedies in place of seeking medical care
 - Content denying the existence of specific health conditions
+
+**Strike system (relevant context for risk-tolerance, not a script rule):**
+First-time violation typically produces a warning (no channel penalty),
+with an optional policy training that expires the warning after 90 days.
+A repeat violation of the *same* policy inside that 90-day window converts
+to a strike. This means one bad video doesn't usually cost the channel
+immediately — but it does start a clock. Treat every video as if it's
+inside that window; do not rely on "first offense leniency" as a safety
+margin.
 
 **Monetization implications:**
 - YouTube’s Advertiser-friendly content guidelines do not allow ads on
@@ -150,6 +205,23 @@ enforces:
   content under heavier scrutiny
 - Anti-aging — falls under wellness category
 - Hair growth — must avoid framing as treatment for alopecia
+
+**Weight-loss / GLP-1 content rule (updated 2026 — HARD FAIL if violated):**
+TikTok tightened weight-management enforcement in 2026: no before/after
+imagery, no overt weight-loss outcome claims, and heightened scrutiny of
+any content that names GLP-1 agonists (e.g. semaglutide, tirzepatide)
+alongside an outcome. Weight-loss and sexual-enhancement products are
+restricted outright on the platform regardless of framing. This matters
+for ASLF's news coverage specifically: GLP-1 research is a recurring
+science-source topic (see AGT-010). When a story involves a GLP-1 drug —
+**never pair the drug name with a weight-loss percentage or before/after
+framing in narration or on-screen text.** Report the mechanism/finding in
+research terms ("the trial measured changes in body composition") rather
+than outcome-promise terms ("lost 20% of body weight"). If the story is
+fundamentally a weight-loss outcome story, treat it the same as a
+disease-risk statistic: research-context framing before AND after (see
+Mortality statistics rule below), and consider dropping it if it can't be
+reframed cleanly.
 
 **Account-level scrutiny:**
 TikTok’s algorithm applies heavier scrutiny to health content from
@@ -258,15 +330,21 @@ sentence.
 
 ### 3.4 X (text + Reels-equivalent video)
 
-**Most permissive platform currently.** X removed its COVID
-misinformation policy in 2022 and operates a Community Notes system
-rather than aggressive takedowns.
+**Most permissive platform currently — confirmed still true as of July
+2026.** X removed its COVID misinformation policy in November 2022 and
+has not reinstated a general health-misinformation removal policy since;
+enforcement runs through the Community Notes system rather than
+proactive takedowns for organic (non-ad) content.
 
 **Still enforced:**
 - General platform integrity rules (no spam, no manipulated media that
   could deceive)
 - Synthetic and manipulated media policy
 - Misleading content that could cause real-world harm
+- **Paid ads are held to a stricter, separate standard** (X's ads policy
+  explicitly prohibits misleading health claims, miracle cures, and
+  unverified medical assertions) — not applicable to ASLF's organic
+  threads today, but relevant if ASLF ever boosts a post.
 
 **ASLF practical rules:**
 - Lighter platform = easier to publish, but Community Notes can attach
@@ -286,6 +364,17 @@ this section every 90 days as part of the Maintenance Protocol.
 The FTC regulates **advertising claims** for supplements regardless of
 platform. ASLF’s content blurs the line between education and
 advertising because ASLF sells the products discussed.
+
+**2026 enforcement climate (updated July 2026):** FTC supplement
+enforcement is markedly more active in 2026 than prior years. Recent
+actions (TruHeight — July 2026 final order over deceptive
+height-supplement claims and fake reviews; Amare Global Holdings — June
+2026 suit over misrepresented health benefits) both involved **fake or
+incentivized reviews/testimonials** as a core allegation, not just the
+underlying health claim. This directly reinforces the existing
+Endorsements and Testimonials rule below — ASLF does not currently use
+incentivized reviews, and should not start without revisiting this
+section first.
 
 **Key FTC rules:**
 
@@ -328,6 +417,8 @@ unless that’s literally what happened.
   what typical results actually are
 - “Results may vary” is **not** sufficient disclosure if the testimonial
   result is atypical
+- Never solicit, incentivize, or write reviews/testimonials on ASLF's
+  behalf (2026 FTC enforcement is actively targeting this pattern)
 
 ### DSHEA disclaimer
 The “This statement has not been evaluated by the FDA…” disclaimer is
@@ -380,6 +471,11 @@ these phrases (or close variants) must be flagged for revision.
 - “Destroys [disease]”
 - “Kills [disease]”
 
+**Weight-loss outcome language (TikTok-specific risk, added July 2026):**
+- Any before/after framing tied to weight loss
+- A GLP-1 drug name paired with a weight-loss percentage or outcome claim
+- “Lost [X]% of body weight” / “dropped [N] pounds” in narration or on-screen text
+
 ---
 
 ## 6. Required Inclusions Checklist
@@ -409,6 +505,11 @@ Every script must contain:
       with the positive claim and trail the qualifier
 - [ ] No numeric protocol specification (temperature + % outcome + duration)
       delivered in a single narration sentence — move to on-screen text only
+- [ ] No GLP-1 drug name paired with a weight-loss outcome claim or
+      before/after framing (TikTok rule, added July 2026)
+- [ ] **AGT-018 verdict is a clean PASS** — zero hard fails, zero warnings.
+      A PASS WITH WARNINGS is not a passing state; revise or drop the
+      content instead.
 
 ---
 
@@ -452,32 +553,36 @@ mistakes.
 | Date | Platform | Content | Reason flagged (likely) | Resolution |
 |------|----------|---------|-------------------------|------------|
 | 2026-05-w1 | TikTok | Weekly Longevity News Ep. 5 ([2026-05-w1-longevity-news.md](../scripts/news-segments/2026-05-w1-longevity-news.md)) | Multiple compounding signals: (a) named rapamycin + 6mg/week dosage in narration; (b) specific disease names (Alzheimer’s, dementia, COPD) repeated across stories; (c) mortality/disease-risk percentages (50% lower mortality, 14% higher dementia risk, etc.) without research-context framing adjacent to the numbers; (d) “precision weapon” disease-as-target framing in Story 5; (e) no disclaimer present in script (no on-screen text, no caption disclaimer); (f) account-level scrutiny — TikTok scrutinizes health content from supplement-seller accounts more aggressively. | Not republishing. Logged for future scripts. Rules added to sections 3.2 and 6 to prevent recurrence. |
-| 2026-07-w3 | TikTok (banned) + YouTube (suppressed) | Short 02 sauna longevity (2026-07-w3/short-02-sauna-longevity.md) | Compounding signals: (a) naked risk stats (63%, 22–63%) with sandwich framing missing — research context appeared before but not after the numbers; (b) four named conditions (Alzheimer’s, heart attacks, stroke, depression) in 90 seconds — exceeds the two-condition cap; (c) numeric protocol specification (38.5°C + 30% reduction + 6 weeks) delivered in a single narration sentence — reads as implicit guidance; (d) prescriptive “levers we have” framing in the WHY IT MATTERS line; (e) qualifier trailed the positive claim (“benefits seem to scale… though most data is observational”); (f) account-level supplement-seller scrutiny amplifying all of the above. AGT-018 returned PASS WITH WARNINGS — should have been HARD FAIL under the compounding-signals rule. | Do not re-upload the banned cut — leave it untouched to avoid trust-score suppression. Draft a clean re-record: stats sandwiched, max 2 condition names, protocol specs moved to on-screen text only, prescriptive framing removed, qualifier construction flipped. Compounding-signals rule, disease-name cap, risk-stat sandwich rule, protocol specification rule, and qualifier construction rule added to sections 3.1, 3.2, 4, 5, and 6 as a result. |
+| 2026-07-w3 | TikTok (banned) + YouTube (suppressed) | Short 02 sauna longevity (2026-07-w3/short-02-sauna-longevity.md) | Compounding signals: (a) naked risk stats (63%, 22–63%) with sandwich framing missing — research context appeared before but not after the numbers; (b) four named conditions (Alzheimer’s, heart attacks, stroke, depression) in 90 seconds — exceeds the two-condition cap; (c) numeric protocol specification (38.5°C + 30% reduction + 6 weeks) delivered in a single narration sentence — reads as implicit guidance; (d) prescriptive “levers we have” framing in the WHY IT MATTERS line; (e) qualifier trailed the positive claim (“benefits seem to scale… though most data is observational”); (f) account-level supplement-seller scrutiny amplifying all of the above. AGT-018 returned PASS WITH WARNINGS — should have been HARD FAIL under the compounding-signals rule. | Do not re-upload the banned cut — leave it untouched to avoid trust-score suppression. Draft a clean re-record: stats sandwiched, max 2 condition names, protocol specs moved to on-screen text only, prescriptive framing removed, qualifier construction flipped. Compounding-signals rule, disease-name cap, risk-stat sandwich rule, protocol specification rule, and qualifier construction rule added to sections 3.1, 3.2, 4, 5, and 6 as a result. **Root-cause follow-up (July 26, 2026): the deeper failure was that AGT-018 was allowed to issue PASS WITH WARNINGS at all. That verdict category is now retired platform-wide — see the Zero-tolerance verdict policy in section 1 and AGT-018's updated verdict thresholds.** |
 
 ---
 
-## 9. Source Documents (last fetched May 2026)
+## 9. Source Documents (last fetched July 26, 2026)
 
 - YouTube Medical Misinformation Policy: https://support.google.com/youtube/answer/13813322
 - YouTube Misinformation Overview: https://www.youtube.com/intl/ALL_in/howyoutubeworks/our-commitments/fighting-misinformation/
 - TikTok Healthcare & Pharmaceuticals (Ads): https://ads.tiktok.com/help/article/tiktok-ads-policy-healthcare-pharmaceuticals
 - TikTok Responsible Health-Related Content: https://seller-us.tiktok.com/university/essay?knowledge_id=4545471832983342
+- TikTok Dietary Supplements Requirements: https://seller-us.tiktok.com/university/essay?knowledge_id=1411277869713198
 - Meta Misinformation Policy: https://transparency.meta.com/policies/community-standards/misinformation/
 - X Rules and Policies: https://help.x.com/en/rules-and-policies
 - FTC Health Products Compliance Guidance (2022): https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance
 - FTC Dietary Supplements Advertising Guide: https://www.ftc.gov/system/files/documents/plain-language/bus09-dietary-supplements-advertising-guide-industry.pdf
+- FTC Health Claims (topic page, tracks current enforcement actions): https://www.ftc.gov/news-events/topics/truth-advertising/health-claims
 
 ---
 
 ## 10. How Agents Use This File
 
 - **Scripting agents** (AGT-010, AGT-015, AGT-016): load before drafting.
-  Apply sections 2, 3, 5, 6, 7.
+  Apply sections 2, 3, 5, 6, 7. Revise until AGT-018 returns a clean PASS —
+  treat a warning exactly like a hard fail (section 1, Zero-tolerance
+  verdict policy).
 - **Compliance Review Agent** (AGT-018): load before review. Check
   drafts against sections 2, 3, 4, 5, 6, 8. The compounding-signals
   rule in §3.2 requires a cumulative assessment — individual element
-  review is not sufficient. Return HARD FAIL if three or more risk
-  factors are simultaneously present, regardless of individual framing.
+  review is not sufficient. Return FAIL if any hard fail **or** any
+  warning is present — PASS WITH WARNINGS is retired.
 - **Metadata agent** (AGT-017): apply section 3 platform rules to titles,
   descriptions, hashtags. Apply section 5 red-flag list to all metadata.
 
@@ -531,6 +636,12 @@ Quarterly refresh should be registered in
 [tasks/recurring-tasks.md](../../tasks/recurring-tasks.md) under the
 Quarterly section.
 
+### Refresh Log
+
+| Date | Trigger | Sections updated |
+|---|---|---|
+| 2026-07-26 | Owner-requested refresh ahead of the weekly news agent (AGT-010) — TikTok/YouTube/X guidelines re-checked; zero-tolerance verdict policy added after the sauna-Short root-cause review | 1 (new), 3.1, 3.2, 3.4, 4, 5, 6, 8, 9, 10 |
+
 ---
 
-*Last updated: July 2026*
+*Last updated: July 26, 2026*
