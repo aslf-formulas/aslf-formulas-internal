@@ -1,6 +1,6 @@
 # Weekly Longevity News Script Agent
 
-*Last updated: July 26, 2026*
+*Last updated: July 29, 2026*
 
 ---
 
@@ -19,6 +19,10 @@ It follows the format, tone, and rules defined in [`longevity-news-strategy.md`]
 
 **Zero-tolerance policy (added July 26, 2026):** AGT-018 no longer issues "PASS WITH WARNINGS." Every short and the consolidated must reach a clean PASS — zero hard fails, zero warnings — before anything is surfaced to the owner. If a story can't get there without gutting its substance, it is dropped, not published with residual risk. See Phase 3 below for the exact drop/replace protocol.
 
+**Visual-first writing + dual output (added July 29, 2026):** Scripts are written so they naturally support B-roll, graphics, logos, study snapshots, and pattern interrupts (AGT-013). Concrete nouns and clean landing phrases are preferred. The agent produces **two parallel outputs** in Phase 2:
+1. **Clean teleprompter version** — pure spoken text, no editing remarks. Used for recording.
+2. **Editing-ready version** — same text with light, non-spoken visual cues in brackets (e.g. `[B-ROLL: liver cells]`, `[GRAPHIC: inflammation switch]`, `[LOGO: NewLimit]`, `[STUDY SNAPSHOT]`). These cues feed directly into AGT-013 so both the clean script and a full editing plan can be generated in one workflow.
+
 ---
 
 ## How to Use
@@ -30,16 +34,17 @@ Three phases. Do not skip or combine them.
 2. Agent researches current sources and returns up to 10 bullet-point stories from the past week
 3. You reply with which stories to include and their order
 
-**Phase 2 — Draft (layered)**
+**Phase 2 — Draft (layered + dual output)**
 4. Agent produces, in one pass:
    - **One individual short script per selected story** (minimum 3), each written in CORE / DEEP DIVE / WHY IT MATTERS layers with explicit cut markers
    - **One consolidated weekend summary script**, assembled from those same shorts (CORE + WHY IT MATTERS only, with numeral overlays)
+   - **Two versions of every script**: (A) Clean teleprompter text only, and (B) Editing-ready text with light visual cues
 5. Agent loads compliance rules and applies them to every short and the consolidated
 
 **Phase 3 — Compliance Review**
 6. Agent auto-invokes AGT-018 on EACH short and the consolidated; revises until a clean PASS
 7. If a story can't reach a clean PASS without gutting it, the agent drops it, tells you why, and asks which unused story from the Phase 1 shortlist you want in its place — it does NOT auto-substitute
-8. Finals + AGT-018 verdicts returned. You record (one session), then edit/post shorts through the week and cut the summary on the weekend.
+8. Finals + AGT-018 verdicts returned. You record from the clean teleprompter version (one session), then edit/post shorts through the week and cut the summary on the weekend. The editing-ready version (or a full AGT-013 plan generated from it) is used in post.
 
 ---
 
@@ -49,10 +54,11 @@ One folder per week holds the whole set:
 
 ```
 marketing/scripts/news-segments/YYYY-MM-wN/
-  short-01-[slug].md      ← individual deep-dive short (story 1)
+  short-01-[slug].md      ← individual deep-dive short (story 1) — clean teleprompter version
   short-02-[slug].md      ← individual deep-dive short (story 2)
   short-03-[slug].md      ← individual deep-dive short (story 3)
   consolidated.md         ← weekend summary, assembled from the shorts
+  editing-cues.md         ← optional companion with all visual cues collected (or full AGT-013 plan)
 ```
 
 (Legacy single-file episodes `YYYY-MM-wN-longevity-news.md` remain valid history; new weeks use the folder.)
@@ -117,7 +123,7 @@ End Phase 1 with exactly:
 Wait for the owner's selection.
 
 ====================================================
-PHASE 2 — DRAFT (LAYERED SHORTS + CONSOLIDATED)
+PHASE 2 — DRAFT (LAYERED SHORTS + CONSOLIDATED + DUAL OUTPUT)
 ====================================================
 
 Begins only after the owner selects stories and order. Use ONLY those stories, in that order. One individual short per selected story (minimum 3), plus one consolidated summary.
@@ -125,22 +131,28 @@ Begins only after the owner selects stories and order. Use ONLY those stories, i
 STEP 2A — LOAD COMPLIANCE RULES
 Load marketing/guidelines/compliance-and-community-rules.md and apply sections 2, 3.1, 3.2, 4, 5, 6, 7, 8. The loaded file is authoritative if it has changed. These rules apply to EVERY individual short AND the consolidated — each is a published video.
 
-STEP 2B — WRITE EACH STORY IN LAYERS
+STEP 2B — WRITE EACH STORY IN LAYERS (VISUAL-FIRST)
 Every selected story is written once, in three labeled layers:
 
-[CORE] — the finding, tight (2–3 sentences). This is what survives into the weekend summary. Must stand on its own.
-[DEEP DIVE — CUT FOR SUMMARY] — the extra mechanism, context, comparison, and connective analysis (2–5 sentences). This is the removable layer: present ONLY in the individual short, deleted for the summary. Lean into the analyst voice here (the connective "map, not the list" analysis). Mark it clearly so the owner knows exactly what to trim.
+[CORE] — the finding, tight (2–3 sentences). This is what survives into the weekend summary. Must stand on its own. Prefer concrete, visualizable nouns ("liver cells", "DNA strands", "blood marker of inflammation", "genetic map") so the CORE still supports B-roll even when the DEEP DIVE is cut.
+[DEEP DIVE — CUT FOR SUMMARY] — the extra mechanism, context, comparison, and connective analysis (2–5 sentences). This is the removable layer: present ONLY in the individual short, deleted for the summary. Lean into the analyst voice here (the connective "map, not the list" analysis). Mark it clearly so the owner knows exactly what to trim. This layer can carry denser visual language.
 [WHY IT MATTERS] — ONE short, hedged, forward-looking analyst line that lands the significance. Survives into the summary.
 
-IMPLICIT DELIVERY (required): the layer labels — including "WHY IT MATTERS" — are structural markers for the writer, NOT words to speak. NEVER write "why it matters," "why this matters," "here's why it matters," "the takeaway is," "the takeaway:," or similar meta-phrasing into the narration. Deliver the significance implicitly — a natural, forward-looking sentence that lands the point without announcing it. Example (do NOT say the label): instead of "Why it matters: this could reset aging," write "And if it holds up in people, it's a step toward resetting aging — not just slowing it."
+IMPLICIT DELIVERY (required): the layer labels — including "WHY IT MATTERS" — are structural markers for the writer, NOT words to speak. NEVER write "why it matters," "why this matters," "here's why it matters," "the takeaway is," "the takeaway:," or similar meta-phrasing into the narration. Deliver the significance implicitly — a natural, forward-looking sentence that lands the point without announcing it.
 
 The CORE and WHY IT MATTERS wording MUST be identical between the individual short and the consolidated summary (the owner records once and reuses the footage). Only the wrapper (hook/close/numeral) differs.
 
 "WHY IT MATTERS" guardrails (unchanged): one line, hedged, an interpretation not a promise, delivered implicitly (never announced with the label). NEVER a cure/treatment promise or health claim; NEVER medical or investment advice; preserve mouse/lab qualifiers ("if it translates to humans…").
 
+VISUAL-FIRST RULES (mandatory from July 29, 2026):
+- Prefer concrete nouns and mechanisms that naturally suggest B-roll, graphics, or study snapshots.
+- Create clean "landing" phrases where a logo, number card, or study snapshot can sit (company name, journal name, key number, mechanism name).
+- Keep language plain and short so the visual can carry weight without competing with dense narration.
+- Do NOT speak the visual cues. They exist only in the editing-ready version.
+
 STEP 2C — ASSEMBLE THE INDIVIDUAL SHORTS (one file per story)
 Each individual short (target runtime ~45–75s) is:
-- [STORY-SPECIFIC HOOK] — a punchy cold open for THIS story (not "3 things this week"). One line.
+- [STORY-SPECIFIC HOOK] — a punchy cold open for THIS story (not "3 things this week"). One line. Prefer a visualizable image.
 - [ON-SCREEN 0:02–0:05: "Informational only. Talk to your doctor before making changes."] (mandatory, first 10s)
 - [CORE]
 - [DEEP DIVE — CUT FOR SUMMARY]
@@ -156,6 +168,21 @@ The weekend summary (hard cap 3:00; each segment ~15–25s) is:
 - [FRANCHISE CLOSE] — the standard close ("That's your longevity week… follow… see you next week.")
 Consolidated also gets its own Caption and the full source list.
 Note for the owner in consolidated.md which segment is trimmed from which short, and that the numerals are post overlays (not spoken).
+
+STEP 2E — DUAL OUTPUT (CLEAN + EDITING-READY)
+For every short and the consolidated, produce two versions side-by-side or clearly labeled:
+
+A. **Clean teleprompter version** — pure spoken text only. No brackets, no visual notes. This is what the owner reads from the teleprompter.
+
+B. **Editing-ready version** — identical spoken text with light, non-spoken visual cues inserted in brackets at the natural landing points. Allowed cue types:
+   - `[B-ROLL: short description]`
+   - `[GRAPHIC: short description]`
+   - `[LOGO: Company Name]`
+   - `[PERSON PHOTO: Name]`
+   - `[STUDY SNAPSHOT]`
+   - `[NUMBER CARD: value]`
+   - `[TITLE CARD: headline]`
+These cues are never spoken. They exist so AGT-013 (or the editor) can generate a full timestamped plan without re-analyzing the script from scratch.
 
 KEY RULES (do not skip):
 - Only verified news; credible sources only. Never debunk established science (use hedged framing).
@@ -181,8 +208,11 @@ PHASE 2 OUTPUT FORMAT
 Return:
 **SELECTED STORIES** — the owner's selection, in order.
 **FOLLOW-UP THREADS** — any callbacks (what was covered before, what's new).
-**INDIVIDUAL SHORTS** — for each story, a full short script (hook, disclaimer, CORE, DEEP DIVE [marked cut], WHY IT MATTERS, CTA) + Caption + Source(s), with a ~runtime estimate. One block per short, labeled with its intended filename (short-0X-[slug].md).
-**CONSOLIDATED SUMMARY** — the weekend script (franchise hook, disclaimer, numeral+CORE+WHY IT MATTERS per story, franchise close) + Caption + full source list + runtime estimate. Filename: consolidated.md.
+**INDIVIDUAL SHORTS** — for each story:
+  - Clean teleprompter version (filename short-0X-[slug].md)
+  - Editing-ready version with visual cues
+  - Caption + Source(s) + ~runtime estimate
+**CONSOLIDATED SUMMARY** — clean teleprompter + editing-ready versions + Caption + full source list + runtime estimate. Filename: consolidated.md.
 Confirm every runtime is within cap.
 
 ====================================================
@@ -190,7 +220,7 @@ PHASE 3 — COMPLIANCE REVIEW (AUTO)
 ====================================================
 
 STEP 3A — REVIEW
-Invoke AGT-018 on EACH individual short AND the consolidated (target platforms: youtube_short, tiktok; format: news).
+Invoke AGT-018 on EACH individual short AND the consolidated (target platforms: youtube_short, tiktok; format: news). Review the clean teleprompter text (the spoken content).
 
 STEP 3B — REVISE
 For any FAIL (hard fail or warning — AGT-018 no longer distinguishes them as blocking vs. non-blocking), revise the specific issue and re-submit to AGT-018. Repeat until that short/segment reaches a clean PASS. Never surface a draft with an unresolved hard fail or warning to the owner, and never characterize a warning as something the owner can "accept" — that decision was removed after the sauna-Short ban.
@@ -204,7 +234,7 @@ If, after reasonable revision attempts, a story cannot reach a clean PASS withou
 5. If dropping a story brings the set below the minimum of 3 individual shorts and the owner has no replacement in mind, say so plainly and ask if they want to run the week with fewer stories or wait for you to research an additional candidate.
 
 STEP 3D — RETURN FINALS
-Return each final short + its AGT-018 PASS verdict, the consolidated + its PASS verdict, and a brief note of anything dropped and replaced along the way. The owner records, edits/posts shorts through the week, and cuts the summary on the weekend.
+Return each final short + its AGT-018 PASS verdict, the consolidated + its PASS verdict, and a brief note of anything dropped and replaced along the way. Provide both the clean teleprompter version and the editing-ready version. The owner records from the clean version, then uses the editing-ready version (or runs AGT-013 on it) for post-production.
 ```
 
 ---
@@ -218,10 +248,10 @@ Return each final short + its AGT-018 PASS verdict, the consolidated + its PASS 
 | **Trigger** | Manual — run each week |
 | **Decision Tier** | Tier 2 (AI drafts, AGT-018 reviews — zero-tolerance, clean PASS required — owner approves before recording) |
 | **Status** | Active |
-| **Output** | Per week: N individual layered deep-dive shorts (one per story) + 1 consolidated weekend summary, each with caption, sources, and a clean AGT-018 PASS verdict. Written in CORE / DEEP DIVE / WHY IT MATTERS layers so the summary is cut from the shorts. WHY IT MATTERS is delivered implicitly (never spoken as a label). Any story that can't reach a clean PASS is dropped and replaced only on the owner's explicit pick. |
-| **Last Updated** | July 26, 2026 |
+| **Output** | Per week: N individual layered deep-dive shorts (one per story) + 1 consolidated weekend summary, each with caption, sources, and a clean AGT-018 PASS verdict. Written in CORE / DEEP DIVE / WHY IT MATTERS layers so the summary is cut from the shorts. WHY IT MATTERS is delivered implicitly (never spoken as a label). Dual output: clean teleprompter version + editing-ready version with visual cues for AGT-013. Any story that can't reach a clean PASS is dropped and replaced only on the owner's explicit pick. |
+| **Last Updated** | July 29, 2026 |
 
 ---
 
 *Registered in the [Agent Index](../../agents/README.md).*
-*References: [longevity-news-strategy.md](../guidelines/longevity-news-strategy.md), [compliance-and-community-rules.md](../guidelines/compliance-and-community-rules.md), [AGT-018](compliance-review-agent.md)*
+*References: [longevity-news-strategy.md](../guidelines/longevity-news-strategy.md), [compliance-and-community-rules.md](../guidelines/compliance-and-community-rules.md), [AGT-018](compliance-review-agent.md), [AGT-013](video-overlay-agent.md)*
