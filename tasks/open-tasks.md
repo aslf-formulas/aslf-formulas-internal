@@ -6,7 +6,7 @@
 
 | # | Task | Type | Details | Deadline |
 |---|---|---|---|---|
-| 2 | **Texas Franchise Tax — Annual Filing (PIR/OIR)** | Owner Action | File at [Texas Webfile](https://comptroller.texas.gov/taxes/file-pay/). The old "No Tax Due Report" was discontinued for 2024+; entities under the threshold now file Form 05-102 (Public Information Report) or 05-167 (Ownership Information Report) instead — no payment required under the $2,650,000 (2026–2027) revenue threshold, but the filing itself is still required. **OVERDUE** — not yet filed. See [task-agent.md](./task-agent.md) Task 2 for full steps. | **OVERDUE** (was May 15, 2026) |
+| 2 | **Texas Franchise Tax — Annual Filing (PIR/OIR)** | Owner Action | File at [Texas Webfile](https://comptroller.texas.gov/taxes/file-pay/). The old "No Tax Due Report" was discontinued for 2024+; entities under the threshold now file Form 05-102 (Public Information Report) or 05-167 (Ownership Information Report) instead — no payment required under the $2,650,000 (2026–2027) revenue threshold, but the filing itself is still required. **OVERDUE** (was May 15, 2026) — **on hold, owner needs to sync with business partner (who tracks taxes) before filing.** See [task-agent.md](./task-agent.md) Task 2 for full steps. | OVERDUE — pending partner sync |
 | 3 | **Create Order Insert Brochure** | Owner Action | Design and produce a branded brochure to include with every order. Should reinforce brand identity, highlight product benefits, include QR code or URL for reorders/reviews, and reflect ASLF Formulas' science-backed, no-filler positioning. | — |
 
 ---
