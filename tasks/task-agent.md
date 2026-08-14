@@ -1,6 +1,6 @@
 # Task Agent
 
-*Last updated: April 2026*
+*Last updated: August 2026*
 
 > This file contains instructions for completing every task tracked in this folder — both one-time open tasks and recurring scheduled tasks. The lists live in [open-tasks.md](./open-tasks.md) and [recurring-tasks.md](./recurring-tasks.md). This file holds the *how*.
 
@@ -29,24 +29,26 @@ When a task is complete:
 ## Open Task Instructions
 
 ### Task 1 — Chase Business Credit Card Follow Up
-**Type:** Owner Action
-
-1. Call Chase reconsideration line: **1-800-432-3117**
-2. Reference the active Chase business checking account on file
-3. Explain the need for chargeback protection with suppliers
-4. If approved → document card details in [business-setup-checklist.md](../finance/guidelines/business-setup-checklist.md) and close this task
-5. If denied → move to Task 7 (secured card path) and update this task's notes
+**Status:** Completed August 2026 — approved via reconsideration line.
 
 ---
 
-### Task 2 — Texas Franchise Tax: File No Tax Due Report
+### Task 2 — Texas Franchise Tax: Annual Filing (PIR/OIR)
 **Type:** Owner Action
+**Status: OVERDUE — deadline was May 15, 2026, not yet filed as of August 2026.**
+
+> **Correction (August 2026):** Texas discontinued the standalone "No Tax Due Report" for report years 2024 and later. Entities at or below the no-tax-due threshold no longer file that form — they instead file **Form 05-102 (Public Information Report)** or **Form 05-167 (Ownership Information Report)**, depending on entity type, even though no tax is owed. The no-tax-due revenue threshold is also now **$2,650,000** for report years 2026–2027 (previously $2.47M).
 
 1. Go to [Texas Webfile](https://comptroller.texas.gov/taxes/file-pay/)
-2. Log in and select **No Tax Due Report**
-3. File under ASLF LLC — no payment required (revenue under $2.47M threshold)
-4. Deadline: **May 15, 2026**
-5. After filing → close this task and note the filing date in Completed Tasks
+2. Log in with the existing eSystems/Webfile account (or create one if needed)
+3. Select ASLF LLC from the entity list
+4. Choose **Form 05-102 (Public Information Report)** — the standard filing for an LLC. Webfile will indicate if 05-167 applies instead.
+5. Enter/confirm: principal office address, names and addresses of all members/managers, and registered agent details (see [legal/README.md](../legal/README.md) for registered agent info on file)
+6. Review, sign digitally, and submit — process typically takes ~15 minutes
+7. Save the confirmation number in the repo
+8. After filing → close this task, log the filing date in Completed Tasks, and note the confirmation number
+
+**Why this matters even at zero tax owed:** Texas frames this as a "privilege tax" for the right to operate as a legal entity in the state — it applies regardless of industry and is unrelated to franchising as a business model. Missing the deadline doesn't trigger automatic forfeiture on May 16, but the Comptroller moves toward forfeiture the longer it's unfiled. Forfeiture means losing the LLC's right to do business in Texas, and members/officers can become personally liable for debts incurred after forfeiture. File as soon as possible to minimize exposure.
 
 ---
 
@@ -59,23 +61,8 @@ When a task is complete:
 
 ---
 
-### Task 5 — LLC Operating Agreement
-**Type:** External Service
-
-1. Contact a Texas business attorney or use a service like LegalZoom / Clerky
-2. Request a single-member LLC operating agreement for ASLF LLC (Texas)
-3. Key items to cover: ownership %, management structure, profit distribution, dissolution process
-4. Once drafted and signed → store a copy in the `legal/` folder and close this task
-
----
-
 ### Task 6 — Copyright Registration
-**Type:** Owner Action
-
-1. Go to [copyright.gov/registration](https://www.copyright.gov/registration/)
-2. Register key YouTube videos and/or website content as separate filings
-3. Filing fee: $65–$85 per filing
-4. After each registration → note the registration number and date in Completed Tasks
+**Status:** Dropped August 2026 — YouTube's Copyright Match Tool plus standard takedown requests cover reuse/infringement handling without formal registration. Revisit only if statutory damages / attorney's fees in a lawsuit become relevant.
 
 ---
 
@@ -115,6 +102,17 @@ When a task is complete:
 2. Go to **Stores** → Build/edit the ASLF Formulas storefront
 3. Add A+ Content to key product listings if not already done
 4. Close this task once the storefront and/or A+ Content is published
+
+---
+
+### Task 14 — Sales Tax Nexus Review — Identify State(s)
+**Type:** Owner Action
+
+1. Pull order/revenue data broken out by state (Shopify admin → Analytics, filter by shipping state)
+2. Compare each state's annual revenue and transaction count against that state's economic nexus thresholds (commonly $100K in sales or 200 transactions/year, but this varies by state — verify the specific state's current threshold before concluding)
+3. For any state(s) that clear the threshold, register for a sales tax permit in that state and begin collecting/filing there going forward
+4. Document findings and any new state filing obligations in `finance/guidelines/sales-tax.md`
+5. Close this task once the review is complete and any needed registrations are filed
 
 ---
 
@@ -175,6 +173,7 @@ When a task is complete:
 
 - Deadline: May 15 each year
 - Automated reminder fires April 15
+- Filing is now Form 05-102 (PIR) or 05-167 (OIR) — see Task 2 correction above
 
 ---
 
