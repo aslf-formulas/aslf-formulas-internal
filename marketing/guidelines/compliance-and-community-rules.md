@@ -2,7 +2,7 @@
 
 > Source of truth for all platform community guidelines, FTC requirements,
 > and ASLF-internal rules that every script must follow before publication.
-> Loaded by AGT-010, AGT-015, AGT-016, and the Compliance Review Agent (AGT-018).
+> Loaded by AGT-009, AGT-010, AGT-015, AGT-016, and the Compliance Review Agent (AGT-018).
 >
 > **Last reviewed: July 26, 2026** (event-triggered refresh — TikTok, YouTube,
 > X policy re-check + zero-tolerance verdict policy added; see Refresh Log
@@ -186,7 +186,7 @@ studies” as an exception. ASLF news content falls under this exception
 when framed as reporting on the study, not advocating for the
 intervention.
 
-### 3.2 TikTok (standalone Shorts + news Shorts)
+### 3.2 TikTok (standalone Shorts + news Shorts + comment replies)
 
 **Most restrictive platform for health content.** TikTok aggressively
 enforces:
@@ -205,6 +205,17 @@ enforces:
   content under heavier scrutiny
 - Anti-aging — falls under wellness category
 - Hair growth — must avoid framing as treatment for alopecia
+
+**No links in comment replies (HARD FAIL if violated — added August 2026):**
+Never include a link or URL — including aslf-formulas.com — in a reply to
+a TikTok comment, even when someone directly asks where to buy or which
+supplements to order. TikTok flagged/violated an ASLF reply for exactly
+this in August 2026 (see section 8 log). This is treated the same as the
+"never open to sell on TikTok Shop" rule above: TikTok's enforcement
+targets the *commerce link*, not the underlying product claim. Redirect
+to the bio link instead — e.g., "link's in our bio!" — without pasting
+the raw URL anywhere in the comment text. This applies to AGT-009 (Video
+Comment Reply Agent) specifically, in addition to script/caption content.
 
 **Weight-loss / GLP-1 content rule (updated 2026 — HARD FAIL if violated):**
 TikTok tightened weight-management enforcement in 2026: no before/after
@@ -476,6 +487,11 @@ these phrases (or close variants) must be flagged for revision.
 - A GLP-1 drug name paired with a weight-loss percentage or outcome claim
 - “Lost [X]% of body weight” / “dropped [N] pounds” in narration or on-screen text
 
+**Commerce-link language (TikTok-specific risk, added August 2026):**
+- Any link or URL (e.g. aslf-formulas.com) pasted directly into a TikTok
+  comment reply, even in response to a direct "where can I buy this"
+  question — redirect to the bio link instead
+
 ---
 
 ## 6. Required Inclusions Checklist
@@ -510,6 +526,11 @@ Every script must contain:
 - [ ] **AGT-018 verdict is a clean PASS** — zero hard fails, zero warnings.
       A PASS WITH WARNINGS is not a passing state; revise or drop the
       content instead.
+
+Every TikTok comment reply (AGT-009) must additionally satisfy:
+
+- [ ] No link or URL of any kind, even when directly asked where to buy
+      (TikTok rule, added August 2026) — redirect to bio link instead
 
 ---
 
@@ -554,6 +575,7 @@ mistakes.
 |------|----------|---------|-------------------------|------------|
 | 2026-05-w1 | TikTok | Weekly Longevity News Ep. 5 ([2026-05-w1-longevity-news.md](../scripts/news-segments/2026-05-w1-longevity-news.md)) | Multiple compounding signals: (a) named rapamycin + 6mg/week dosage in narration; (b) specific disease names (Alzheimer’s, dementia, COPD) repeated across stories; (c) mortality/disease-risk percentages (50% lower mortality, 14% higher dementia risk, etc.) without research-context framing adjacent to the numbers; (d) “precision weapon” disease-as-target framing in Story 5; (e) no disclaimer present in script (no on-screen text, no caption disclaimer); (f) account-level scrutiny — TikTok scrutinizes health content from supplement-seller accounts more aggressively. | Not republishing. Logged for future scripts. Rules added to sections 3.2 and 6 to prevent recurrence. |
 | 2026-07-w3 | TikTok (banned) + YouTube (suppressed) | Short 02 sauna longevity (2026-07-w3/short-02-sauna-longevity.md) | Compounding signals: (a) naked risk stats (63%, 22–63%) with sandwich framing missing — research context appeared before but not after the numbers; (b) four named conditions (Alzheimer’s, heart attacks, stroke, depression) in 90 seconds — exceeds the two-condition cap; (c) numeric protocol specification (38.5°C + 30% reduction + 6 weeks) delivered in a single narration sentence — reads as implicit guidance; (d) prescriptive “levers we have” framing in the WHY IT MATTERS line; (e) qualifier trailed the positive claim (“benefits seem to scale… though most data is observational”); (f) account-level supplement-seller scrutiny amplifying all of the above. AGT-018 returned PASS WITH WARNINGS — should have been HARD FAIL under the compounding-signals rule. | Do not re-upload the banned cut — leave it untouched to avoid trust-score suppression. Draft a clean re-record: stats sandwiched, max 2 condition names, protocol specs moved to on-screen text only, prescriptive framing removed, qualifier construction flipped. Compounding-signals rule, disease-name cap, risk-stat sandwich rule, protocol specification rule, and qualifier construction rule added to sections 3.1, 3.2, 4, 5, and 6 as a result. **Root-cause follow-up (July 26, 2026): the deeper failure was that AGT-018 was allowed to issue PASS WITH WARNINGS at all. That verdict category is now retired platform-wide — see the Zero-tolerance verdict policy in section 1 and AGT-018's updated verdict thresholds.** |
+| 2026-08 | TikTok | Comment reply (AGT-009) — owner replied to a comment asking which supplements could be purchased, and included the aslf-formulas.com link directly in the reply | Commerce link pasted directly into a TikTok comment, from a supplement-selling account — TikTok flagged/violated the reply. Distinct from the video-content compounding-signals pattern above; this is a link/commerce enforcement issue, not a health-claim one. | Rule added to section 3.2 and section 6: AGT-009 must never include a link or URL in a TikTok comment reply, even when directly asked where to buy — redirect to the bio link instead. AGT-009's system prompt (`marketing/agents/video-comment-agent.md`) updated accordingly. |
 
 ---
 
@@ -585,6 +607,11 @@ mistakes.
   warning is present — PASS WITH WARNINGS is retired.
 - **Metadata agent** (AGT-017): apply section 3 platform rules to titles,
   descriptions, hashtags. Apply section 5 red-flag list to all metadata.
+- **Video Comment Reply Agent** (AGT-009): load before drafting any
+  reply. Apply section 2 (informational-only, no prescriptive language),
+  the TikTok no-links-in-comment-replies rule in section 3.2, and the
+  commerce-link entry in section 5 — regardless of platform, never paste
+  a purchase link directly into a comment reply.
 
 ---
 
@@ -641,7 +668,8 @@ Quarterly section.
 | Date | Trigger | Sections updated |
 |---|---|---|
 | 2026-07-26 | Owner-requested refresh ahead of the weekly news agent (AGT-010) — TikTok/YouTube/X guidelines re-checked; zero-tolerance verdict policy added after the sauna-Short root-cause review | 1 (new), 3.1, 3.2, 3.4, 4, 5, 6, 8, 9, 10 |
+| 2026-08 | Event-triggered — TikTok flagged an AGT-009 comment reply that included the aslf-formulas.com link when replying to a purchase question | 3.2, 5, 6, 8, 10 |
 
 ---
 
-*Last updated: July 26, 2026*
+*Last updated: August 2026*
