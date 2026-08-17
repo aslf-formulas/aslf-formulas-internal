@@ -29,15 +29,13 @@
 | # | Task | Notes |
 |---|---|---|
 | 1 | **Cut and publish Shorts from long-format videos** | Clip highlights from new long-form YouTube content and publish as YouTube Shorts |
-| 2 | **Answer social media comments** | Reply to new comments across all social media platforms. Keep replies under 150 characters (agent constraint). |
+| 2 | **Answer social media comments** | Reply to new comments across all social media platforms. Keep replies under 150 characters (agent constraint). On TikTok, never include a link/URL in a reply — even for purchase questions — redirect to the bio link instead (see AGT-009). |
 
 ---
 
 ## Personal
 
-| # | Task | Notes | Deadline |
-|---|---|---|---|
-| 1 | **Plan trip to Portugal** | | — |
+*(none currently open)*
 
 ---
 
@@ -69,6 +67,7 @@
 | Copyright Registration (Dropped) | August 2026 | YouTube's Copyright Match Tool + standard takedown process covers reuse/infringement handling without formal registration |
 | Reapply for Chase Business Credit Card (Not Needed) | August 2026 | Original card was approved via reconsideration — secured-card fallback path no longer applicable |
 | Amazon A+ Content | August 2026 | A+ Content added to product listings. Storefront page itself still needs design/embellishment — see open Task 10 |
+| Plan Trip to Portugal | August 2026 | Trip already planned |
 
 ---
 
