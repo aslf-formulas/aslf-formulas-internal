@@ -35,7 +35,7 @@ When a task is complete:
 
 ### Task 2 — Texas Franchise Tax: Annual Filing (PIR/OIR)
 **Type:** Owner Action
-**Status: OVERDUE — deadline was May 15, 2026, not yet filed as of August 2026.**
+**Status: OVERDUE — deadline was May 15, 2026. On hold pending owner's sync with business partner (who tracks taxes).**
 
 > **Correction (August 2026):** Texas discontinued the standalone "No Tax Due Report" for report years 2024 and later. Entities at or below the no-tax-due threshold no longer file that form — they instead file **Form 05-102 (Public Information Report)** or **Form 05-167 (Ownership Information Report)**, depending on entity type, even though no tax is owed. The no-tax-due revenue threshold is also now **$2,650,000** for report years 2026–2027 (previously $2.47M).
 
@@ -67,12 +67,7 @@ When a task is complete:
 ---
 
 ### Task 7 — Reapply for Chase Business Credit Card
-**Type:** Owner Action (only if Task 1 fails)
-
-1. Apply for a secured business credit card (e.g. Chase Ink, Capital One Spark Secured)
-2. Use it for 6 months to build business credit history
-3. After 6 months → reapply for the Chase Business Credit Card
-4. Close this task when the card is approved and active
+**Status:** Not needed, August 2026 — the original Chase Business Credit Card was approved via the reconsideration line (Task 1), so the secured-card fallback path never triggered.
 
 ---
 
@@ -95,13 +90,14 @@ When a task is complete:
 
 ---
 
-### Task 10 — Add Amazon Front Page (A+ Content / Store Page)
+### Task 10 — Amazon Storefront Embellishment
 **Type:** Owner Action
+**Status:** A+ Content portion completed August 2026. Remaining: storefront page design.
 
 1. Log into Amazon Seller Central
-2. Go to **Stores** → Build/edit the ASLF Formulas storefront
-3. Add A+ Content to key product listings if not already done
-4. Close this task once the storefront and/or A+ Content is published
+2. Go to **Stores** → edit the ASLF Formulas storefront
+3. Add banners, layout structure, and brand styling to the storefront page itself (A+ Content on individual listings is already done — this is the storefront page as a whole)
+4. Close this task once the storefront embellishment is published
 
 ---
 
@@ -113,6 +109,17 @@ When a task is complete:
 3. For any state(s) that clear the threshold, register for a sales tax permit in that state and begin collecting/filing there going forward
 4. Document findings and any new state filing obligations in `finance/guidelines/sales-tax.md`
 5. Close this task once the review is complete and any needed registrations are filed
+
+---
+
+### Task 15 — Chase Account Access: Schedule Branch Appointment
+**Type:** Owner Action
+
+1. Owner and business partner currently cannot both see the business credit card and account through the Chase app/online login — access is out of sync between the two phones/logins
+2. Call or schedule online for an appointment at a local Chase branch
+3. Bring ID for both the owner and the partner, plus any account/card details needed to verify authorized-user or joint access
+4. At the appointment, request that both logins be properly linked with full visibility into the account and card
+5. Close this task once both owner and partner confirm they can see the account and card in their respective apps
 
 ---
 
