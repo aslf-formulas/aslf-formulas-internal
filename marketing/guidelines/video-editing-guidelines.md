@@ -60,3 +60,12 @@ A timestamped editing plan: HOOK / STORY n / CLOSE, each event with trigger phra
 - Do not clip Shorts from long-form footage (deprecated). News and Shorts are recorded separately.
 - Do not run the old “extract clips from SRT” shorts-guidelines process on weekly news.
 - Do not use `marketing/agents/video-overlay-agent.md` as the working method. That file is a leftover agent prompt. Living rules are this file.
+
+## Recording log (GitHub)
+
+Every time we edit a video, save a record in the repo before the cut is treated as done:
+
+- Path: `marketing/scripts/` under the matching series folder (`news-segments/YYYY-MM-wN/` for weekly news, `shorts/` or `long-format/` otherwise).
+- File: `as-recorded.md` (plus the original SRT/JSON if we have it).
+- Must include: **topics** (short bullets other teams can reuse), **as-recorded transcript**, runtime, and date recorded.
+- If a draft script in the same folder does not match the take, leave the draft in place and save `as-recorded.md` as the record of what was actually recorded. Do not silently overwrite the draft.
