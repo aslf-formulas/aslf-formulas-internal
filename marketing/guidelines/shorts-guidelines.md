@@ -1,3 +1,7 @@
+> **Note:** Weekly longevity news and standalone Shorts follow `video-editing-guidelines.md`.
+> This file documents the older long-form clip-extraction process.
+> For overlay, tone, and Premiere cut rules, use `video-editing-guidelines.md`.
+
 # Short-Form Video Clips — Process & Guidelines
 
 *Last updated: March 2026*
