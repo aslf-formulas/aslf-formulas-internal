@@ -1,6 +1,6 @@
 # Video editing guidelines
 
-*Last updated: August 2026*
+*Last updated: September 2026*
 
 > Working notes for the Premiere editor and Video Editor assistant. Not an agent system prompt.
 
@@ -19,10 +19,10 @@ This role is **editing plan only**.
 
 ## Format
 
-- Weekly longevity news is a **vertical Short**, published as a weekend appointment show.
-- Signature open: “X things that happened in the longevity world this week. Let’s get into it.”
-- **Hard cap: 3:00.** Do not plan a Short over 3 minutes. If over, stop and ask for a trimmed script. Do not rewrite the stories to fit.
+- **Shorts / weekly longevity news:** vertical Short, weekend appointment show. Signature open: “X things that happened in the longevity world this week. Let’s get into it.” **Hard cap: 3:00.** If over, stop and ask for a trimmed script. Do not rewrite the stories to fit.
+- **Long-form:** horizontal YouTube. No 3:00 gate. Hook-first pacing (see Density below).
 - Jump cuts on filler/breaths are assumed. Caption *timing* is the editor’s job; caption *style* is specified once per plan.
+- **Zooms (punch-in / punch-out):** the editor adds these manually in Premiere wherever gaps remain. Do **not** plan zoom events.
 
 ## Tone (every overlay, SFX, type choice)
 
@@ -42,21 +42,64 @@ Word-level progressive highlight: spoken word in a single accent, rest of line w
 - Every cited study: plan a real study snapshot (title + authors + journal), not generic paper stock. 1.5–2.5s. Source URL from the script only.
 - Disclaimer on-screen ≥2s in the first 10s, plus in the caption: “Informational only. Talk to your doctor before making changes.” If it is not spoken, still plan the on-screen card.
 
-## Engagement plan (what to put on the timeline)
+## Density (replaces the old “every 6 seconds” rule)
 
-Eleven event types: B-roll (≤2s, 3 Adobe Stock queries), numeric graph/stat card, bullet text, logo, person photo, product image, zoom (subtle 5–10% punch-in, max 1–2 per story), pattern interrupt, SFX (whoosh/ding/low boom only), loop close, study snapshot, plus AI illustration only when stock cannot show the idea.
+There is **no** flat “engagement event every N seconds” floor. Gaps are fine — the editor fills them with zooms and other manual moves.
 
-Density: something meaningful about every 6 seconds, or mark the gap as intentional. At least one pattern interrupt in the 40–60% window. Quality over stuffing.
+### Hook (first minutes) — heavy
 
-B-roll queries: 2–5 lowercase words, noun first, one descriptor, no orientation words. Filter vertical, ≤5s source, cut to ≤2s.
+- Shorts: roughly the open through the first story beat.
+- Long-form: the first **~2–3 minutes**.
+- Pack this window: punchline cards, big numbers, title cards, pattern interrupts, SFX landings, logos, quick B-roll. This is where retention is won. Prefer too dense over too thin here.
 
-## Deliverable to Premiere
+### Body (after the hook) — meaning-driven
 
-A timestamped editing plan: HOOK / STORY n / CLOSE, each event with trigger phrase, type, duration, and copy-paste Stock or image-gen prompt. Assume captions and jump cuts already exist.
+Only plan an overlay when the spoken content earns one:
+
+| Spoken cue | Plan |
+|---|---|
+| Explaining a process / mechanism / “how it works” | B-roll or AI illustration that shows the process |
+| Section / chapter / story title | Title or section card |
+| Emphasis / punchline phrase | Short bullet text (1–6 words) |
+| Numbers, percentages, comparisons, trends | Graph / stat card |
+| Named company / institution | Logo (editorial) |
+| Named person | Person photo (editorial) |
+| Named product | Product image (editorial) |
+| Cited study / paper / source | Study snapshot (URL from script) |
+
+Do **not** invent filler overlays to “cover” quiet talking-head stretches. Leave those gaps for the editor.
+
+### Still used (shorts especially)
+
+- Pattern interrupt: useful in the hook or mid-sag if the script has a natural break — not required on a timer.
+- Loop close: still plan for Shorts when the close can loop.
+- Mature SFX on big number/title landings only, not on every cut.
+
+## Event types to plan (no zooms)
+
+B-roll (≤2s, 3 Adobe Stock queries), AI illustration (when stock can’t show it), numeric graph/stat card, bullet / title / section text, logo, person photo, product image, study snapshot, pattern interrupt, SFX (whoosh/ding/low boom only), loop close (Shorts).
+
+**Do not plan:** zoom in, zoom out, punch-in, shake zoom, or any camera scale move.
+
+B-roll queries: 2–5 lowercase words, noun first, one descriptor, no orientation words. Filter vertical for Shorts / horizontal for long-form, ≤5s source, cut to ≤2s.
+
+## Deliverable to Premiere (one transcript → full package)
+
+When a transcript lands, return:
+
+1. **Timestamped editing plan** — HOOK (dense) / BODY sections / CLOSE. Each event: trigger phrase, type, duration, Stock or image-gen prompt.
+2. **ASR caption fix table** — misheard words only.
+3. **Stock checklist** — a compact table of timestamp | Primary | Alt 1 | Alt 2 so the editor can burn through Adobe Stock in one pass.
+4. **Recording log** — `as-recorded.md` with topics + transcript to GitHub (see below).
+5. **News posting copy** (news Shorts only) — TikTok/YouTube whole-video caption + X story-1 text-first post, per standing news copy rules.
+
+Assume captions and jump cuts already exist. Assume the editor will add zooms in gaps.
 
 ## What not to do
 
 - Do not fact-check, source-hunt, or compliance-review the script.
+- Do not plan zooms or fill silent stretches with filler overlays.
+- Do not enforce a fixed seconds-between-events density rule.
 - Do not clip Shorts from long-form footage (deprecated). News and Shorts are recorded separately.
 - Do not run the old “extract clips from SRT” shorts-guidelines process on weekly news.
 - Do not use `marketing/agents/video-overlay-agent.md` as the working method. That file is a leftover agent prompt. Living rules are this file.
