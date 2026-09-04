@@ -54,6 +54,7 @@ If positioning.md and an older instruction inside an agent ever conflict, **posi
 | AGT-016 | [marketing/agents/long-form-script-agent.md](../marketing/agents/long-form-script-agent.md) | Marketing | Draft 8–15 min YouTube long-form scripts (YouTube-exclusive), compliance-reviewed and routed to repo. Auto-triggers AGT-015 promo mode on approval. | Tier 2 | Active |
 | AGT-017 | [marketing/agents/video-metadata-agent.md](../marketing/agents/video-metadata-agent.md) | Marketing | Generate per-platform video metadata (titles, descriptions, captions, hashtags, thumbnail concepts) and append to the script file | Tier 2 | Active |
 | AGT-018 | [marketing/agents/compliance-review-agent.md](../marketing/agents/compliance-review-agent.md) | Marketing | Review draft scripts against compliance and community rules before owner approval. Zero-tolerance as of July 26, 2026: issues only PASS or FAIL — hard fails and warnings block equally, no "PASS WITH WARNINGS" carve-out. | Tier 2 | Active |
+| AGT-019 | [marketing/agents/amazon-ppc-agent.md](../marketing/agents/amazon-ppc-agent.md) | Marketing | Build/refresh Amazon Sponsored Products campaigns (Exact, Phrase, Auto) from Helium 10 Cerebro exports. Mandatory formula-confirmation gate before any keyword is targeted — never infers ingredients from competitor-audience search behavior. | Tier 2 | Active |
 
 ---
 
