@@ -1,6 +1,6 @@
 # Weekly Longevity News — 2026-09-w1
 
-*Drafted: September 5, 2026 | Rev 2 same day (no mice; Dog Aging swap; unisex PathStAR) | Format: Short-form vertical video | Target runtime: ~2:05*
+*Drafted: September 5, 2026 | Rev 2 same day (no mice; Dog Aging swap; unisex PathStAR) | Rev 3 same day (ASLF Formulas sponsor open) | Format: Short-form vertical video | Target runtime: ~2:05*
 
 > **Status:** OWNER-APPROVED for recording (Sep 5, 2026).
 
@@ -21,11 +21,19 @@ Order — Ocugen Phase 3 first patient (1) → Dog Aging Project metabolites (2)
 
 ---
 
+## Signature open (standing format)
+
+Owner (Sep 5, 2026): include the ASLF Formulas sponsor line in the hook. This is a standing format change.
+
+"Three things that happened in the longevity world this week, brought to you by ASLF Formulas. Let's get into it."
+
+---
+
 ## Script — Week of September 1, 2026
 
 [HOOK — 0:00–0:06]
 
-"Three things that happened in the longevity world this week. Let's get into it."
+"Three things that happened in the longevity world this week, brought to you by ASLF Formulas. Let's get into it."
 
 [ON-SCREEN 0:02–0:05: "Informational only. Talk to your doctor before making changes."]
 
@@ -107,7 +115,7 @@ Full reference: Yadav et al. / Sinha lab. *Nature Aging*, 31 August 2026. DOI 10
 2. No mouse cage story. Dog story framed as companion animals + human biomarker bridge.
 3. Explicit “not a claim that dog blood makes you live longer.”
 4. Disease-name cap: one cluster (dry AMD / age-related vision loss).
-5. No product promotion. No ASLF mention. Ocugen “not a finished medicine.”
+5. Brand sponsor open is intentional per owner (Sep 5, 2026); still no product claims / Foundation Capsules pitch in the news body. Ocugen “not a finished medicine.”
 6. PathStAR: no ovary/pacemaker on camera this cut.
 
 **Hard fails: 0 | Next step:** Record → Video Editor Premiere plan → metadata.
