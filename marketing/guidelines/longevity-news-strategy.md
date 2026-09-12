@@ -6,7 +6,7 @@
 >
 > Full positioning: [../../company-guidelines/positioning.md](../../company-guidelines/positioning.md).
 >
-> **Last updated: June 2026**
+> **Last updated: September 2026**
 
 ---
 
@@ -19,7 +19,8 @@ which few actually matter and *how they connect* (the map, not the list —
 positioning.md §4). Each week: a short-form video plus supporting native posts.
 
 Protect the signature open ("X things that happened in the longevity world this
-week. Let's get into it."). A format becomes a *show*.
+week, brought to you by ASLF Formulas. Let's get into it."). A format becomes a
+*show*.
 
 ---
 
@@ -28,7 +29,7 @@ week. Let's get into it."). A format becomes a *show*.
 | Category | What to Track |
 |---|---|
 | **Research & Science** | New studies, trials, peer-reviewed work (NAD+, senolytics, epigenetics, telomeres, etc.) |
-| **Companies & Startups** | Funding, launches, partnerships (Altos, Calico, BioAge, Retro, Unity, etc.) |
+| **Companies & Startups** | Funding, launches, partnerships, mergers (Altos, Calico, BioAge, Retro, Unity, etc.) |
 | **Industry, Money & Policy** | IPOs, sovereign investment, government programs, FDA updates, conferences — *our differentiator; cover longevity as an industry, not only as science* |
 | **Key Personalities** | Sinclair, Attia, Bryan Johnson, Huberman, Patrick — report on, don't compete with |
 | **Products & Supplements** | New formulations / clinical backing (neutral, editorial) |
@@ -38,7 +39,8 @@ week. Let's get into it."). A format becomes a *show*.
 
 ## Weekly Research Process
 
-Run every **Monday/Tuesday**:
+Run every **Friday** (Grok Bot standing routine delivers a slate for weekend
+recording):
 
 1. **Scan sources** — Fight Aging! (primary), PubMed/bioRxiv, Longevity.Technology,
    Lifespan.io, Science Daily; X key personalities; new YouTube uploads;
@@ -47,15 +49,23 @@ Run every **Monday/Tuesday**:
 2. **Select 3–5 stories** — short, punchy counts beat maximum coverage; six is
    over-capacity. Prioritize by:
    - **Freshness/recency** (hard filter for inclusion)
+   - **Human-first** — prefer human clinical trials moving forward, company
+     developments, mergers/partnerships, industry/money/policy. Prefer human
+     outcomes or a clear human bridge. **No pure animal-only / mouse-cage
+     stories.**
    - **Connective potential** — does it link to other stories or a larger trend?
      *Stories that build the map are worth more than isolated items.*
    - Novelty, source credibility, shareability
+   - Optional: at most **one** "different" tip/lifestyle slot — only if it is
+     still **news-related** (recent discovery, recent study, or recent credible
+     claim). Never a timeless generic tip with no news hook.
    - *(Note: we do NOT select for "relevance to our products." Story choice is
      editorial. Product mention, if any, is fenced and rare — positioning.md §6.)*
 3. **Add the analyst angle** — for each story: the plain-language takeaway, and
    *how it connects* to the other stories or the broader trend. (Describe, don't
    prescribe — no "you should"; frame as "researchers found / the data suggests.")
-4. **Draft the script** (AGT-010) → mandatory **AGT-018 compliance review**.
+4. **Philipp picks** from the Friday slate over the weekend, then **draft the
+   script** (AGT-010) → mandatory **AGT-018 compliance review**.
 5. **Produce** the short video (vertical) via the editing pipeline (AGT-013).
 6. **Repurpose natively** per platform (positioning.md §5; social-media-playbook.md).
 
@@ -82,10 +92,10 @@ Reference points Veritasium/Huberman. No fear-mongering, no overclaiming.
 
 | Day | Action |
 |---|---|
-| Mon/Tue | Research — collect + select stories |
-| Wed | Draft script (AGT-010) → compliance (AGT-018) |
-| Thu | Record, edit (AGT-013), metadata (AGT-017) |
-| Fri | Publish + supporting native posts (incl. X roundup) |
+| Friday | Research — collect + select 3–5 stories (Grok Bot Friday slate) |
+| Weekend | Philipp picks stories and records |
+| After record | Edit (AGT-013), metadata (AGT-017), compliance already cleared on script |
+| Early week | Publish + supporting native posts (YouTube Shorts, TikTok, X; not brand Instagram) |
 
 ---
 
@@ -126,4 +136,4 @@ Per-episode diagnosis via AGT-019 (when built), using 24h + 7d checkpoints.
 
 ---
 
-*Last updated: June 2026*
+*Last updated: September 2026*
