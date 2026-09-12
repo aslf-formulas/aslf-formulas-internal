@@ -1,6 +1,6 @@
 # Video editing guidelines
 
-*Last updated: September 2026*
+*Last updated: September 12, 2026*
 
 > Working notes for the Premiere editor and Video Editor assistant. Not an agent system prompt.
 
@@ -77,11 +77,41 @@ Do **not** invent filler overlays to “cover” quiet talking-head stretches. L
 
 ## Event types to plan (no zooms)
 
-B-roll (≤2s, 3 Adobe Stock queries), AI illustration (when stock can’t show it), numeric graph/stat card, bullet / title / section text, logo, person photo, product image, study snapshot, pattern interrupt, SFX (whoosh/ding/low boom only), loop close (Shorts).
+B-roll (≤2s, 3 Adobe Stock queries), Grok Imagine scientific illustration/clip (when Stock can’t show the mechanism; see Grok Imagine section), numeric graph/stat card, bullet / title / section text, logo, person photo, product image, study snapshot, pattern interrupt, SFX (whoosh/ding/low boom only), loop close (Shorts).
 
 **Do not plan:** zoom in, zoom out, punch-in, shake zoom, or any camera scale move.
 
 B-roll queries: 2–5 lowercase words, noun first, one descriptor, no orientation words. Filter vertical for Shorts / horizontal for long-form, ≤5s source, cut to ≤2s.
+
+## Grok Imagine (channel visual theme)
+
+Locked style for all ASLF longevity video graphics (long-form and Shorts), generated in the Grok Imagine project **Video Editor Graphs**.
+
+**Benchmark look:** clinical journal-figure / photorealistic medical illustration (see ABS-201 human scalp follicle model still — realistic anatomy, sparse composition, minimal labels, documentary science). Not trendy collage, not cartoon, not sparkle/glitter.
+
+**Default prompt shape:**
+`A square scientific illustration of [mechanism]: [concrete anatomy + process], clinical journal-figure look, minimal text, no cartoon, no sparkle. Documentary science aesthetic, photorealistic medical illustration, clean and sparse composition.`
+
+**Rules:**
+- Prefer Grok Imagine over Adobe Stock lists for process/mechanism/change explainers.
+- Chart/diagram labels OK when they clarify the graphic; editor still owns plain Premiere punchlines, lists, and % cards.
+- Long-form aspect: **1:1** (side of frame) or **16:9** (widescreen). Floating keyed elements may use pure black backgrounds when requested.
+- Shorts aspect for Imagine elements: **1:1** only.
+- Still vs video: use a still when the journal-figure frame is strong (editor may animate in Premiere); use a short Imagine video when motion is the point (counters, half-life curves, split panels).
+- Save outputs into **Video Editor Graphs**; notify in chat with the Imagine post link for review.
+
+## Weekly longevity news Shorts — graphics stack
+
+Vertical Short. Captions stay **center-screen** always — do **not** plan redundant punchline text that only repeats speech.
+
+Plan overlays from this stack:
+1. **Full-frame vertical Adobe Stock** footage (when B-roll earns it).
+2. **1:1 Grok Imagine** scientific elements (top of split layouts / side cards) in the journal-figure theme above.
+3. **Study / press snapshots** when Researcher provides a URL (crop headline + source, ~1.5–2.5s) — one per story when possible.
+4. **Premiere text for data:** numbers, percentages, keywords, short lists, and `01` / `02` / `03` + story titles.
+5. Logos and licensed people photos as usual (no unlicensed Google celeb grabs).
+
+Hard cap remains **3:00**. If the take is over, stop and ask for a trim — do not rewrite stories to fit.
 
 ## Deliverable to Premiere (one transcript → full package)
 
