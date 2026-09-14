@@ -1,8 +1,8 @@
 # Video editing guidelines
 
-*Last updated: September 12, 2026*
+*Last updated: September 13, 2026*
 
-> Working notes for the Premiere editor and Video Editor assistant. Not an agent system prompt.
+> Working notes for the Premiere editor and Content Creator assistant. Not an agent system prompt.
 
 Use this when cutting ASLF long-form or short-form video (especially weekly longevity news) in Premiere. These are working notes for the human editor plus the assistant. Do not treat them as agent playbooks.
 
@@ -40,7 +40,36 @@ Word-level progressive highlight: spoken word in a single accent, rest of line w
 
 - On each “Number X” / “Story number X”: small `01/02/03` numeral **and** a story-title card (headline, ~2s, fade). If story 1 has no spoken numeral, still fire a title card on the first headline line.
 - Every cited study: plan a real study snapshot (title + authors + journal), not generic paper stock. 1.5–2.5s. Source URL from the script only.
-- Disclaimer on-screen ≥2s in the first 10s, plus in the caption: “Informational only. Talk to your doctor before making changes.” If it is not spoken, still plan the on-screen card.
+- Disclaimer on-screen ≥2s (prefer ≥3s) in the first 10s, plus in the caption: “Informational only. Talk to your doctor before making changes.” If it is not spoken, still plan the on-screen card. On longevity news Shorts, prefer pairing it with a short `Research news` / `Not medical advice` card.
+
+## TikTok / platform risk (longevity news Shorts)
+
+TikTok is **not** a priority sales channel. Repeated Community Guidelines removals are still a problem. This section exists because the **2026-09-w2** longevity news Short was blocked (Community Guidelines; appeal rejected; no reason given). The disclaimer was already in that cut.
+
+Full accuracy/compliance PASS/FAIL still belongs to research/compliance (`compliance-and-community-rules.md` + the research bot). This section is **edit/caption practical risk reduction** only.
+
+**Keep** the existing disclaimer practice above. Do **not** assume the disclaimer alone is enough.
+
+**Also plan / prefer** on longevity news Shorts (especially the TikTok cut):
+
+- **Early research/news framing** — a short `Research news` / `Not medical advice` card near the open, not only the doctor line.
+- **Soft absolute language** on overlays: *may* / *study found* / *in mice* / *population trend* / *not a recommendation*. Do not let punchline cards harden spoken hedges into “X does Y.”
+- **Rx drug classes** — if a story names a prescription class, label the overlay as a **study finding**, not a tip or protocol.
+- **Supplement ↔ lifespan hedges** — put the hedge **on screen**, not only in the voiceover (e.g. tyrosine / population trend / authors not advising people to drop supplements).
+- **TikTok caption:**
+  - Open as research/news, not advice.
+  - Keep hedges; include the doctor line.
+  - No product-as-treatment.
+  - For Rx or supplement–lifespan stories, include “study finding / not a recommendation.”
+  - Prefer `#longevity` `#healthspan` `#agingresearch` `#epigenetics` `#science`.
+  - Avoid `#antiaging` when possible.
+  - Brand lives in the handle, not as a treatment claim in the caption.
+
+**Do not:**
+
+- Invent a compliance verdict or rewrite the science.
+- Treat a disclaimer card as a green light for hard overlays or hard captions.
+- Silently rewrite the script. Soften overlays and captions that you control. Script rewrites go to **Content Researcher / Philipp**.
 
 ## Density (replaces the old “every 6 seconds” rule)
 
