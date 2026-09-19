@@ -115,7 +115,7 @@ Hard cap remains **3:00**. If the take is over, stop and ask for a trim — do n
 
 ## Deliverable to Premiere (one transcript → full package)
 
-**Pack mode** is the default long-form path: one full Premiere pack (not beat-by-beat), plus Imagine batch (`imagine-agent-batch.md`) and a Markdown `checklist.md`. Recipes live under [`marketing/guidelines/skills/`](skills/). Start with [`long-form-premiere-pack`](skills/long-form-premiere-pack/SKILL.md).
+**Pack mode** is the default long-form path: one `premiere-pack.md` event timeline (not beat-by-beat) plus Imagine batch (`imagine-agent-batch.md`). Do not generate a separate `checklist.md`. Recipes live under [`marketing/guidelines/skills/`](skills/). Start with [`long-form-premiere-pack`](skills/long-form-premiere-pack/SKILL.md).
 
 When a transcript lands, return:
 
