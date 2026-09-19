@@ -1,6 +1,6 @@
 # Video editing guidelines
 
-*Last updated: September 12, 2026*
+*Last updated: September 19, 2026*
 
 > Working notes for the Premiere editor and Video Editor assistant. Not an agent system prompt.
 
@@ -114,6 +114,8 @@ Plan overlays from this stack:
 Hard cap remains **3:00**. If the take is over, stop and ask for a trim — do not rewrite stories to fit.
 
 ## Deliverable to Premiere (one transcript → full package)
+
+**Pack mode** is the default long-form path: one full Premiere pack, not beat-by-beat co-edit. Recipes live under [`marketing/guidelines/skills/`](skills/). Start with [`long-form-premiere-pack`](skills/long-form-premiere-pack/SKILL.md).
 
 When a transcript lands, return:
 
