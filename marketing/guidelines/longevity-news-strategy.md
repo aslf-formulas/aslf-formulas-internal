@@ -66,7 +66,7 @@ recording):
    prescribe — no "you should"; frame as "researchers found / the data suggests.")
 4. **Philipp picks** from the Friday slate over the weekend, then **draft the
    script** (AGT-010) → mandatory **AGT-018 compliance review**.
-5. **Produce** the short video (vertical) via the editing pipeline (AGT-013).
+5. **Produce** the short video (vertical) via **Pack mode** — same flow as long-form: one `premiere-pack.md` burn file + one `imagine-agent-batch.md` (graphs included; style-only ref). See [`video-editing-guidelines.md`](video-editing-guidelines.md) and [`skills/premiere-pack/SKILL.md`](skills/premiere-pack/SKILL.md). (`video-overlay-agent.md` / AGT-013 is leftover — do not use.)
 6. **Repurpose natively** per platform (positioning.md §5; social-media-playbook.md).
 
 ---
@@ -94,7 +94,7 @@ Reference points Veritasium/Huberman. No fear-mongering, no overclaiming.
 |---|---|
 | Friday | Research — collect + select 3–5 stories (Grok Bot Friday slate) |
 | Weekend | Philipp picks stories and records |
-| After record | Edit (AGT-013), metadata (AGT-017), compliance already cleared on script |
+| After record | Edit (Pack mode — `premiere-pack`), metadata (AGT-017), compliance already cleared on script |
 | Early week | Publish + supporting native posts (YouTube Shorts, TikTok, X; not brand Instagram) |
 
 ---

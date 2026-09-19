@@ -97,8 +97,18 @@ Locked style for all ASLF longevity video graphics (long-form and Shorts), gener
 - Chart/diagram labels OK when they clarify the graphic; editor still owns plain Premiere punchlines, lists, and % cards.
 - Long-form aspect: **1:1** (side of frame) or **16:9** (widescreen). Floating keyed elements may use pure black backgrounds when requested.
 - Shorts aspect for Imagine elements: **1:1** only.
-- Still vs video: use a still when the journal-figure frame is strong (editor may animate in Premiere); use a short Imagine video when motion is the point (counters, half-life curves, split panels).
+- Still vs video: use a still when the journal-figure frame is strong; if it should move, run the reusable still-to-motion template ([`imagine-still-to-motion`](skills/imagine-still-to-motion/SKILL.md)) — gentle camera, subtle parallax, or one element, ~2–4s, clinical not sparkly. Use a short Imagine video when motion is the point from the start (counters, half-life curves, split panels).
 - Save outputs into **Video Editor Graphs**; notify in chat with the Imagine post link for review.
+
+**Style-only reference (required):** when a reference image is attached to an Imagine prompt or batch (e.g. `style-ref-follicle-abs201.jpg`), use it **strictly for style, palette, lighting language, and texture** — **never as the depicted subject**. Failure mode: the follicle lock was drawn into a cell/blood still because the model treated the ref as the thing to draw.
+
+Every Imagine batch must open with:
+
+```
+STYLE REFERENCE ONLY — match look; do not depict the reference subject unless the brief asks for that subject.
+Use the attached image for style, palette, lighting language, and texture only.
+Do not copy its anatomy, object, or scene into any still unless that still’s brief explicitly requests that subject.
+```
 
 ## Weekly longevity news Shorts — graphics stack
 
@@ -115,7 +125,7 @@ Hard cap remains **3:00**. If the take is over, stop and ask for a trim — do n
 
 ## Deliverable to Premiere (one transcript → full package)
 
-**Pack mode** is the default long-form path: one `premiere-pack.md` event timeline (not beat-by-beat) plus Imagine batch (`imagine-agent-batch.md`) for **all stills including graphs/charts/stat plots**. Do not generate a separate `checklist.md`. Recipes live under [`marketing/guidelines/skills/`](skills/). Start with [`long-form-premiere-pack`](skills/long-form-premiere-pack/SKILL.md).
+**Pack mode** is the default path for **long-form and weekly longevity news Shorts**: one `premiere-pack.md` event timeline (not beat-by-beat) plus one Imagine batch (`imagine-agent-batch.md`) for **all stills including graphs/charts/stat plots**. Style-ref is style-only (see Grok Imagine). Do not generate a separate `checklist.md`. Recipes live under [`marketing/guidelines/skills/`](skills/). Start with [`premiere-pack`](skills/premiere-pack/SKILL.md). News Shorts: vertical timeline, hard 3:00 cap, center captions, 1:1 explainers, graphics stack above; briefing is the week’s news items plus which graphs/images to generate, in that single Imagine pass. Animation: [`imagine-still-to-motion`](skills/imagine-still-to-motion/SKILL.md) when a still should move.
 
 When a transcript lands, return:
 
