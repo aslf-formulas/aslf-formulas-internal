@@ -29,10 +29,13 @@ Philipp (or Social Media Manager) provides a long-form transcript JSON/SRT and w
 ## Imagine batch rule
 After style is locked (or using the standing follicle lock), give Imagine **one master batch brief + style-ref** so it generates the full still set in one go. Do **not** require pasting briefs one-by-one. If style is new/unlocked, review/lock first (and into video-editing-guidelines when appropriate), then batch.
 
+## Graphs / charts
+All graphs, charts, and stat plots must be Grok Imagine stills listed in `imagine-agent-batch.md` — not drawn in Premiere. Premiere may only add title/chip text on top of those stills.
+
 ## Rules
 - No planned zooms; captions assumed done
 - Disclaimer ≥2s prefer ≥3s + Research news / Not medical advice in first 10s
-- Skip redundant punchlines; Premiere owns numbers/keywords; Imagine owns process/mechanism
+- Skip redundant punchlines; Premiere owns numbers/keywords; Imagine owns process/mechanism and graphs
 - Wire Researcher URLs before calling the pack “done”
 - Deliver short TLDR in chat + Desktop copy; he places in Premiere and pings only for Imagine taste / sticky beats
 
