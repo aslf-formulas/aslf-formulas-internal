@@ -2,32 +2,34 @@
 name: Long-form Premiere pack
 description: >-
   Use when Philipp drops a long-form transcript and Pack mode is on — build one
-  Premiere pack (not beat-by-beat) with cards, Stock, Imagine batch brief, ASR,
-  and Markdown checklist for VS Code.
+  premiere-pack.md timeline (not a separate checklist) plus Imagine batch brief,
+  ASR, Stock, snapshots.
 ---
 # Long-form Premiere pack (Pack mode)
 
 ## When
-Philipp (or Social Media Manager) provides a long-form transcript JSON/SRT and wants Pack mode (default). Do **not** run beat-by-beat “next” unless he asks for co-edit. Deliver files as **Markdown** (he edits in VS Code — no Excel/Sheets).
+Philipp (or Social Media Manager) provides a long-form transcript JSON/SRT and wants Pack mode (default). Do **not** run beat-by-beat “next” unless he asks for co-edit. Deliver files as **Markdown** (VS Code).
 
 ## Inputs
 - Transcript path (Premiere JSON preferred)
 - Standing guidelines: `marketing/guidelines/video-editing-guidelines.md`
 - Imagine style: bright clinical journal-figure (ABS-201 follicle look); project **Video Editor Graphs**
 - Ask Content Researcher for cleared study snapshot URLs early
-- Style-ref image: follicle benchmark (attach path in pack folder)
+- Style-ref image: follicle benchmark in the pack folder
 
-## Deliverables (one folder under `/workspace/<slug>/`, also copy to Philipp’s Desktop)
-1. `premiere-pack.md` — full HOOK (heavy first ~2–3 min) / BODY / CLOSE; ASR; Stock; snapshots; **updated Pack-mode how-to**
-2. `checklist.md` — Markdown tick list for VS Code (`[ ]` → `[x]`); optional `checklist.csv`
-3. `imagine-agent-batch.md` — **one paste** for the Grok Imagine agent (all stills in order) + instruct to attach style-ref
-4. `style-ref-*.jpg` — style lock image for Imagine
-5. `imagine-briefs.md` — per-item prompts / Premiere text notes (optional detail)
-6. `as-recorded.md` — topics, runtime, ASR notes, citations
-7. `snapshot-urls.md` — Researcher-cleared URLs
+## Deliverables (folder under `/workspace/<slug>/`, copy to Philipp’s Desktop)
+1. `premiere-pack.md` — **primary burn file**: HOOK / BODY / CLOSE event timeline with timestamps (he works from this against the Premiere playhead). Include Pack how-to, ASR, Stock, snapshots.
+2. `imagine-agent-batch.md` — **one paste** to the Grok Imagine agent for **all stills**, including **all graphs / charts / stat plots**, + attach style-ref (follicle ABS-201)
+3. `style-ref-*.jpg` — style lock image for Imagine
+4. `imagine-briefs.md` — optional per-item detail
+5. `as-recorded.md` — topics, runtime, ASR notes, citations
+6. `snapshot-urls.md` — Researcher-cleared URLs
+
+## Do not generate
+- Separate `checklist.md` / `checklist.csv` — Philipp does not use them; the event timeline in `premiere-pack.md` is enough.
 
 ## Imagine batch rule
-After style is locked (or using the standing follicle lock), give Imagine **one master batch brief + style-ref** so it generates the full still set in one go. Do **not** require pasting briefs one-by-one. If style is new/unlocked, review/lock first (and into video-editing-guidelines when appropriate), then batch.
+After style is locked (or standing follicle lock), give Imagine **one master batch brief + style-ref**. Do not paste briefs one-by-one. If style is new, lock first, then batch. The batch includes every still — including every graph, chart, and stat plot.
 
 ## Graphs / charts
 All graphs, charts, and stat plots must be Grok Imagine stills listed in `imagine-agent-batch.md` — not drawn in Premiere. Premiere may only add title/chip text on top of those stills.
@@ -37,9 +39,9 @@ All graphs, charts, and stat plots must be Grok Imagine stills listed in `imagin
 - Disclaimer ≥2s prefer ≥3s + Research news / Not medical advice in first 10s
 - Skip redundant punchlines; Premiere owns numbers/keywords; Imagine owns process/mechanism and graphs
 - Wire Researcher URLs before calling the pack “done”
-- Deliver short TLDR in chat + Desktop copy; he places in Premiere and pings only for Imagine taste / sticky beats
+- Desktop copy + short TLDR in chat; ping only for Imagine taste / sticky beats
 
 ## After
-- Offer GitHub log under `marketing/scripts/long-format/` (or series folder) only if asked
+- GitHub as-recorded only if asked
 - Ping Social Media Manager when posting-ready (approval-first)
-- Keep the skill in git at `marketing/guidelines/skills/long-form-premiere-pack/SKILL.md` in sync when Pack-mode process changes
+- Keep git skill in sync: `marketing/guidelines/skills/long-form-premiere-pack/SKILL.md`

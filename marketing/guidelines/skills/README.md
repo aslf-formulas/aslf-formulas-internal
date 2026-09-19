@@ -6,4 +6,4 @@ These are **not** agent system prompts. Keep each skill generic (reusable across
 
 Grok Bot may also keep a live copy of a skill as a private skill; this folder is the durable shared source.
 
-Pack mode includes `imagine-agent-batch.md` (one paste to Grok Imagine) plus Markdown checklists for VS Code. All graphs/charts/stat plots must be Grok Imagine stills in that batch — not Premiere-drawn; Premiere may only add title/chip text on top.
+Pack mode = `premiere-pack.md` event timeline + `imagine-agent-batch.md` (one paste to Grok Imagine for all stills including graphs/charts/stat plots + style-ref). Do not generate a separate `checklist.md` / `checklist.csv`. Premiere may only add title/chip text on top of Imagine graph stills.
