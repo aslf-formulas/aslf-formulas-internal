@@ -22,6 +22,8 @@ Philipp (or Social Media Manager) provides a transcript JSON/SRT and wants Pack 
 | Runtime | No 3:00 gate | **Hard 3:00 cap** — if over, stop and ask for a trim |
 | Briefing | Transcript + which graphs/images to generate | News items + which graphs/images to generate, **one** Imagine pass |
 | Graphics | `video-editing-guidelines.md` | Same file — Weekly longevity news Shorts stack |
+| Study snapshots | Researcher URLs as needed | Content Creator **1:1** crops in `snapshots/` (try; Philipp may reshoot) |
+| Section open | n/a | Title overlay for first spoken sentence + ~**2s** full-frame vertical Stock (not talking head) |
 
 ## Inputs
 - Transcript path (Premiere JSON preferred)
@@ -29,15 +31,37 @@ Philipp (or Social Media Manager) provides a transcript JSON/SRT and wants Pack 
 - Imagine style: bright clinical journal-figure (ABS-201 follicle look); project **Video Editor Graphs**
 - Ask Content Researcher for cleared study snapshot URLs early
 - Style-ref image: follicle benchmark in the pack folder — **style-only** (see below)
+- Weekly news Shorts only: Content Creator 1:1 crops in `snapshots/` (see below)
 
 ## Deliverables (folder under `/workspace/<slug>/`, copy to Philipp’s Desktop)
-1. `premiere-pack.md` — **primary burn file**: HOOK / BODY / CLOSE event timeline with timestamps (he works from this against the Premiere playhead). Include Pack how-to, ASR, Stock, snapshots. News Shorts: vertical timeline, center captions, 3:00 cap, news graphics stack.
+1. `premiere-pack.md` — **primary burn file**: HOOK / BODY / CLOSE event timeline with timestamps (he works from this against the Premiere playhead). Include Pack how-to, ASR, Stock, snapshots. News Shorts: vertical timeline, center captions, 3:00 cap, news graphics stack, section-intro beats.
 2. `imagine-agent-batch.md` — **one paste** to the Grok Imagine agent for **all stills**, including **all graphs / charts / stat plots**, + attach style-ref with the style-only header
 3. `style-ref-*.jpg` — style lock image for Imagine (e.g. `style-ref-follicle-abs201.jpg`)
 4. `animation-prompt.md` — optional; copy from [`imagine-still-to-motion`](../imagine-still-to-motion/SKILL.md) when a still should become a short motion clip. May instead be a **section** in `imagine-agent-batch.md` (sibling file is fine). Do not invent ad-hoc motion prompts.
 5. `imagine-briefs.md` — optional per-item detail
 6. `as-recorded.md` — topics, runtime, ASR notes, citations
 7. `snapshot-urls.md` — Researcher-cleared URLs
+8. `snapshots/` — **weekly news Shorts only**: Content Creator 1:1 cropped study/press screenshots for Premiere (see below)
+
+## Weekly news Shorts only
+
+These two notes do **not** apply to long-form packs.
+
+### 1:1 study screenshots
+
+Content Creator delivers **1:1 cropped screenshots** of Researcher-cleared study/press pages into `snapshots/` for Premiere (alongside `snapshot-urls.md`). Crop headline + source so the still sits in the Shorts graphics stack.
+
+Philipp may still shoot the page manually if a delivered capture looks worse — treat the folder as a **try**, not a lock.
+
+### Section intro pattern
+
+At the start of each story (`01` / `02` / `03`), for the **first spoken sentence**:
+
+1. Hold a short **section title overlay** for the whole sentence.
+2. Put ~**2s full-frame vertical Stock/B-roll** behind that intro beat only — **not** talking head.
+3. Then continue the section overlays as usual.
+
+Do not keep the full-frame Stock bed under the rest of the story unless a later beat independently earns B-roll.
 
 ## Do not generate
 - Separate `checklist.md` / `checklist.csv` — Philipp does not use them; the event timeline in `premiere-pack.md` is enough.
@@ -70,8 +94,8 @@ When a still should move (gentle camera, subtle parallax, or one element — cli
 - No planned zooms; captions assumed done
 - Disclaimer ≥2s prefer ≥3s + Research news / Not medical advice in first 10s
 - Skip redundant punchlines; Premiere owns numbers/keywords; Imagine owns process/mechanism and graphs
-- News Shorts: center captions; graphics stack from `video-editing-guidelines.md`
-- Wire Researcher URLs before calling the pack “done”
+- News Shorts: center captions; graphics stack from `video-editing-guidelines.md`; `snapshots/` try + section-intro beat (above)
+- Wire Researcher URLs before calling the pack “done” (news Shorts: also drop Content Creator crops into `snapshots/`)
 - Desktop copy + short TLDR in chat; ping only for Imagine taste / sticky beats
 
 ## After

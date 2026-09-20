@@ -1,6 +1,6 @@
 # Video editing guidelines
 
-*Last updated: September 19, 2026*
+*Last updated: September 20, 2026*
 
 > Working notes for the Premiere editor and Video Editor assistant. Not an agent system prompt.
 
@@ -38,8 +38,8 @@ Word-level progressive highlight: spoken word in a single accent, rest of line w
 
 ## News-format musts (edit-side)
 
-- On each “Number X” / “Story number X”: small `01/02/03` numeral **and** a story-title card (headline, ~2s, fade). If story 1 has no spoken numeral, still fire a title card on the first headline line.
-- Every cited study: plan a real study snapshot (title + authors + journal), not generic paper stock. 1.5–2.5s. Source URL from the script only.
+- On each “Number X” / “Story number X”: small `01/02/03` numeral **and** a story-title card. If story 1 has no spoken numeral, still fire a title card on the first headline line. **Section intro (weekly news Shorts):** for the first spoken sentence of each story, hold the section title overlay for the whole sentence and put ~**2s full-frame vertical Stock/B-roll** behind that intro beat only (not talking head); then continue the section overlays. Details: [`premiere-pack`](skills/premiere-pack/SKILL.md).
+- Every cited study: plan a real study snapshot (title + authors + journal), not generic paper stock. 1.5–2.5s. Source URL from the script only. Weekly news packs: Content Creator delivers **1:1 cropped** study/press screenshots into `snapshots/` for Premiere; Philipp may reshoot if a capture looks worse — treat delivered shots as a try.
 - Disclaimer on-screen ≥2s in the first 10s, plus in the caption: “Informational only. Talk to your doctor before making changes.” If it is not spoken, still plan the on-screen card.
 
 ## Density (replaces the old “every 6 seconds” rule)
@@ -117,7 +117,7 @@ Vertical Short. Captions stay **center-screen** always — do **not** plan redun
 Plan overlays from this stack:
 1. **Full-frame vertical Adobe Stock** footage (when B-roll earns it).
 2. **1:1 Grok Imagine** scientific elements (top of split layouts / side cards) in the journal-figure theme above.
-3. **Study / press snapshots** when Researcher provides a URL (crop headline + source, ~1.5–2.5s) — one per story when possible.
+3. **Study / press snapshots** when Researcher provides a URL (crop headline + source, ~1.5–2.5s) — one per story when possible. Weekly news packs: prefer Content Creator **1:1** crops in `snapshots/`; Philipp may still shoot manually if a capture looks worse.
 4. **Premiere text for data:** numbers, percentages, keywords, short lists, and `01` / `02` / `03` + story titles.
 5. Logos and licensed people photos as usual (no unlicensed Google celeb grabs).
 
@@ -125,7 +125,7 @@ Hard cap remains **3:00**. If the take is over, stop and ask for a trim — do n
 
 ## Deliverable to Premiere (one transcript → full package)
 
-**Pack mode** is the default path for **long-form and weekly longevity news Shorts**: one `premiere-pack.md` event timeline (not beat-by-beat) plus one Imagine batch (`imagine-agent-batch.md`) for **all stills including graphs/charts/stat plots**. Style-ref is style-only (see Grok Imagine). Do not generate a separate `checklist.md`. Recipes live under [`marketing/guidelines/skills/`](skills/). Start with [`premiere-pack`](skills/premiere-pack/SKILL.md). News Shorts: vertical timeline, hard 3:00 cap, center captions, 1:1 explainers, graphics stack above; briefing is the week’s news items plus which graphs/images to generate, in that single Imagine pass. Animation: [`imagine-still-to-motion`](skills/imagine-still-to-motion/SKILL.md) when a still should move.
+**Pack mode** is the default path for **long-form and weekly longevity news Shorts**: one `premiere-pack.md` event timeline (not beat-by-beat) plus one Imagine batch (`imagine-agent-batch.md`) for **all stills including graphs/charts/stat plots**. Style-ref is style-only (see Grok Imagine). Do not generate a separate `checklist.md`. Recipes live under [`marketing/guidelines/skills/`](skills/). Start with [`premiere-pack`](skills/premiere-pack/SKILL.md). News Shorts: vertical timeline, hard 3:00 cap, center captions, 1:1 explainers, graphics stack above; briefing is the week’s news items plus which graphs/images to generate, in that single Imagine pass. Weekly-only extras (not long-form): Content Creator `snapshots/` 1:1 study/press crops, and the `01`/`02`/`03` section-intro beat (title overlay + ~2s full-frame vertical Stock on the first spoken sentence). Animation: [`imagine-still-to-motion`](skills/imagine-still-to-motion/SKILL.md) when a still should move.
 
 When a transcript lands, return:
 
