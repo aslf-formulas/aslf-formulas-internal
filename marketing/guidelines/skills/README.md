@@ -16,6 +16,6 @@ One path for **long-form** and **weekly longevity news Shorts**: [`premiere-pack
 - **Still → motion:** when a still should move, copy [`imagine-still-to-motion`](imagine-still-to-motion/SKILL.md) into `animation-prompt.md` or a section of the Imagine batch — not an ad-hoc prompt.
 - Premiere may only add title/chip text on top of Imagine graph stills.
 
-News Shorts: same Pack. Vertical timeline, hard 3:00 cap, center captions, 1:1 explainers, graphics stack from `video-editing-guidelines.md`. Briefing is the week’s news items plus which graphs/images to generate, in one Imagine pass. Weekly-only (not long-form): Content Creator `snapshots/` (1:1 study/press crops; Philipp may reshoot) and the section-intro beat (title overlay + ~2s full-frame vertical Stock on the first sentence of `01`/`02`/`03`). Details in [`premiere-pack`](premiere-pack/SKILL.md).
+News Shorts: same Pack. Vertical timeline, hard 3:00 cap, center captions, 1:1 explainers, graphics stack from `video-editing-guidelines.md`. Briefing is the week’s news items plus which graphs/images to generate, in one Imagine pass. Weekly-only (not long-form): Content Creator `snapshots/` (full uncropped study/press browser screenshots; Philipp crops/adapts in Premiere) and the section-intro beat (title overlay + ~2s full-frame vertical Stock on the first sentence of `01`/`02`/`03`). Details in [`premiere-pack`](premiere-pack/SKILL.md).
 
 [`long-form-premiere-pack`](long-form-premiere-pack/SKILL.md) redirects here (old name).

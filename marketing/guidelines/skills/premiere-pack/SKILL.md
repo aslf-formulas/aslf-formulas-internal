@@ -22,7 +22,7 @@ Philipp (or Social Media Manager) provides a transcript JSON/SRT and wants Pack 
 | Runtime | No 3:00 gate | **Hard 3:00 cap** — if over, stop and ask for a trim |
 | Briefing | Transcript + which graphs/images to generate | News items + which graphs/images to generate, **one** Imagine pass |
 | Graphics | `video-editing-guidelines.md` | Same file — Weekly longevity news Shorts stack |
-| Study snapshots | Researcher URLs as needed | Content Creator **1:1** crops in `snapshots/` (try; Philipp may reshoot) |
+| Study snapshots | Researcher URLs as needed | Content Creator **full (uncropped)** browser screenshots in `snapshots/` (Philipp crops/adapts in Premiere) |
 | Section open | n/a | Title overlay for first spoken sentence + ~**2s** full-frame vertical Stock (not talking head) |
 
 ## Inputs
@@ -31,7 +31,7 @@ Philipp (or Social Media Manager) provides a transcript JSON/SRT and wants Pack 
 - Imagine style: bright clinical journal-figure (ABS-201 follicle look); project **Video Editor Graphs**
 - Ask Content Researcher for cleared study snapshot URLs early
 - Style-ref image: follicle benchmark in the pack folder — **style-only** (see below)
-- Weekly news Shorts only: Content Creator 1:1 crops in `snapshots/` (see below)
+- Weekly news Shorts only: Content Creator full (uncropped) browser screenshots in `snapshots/` (see below)
 
 ## Deliverables (folder under `/workspace/<slug>/`, copy to Philipp’s Desktop)
 1. `premiere-pack.md` — **primary burn file**: HOOK / BODY / CLOSE event timeline with timestamps (he works from this against the Premiere playhead). Include Pack how-to, ASR, Stock, snapshots. News Shorts: vertical timeline, center captions, 3:00 cap, news graphics stack, section-intro beats.
@@ -41,17 +41,17 @@ Philipp (or Social Media Manager) provides a transcript JSON/SRT and wants Pack 
 5. `imagine-briefs.md` — optional per-item detail
 6. `as-recorded.md` — topics, runtime, ASR notes, citations
 7. `snapshot-urls.md` — Researcher-cleared URLs
-8. `snapshots/` — **weekly news Shorts only**: Content Creator 1:1 cropped study/press screenshots for Premiere (see below)
+8. `snapshots/` — **weekly news Shorts only**: Content Creator full (uncropped) study/press browser screenshots for Premiere (see below)
 
 ## Weekly news Shorts only
 
 These two notes do **not** apply to long-form packs.
 
-### 1:1 study screenshots
+### Full (uncropped) study screenshots
 
-Content Creator delivers **1:1 cropped screenshots** of Researcher-cleared study/press pages into `snapshots/` for Premiere (alongside `snapshot-urls.md`). Crop headline + source so the still sits in the Shorts graphics stack.
+Content Creator delivers **full (uncropped) browser screenshots** of Researcher-cleared study/press pages into `snapshots/` for Premiere (alongside `snapshot-urls.md`). Do not crop to 1:1 or headline-only — leave the full page capture.
 
-Philipp may still shoot the page manually if a delivered capture looks worse — treat the folder as a **try**, not a lock.
+Philipp crops and adapts the still in Premiere.
 
 ### Section intro pattern
 
@@ -94,8 +94,8 @@ When a still should move (gentle camera, subtle parallax, or one element — cli
 - No planned zooms; captions assumed done
 - Disclaimer ≥2s prefer ≥3s + Research news / Not medical advice in first 10s
 - Skip redundant punchlines; Premiere owns numbers/keywords; Imagine owns process/mechanism and graphs
-- News Shorts: center captions; graphics stack from `video-editing-guidelines.md`; `snapshots/` try + section-intro beat (above)
-- Wire Researcher URLs before calling the pack “done” (news Shorts: also drop Content Creator crops into `snapshots/`)
+- News Shorts: center captions; graphics stack from `video-editing-guidelines.md`; `snapshots/` full (uncropped) screenshots + section-intro beat (above)
+- Wire Researcher URLs before calling the pack “done” (news Shorts: also drop Content Creator full screenshots into `snapshots/`)
 - Desktop copy + short TLDR in chat; ping only for Imagine taste / sticky beats
 
 ## After
