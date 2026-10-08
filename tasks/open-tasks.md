@@ -1,12 +1,11 @@
 # Open Tasks
 
-*Last updated: August 2026*
+*Last updated: October 2026*
 
 ## High Priority
 
 | # | Task | Type | Details | Deadline |
 |---|---|---|---|---|
-| 2 | **Texas Franchise Tax — Annual Filing (PIR/OIR)** | Owner Action | File at [Texas Webfile](https://comptroller.texas.gov/taxes/file-pay/). The old "No Tax Due Report" was discontinued for 2024+; entities under the threshold now file Form 05-102 (Public Information Report) or 05-167 (Ownership Information Report) instead — no payment required under the $2,650,000 (2026–2027) revenue threshold, but the filing itself is still required. **OVERDUE** (was May 15, 2026) — **on hold, owner needs to sync with business partner (who tracks taxes) before filing.** See [task-agent.md](./task-agent.md) Task 2 for full steps. | OVERDUE — pending partner sync |
 | 3 | **Create Order Insert Brochure** | Owner Action | Design and produce a branded brochure to include with every order. Should reinforce brand identity, highlight product benefits, include QR code or URL for reorders/reviews, and reflect ASLF Formulas' science-backed, no-filler positioning. | — |
 | 15 | **Chase Account Access — Schedule Branch Appointment** | Owner Action | Owner and business partner cannot both see the business credit card and account in the Chase app/online login — access/permissions are out of sync between the two phones. Schedule an in-person appointment at a Chase branch to get both the owner's and partner's logins properly linked to the business account and card. | Soon |
 | 16 | **Rework Amazon Moisturizer Image — "Perfect for Makeup Base" Claim** | Owner Action | One product image on the moisturizer's Amazon listing states it's "perfect for makeup base." Image needs to be reworked/updated. | — |
@@ -69,7 +68,8 @@
 | Reapply for Chase Business Credit Card (Not Needed) | August 2026 | Original card was approved via reconsideration — secured-card fallback path no longer applicable |
 | Amazon A+ Content | August 2026 | A+ Content added to product listings. Storefront page itself still needs design/embellishment — see open Task 10 |
 | Plan Trip to Portugal | August 2026 | Trip already planned |
+| Texas Franchise Tax — 2026 Annual Filing (PIR/OIR) | October 2026 | Filed by registered agent (Registered Agents Inc.) |
 
 ---
 
-*Last updated: August 2026*
+*Last updated: October 2026*
