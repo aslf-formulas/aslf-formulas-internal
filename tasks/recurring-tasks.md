@@ -1,6 +1,6 @@
 # Recurring Tasks
 
-*Last updated: May 2026*
+*Last updated: October 2026*
 
 > This is the master list of all scheduled and recurring tasks for ASLF LLC.
 > Most monitoring tasks are **automated** — the owner only reviews outputs or triggers a simple action.
@@ -31,7 +31,7 @@
 
 | Task | Due | Executed By | Details |
 |---|---|---|---|
-| **Texas Franchise Tax** | May 15 each year | Owner triggers | File No Tax Due report (under $2.47M threshold) on [Texas Webfile](https://comptroller.texas.gov/taxes/file-pay/). Automated reminder fires April 15. |
+| **Texas Franchise Tax** | May 15 each year | Registered agent (Registered Agents Inc.) | Registered agent files the annual Public Information Report (Form 05-102) or Ownership Information Report (Form 05-167) on ASLF's behalf. No tax due under the $2,650,000 (2026–2027) revenue threshold, but the filing itself is still required. |
 | **Business Insurance Renewal** | Annually (check policy date) | AI agent flags → Owner renews | AI agent flags renewal date. Owner reviews coverage and renews or shops for better rates. |
 | **Registered Agent Renewal** | Annually (check invoice) | AI agent flags → Owner confirms | AI agent flags invoice. Owner confirms payment is made. |
 | **Review Open Tasks** | January each year | Owner | Owner reviews [open-tasks.md](./open-tasks.md) and archives completed items. |
@@ -62,4 +62,4 @@
 
 ---
 
-*Last updated: May 2026*
+*Last updated: October 2026*
